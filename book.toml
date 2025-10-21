@@ -1,0 +1,14 @@
+[book]
+title = "IFT weekly news "
+authors = ["Claire Pinson"]
+language = "en"
+multilingual = false
+src = "reports"
+
+[output.html]
+cname = "ift.weekly.status.im"
+path = "book"
+default-theme = "ayu"
+additional-css = ["custom.css"]
+git-repository-url = "https://github.com/status-im/infra-bi"
+git-branch = "master"
