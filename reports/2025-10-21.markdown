@@ -1,1 +1,55 @@
-townhall helper 
+**2025-10-21 WEEKLY REPORT**
+- ### Blog Posts
+
+**2025-10-14** [The Fall of Democracy (and What Comes After)](https://press.logos.co/article/fall-democracy)
+
+
+- ### Forum Posts
+
+**2025-10-15** [Fundraising through IEO & Listing With Coinstore](https://discuss.status.app/t/fundraising-through-ieo-listing-with-coinstore/6637/1)
+
+**2025-10-21** [Why a Web SDK Is Critical for Logos Adoption](https://forum.vac.dev/t/why-a-web-sdk-is-critical-for-logos-adoption/583/1)
+
+**2025-10-17** [Introducing the Reliable Channel API](https://forum.vac.dev/t/introducing-the-reliable-channel-api/580/1)
+
+**2025-10-18** [Hidden Payment Channels](https://forum.logos.co/t/hidden-payment-channels/1399/1)
+
+**2025-10-17** [🧠 TL;DR — Cognitive Sovereignty & Perceptual Defense: A Follow-Up Reflection](https://forum.logos.co/t/tl-dr-cognitive-sovereignty-perceptual-defense-a-follow-up-reflection/1397/1)
+
+**2025-10-17** [P2P field coordination for activit and protest movements](https://forum.logos.co/t/p2p-field-coordination-for-activit-and-protest-movements/1396/1)
+
+**2025-10-15** [We Need Sovereign Tools: A Keycard Manifesto](https://forum.logos.co/t/we-need-sovereign-tools-a-keycard-manifesto/1385/1)
+
+**2025-10-14** [Porto Circle winnable issue: Build Europe’s First Digital Escape Egress](https://forum.logos.co/t/porto-circle-winnable-issue-build-europe-s-first-digital-escape-egress/1382/1)
+
+
+- ### Youtube Videos
+
+**2025-10-20** [Waku Hackathon Demos, Session 2](https://www.youtube.com/watch?v=b67IKkg7-JA)
+
+**2025-10-20** [Waku Hackathon Demos, Session 1](https://www.youtube.com/watch?v=mPw2-816CUY)
+
+**2025-10-15** [Logos Circle: Online | October 14, 2025](https://www.youtube.com/watch?v=q4Rs5hQbyY0)
+
+
+- ### Releases
+
+**2025-10-18**
+Nimbus [Nightly build ("master" branch)](https://github.com/status-im/nimbus-eth1/releases/tag/nightly)
+
+**2025-10-16**
+Vac [v1.14.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.14.0)
+
+**2025-10-20**
+Vac [v1.14.1](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.14.1)
+
+**2025-10-16**
+Vac [v0.39.0](https://github.com/vacp2p/nim-ngtcp2/releases/tag/v0.39.0)
+
+**2025-10-16**
+Vac [v0.2.16](https://github.com/vacp2p/nim-quic/releases/tag/v0.2.16)
+
+**2025-10-16**
+Vac [v0.3.0](https://github.com/vacp2p/nim-quic/releases/tag/v0.3.0)
+
+
