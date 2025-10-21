@@ -14,6 +14,11 @@ pipeline {
     ))
   }
 
+  triggers {
+    /* Build whenever there's a push to the repo */
+    githubPush()
+  }
+
   environment {
     GIT_COMMITTER_NAME = 'status-im-auto'
     GIT_COMMITTER_EMAIL = 'auto@status.im'
@@ -22,7 +27,7 @@ pipeline {
   stages {
     stage('Build') {
       steps { script {
-        nix.shell('mdbook build', pure: true)
+        nix.shell('./generate_summary.sh && mdbook build', pure: true)
         jenkins.genBuildMetaJSON('book/build.json')
       } }
     }
