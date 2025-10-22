@@ -6,8 +6,8 @@ multilingual = false
 src = "reports"
 
 [output.html]
-cname = "ift.weekly.status.im"
+cname = "https://news.free.technology/"
 path = "book"
 default-theme = "ayu"
-git-repository-url = "https://github.com/status-im/infra-bi"
+git-repository-url = "https://github.com/status-im/ift-weekly-news"
 git-branch = "master"

@@ -1,13 +1,14 @@
  # IFT Weekly News
 
-This repository supports **townhall preparation** by collecting relevant weekly updates.  
+The repository build [https://news.free.technology](https://news.free.technology).
 
-Data is automatically pulled from various sources and added to this repo via an **n8n pipeline**.  
+This repository supports **townhall preparation** by collecting relevant weekly updates.
 
-The pipeline runs **every Friday**, fetching all new data from the past week.  
+Data is automatically pulled from various sources and added to this repo via an **n8n pipeline**.
+
+The pipeline runs **every Friday**, fetching all new data from the past week.
 
 You can view the workflow [here](https://n8n.free.technology/workflow/ssJC5jcgiCQ5zFbM).
-
 
 ## Data Sources
 
