@@ -6,23 +6,42 @@ set -e
 REPORTS_DIR="reports"
 SUMMARY_FILE="$REPORTS_DIR/SUMMARY.md"
 
+# Get all markdown files sorted in reverse chronological order (newest first)
+mapfile -t files < <(find "$REPORTS_DIR" -name "*.markdown" -type f | sort -r)
+
 # Start the SUMMARY.md file
 cat > "$SUMMARY_FILE" << 'EOF'
 # Summary
 
-[Introduction](../README.md)
-
-# Weekly Reports
-
 EOF
 
-# Find all .markdown files, sort them in reverse chronological order (newest first)
-# Extract date from filename (assumes format: YYYY-MM-DD.markdown)
-find "$REPORTS_DIR" -name "*.markdown" -type f | sort -r | while read -r file; do
-    filename=$(basename "$file")
-    # Extract the date part (YYYY-MM-DD) as the title
+# Add the latest report as the landing page (first item, no section heading)
+if [ ${#files[@]} -gt 0 ]; then
+    latest_file="${files[0]}"
+    filename=$(basename "$latest_file")
     title="${filename%.markdown}"
-    echo "- [$title](./$filename)" >> "$SUMMARY_FILE"
-done
+    echo "[$title](./$filename)" >> "$SUMMARY_FILE"
+    echo "" >> "$SUMMARY_FILE"
+fi
 
-echo "✓ Generated $SUMMARY_FILE with $(grep -c "^\- \[" "$SUMMARY_FILE" || echo 0) reports"
+# Add "Previous Reports" section with older reports
+if [ ${#files[@]} -gt 1 ]; then
+    echo "# Previous Reports" >> "$SUMMARY_FILE"
+    echo "" >> "$SUMMARY_FILE"
+    for i in $(seq 1 $((${#files[@]} - 1))); do
+        file="${files[$i]}"
+        filename=$(basename "$file")
+        title="${filename%.markdown}"
+        echo "- [$title](./$filename)" >> "$SUMMARY_FILE"
+    done
+    echo "" >> "$SUMMARY_FILE"
+fi
+
+# Add About section
+cat >> "$SUMMARY_FILE" << 'EOF'
+# About
+
+[About IFT Weekly News](../README.md)
+EOF
+
+echo "✓ Generated $SUMMARY_FILE with ${#files[@]} report(s)"
