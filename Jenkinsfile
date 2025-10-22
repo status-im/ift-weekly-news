@@ -2,7 +2,14 @@
 library 'status-jenkins-lib@v1.8.15'
 
 pipeline {
-  agent { label 'linux' }
+  agent {
+    docker {
+      label 'linuxcontainer'
+      image 'harbor.status.im/infra/ci-build-containers:linux-base-1.0.0'
+      args '--volume=/nix:/nix ' +
+           '--volume=/etc/nix:/etc/nix '
+    }
+  }
 
   options {
     disableRestartFromStage()
@@ -27,7 +34,7 @@ pipeline {
   stages {
     stage('Build') {
       steps { script {
-        nix.shell('./generate_summary.sh && mdbook build', pure: true)
+        nix.develop('./generate_summary.sh && mdbook build', pure: true)
         jenkins.genBuildMetaJSON('book/build.json')
       } }
     }
@@ -35,7 +42,14 @@ pipeline {
     stage('Publish') {
       steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          sh 'ghp-import -b deploy-master -p book'
+          script {
+            nix.develop("""
+              ghp-import \
+                -b deploy-master \
+                -p book
+              """
+            )
+          }
         }
       }
     }
