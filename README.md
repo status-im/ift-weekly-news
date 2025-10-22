@@ -20,7 +20,7 @@ The pipeline fetches data from four main sources:
 - [Codex](https://blog.codex.storage/)
 - [Nomos](https://blog.nomos.tech/)
 - [Keycard](https://keycard.tech/blog/)
-- [Logos](https://press.logos.co/article/)
+- [Logos](https://press.logos.co/search?type=article)
 
 ### 2. YouTube Videos
 - Channels: `hio`, `logos`, `thebtcpodcast`
