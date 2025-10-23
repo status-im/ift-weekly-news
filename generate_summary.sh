@@ -32,12 +32,11 @@ if [ ${#weekly_files[@]} -gt 0 ]; then
     echo "" >> "$SUMMARY_FILE"
 fi
 
-# Add "Weekly Reports" section
-if [ ${#weekly_files[@]} -gt 1 ]; then
+# Add "Weekly Reports" section with ALL weekly reports
+if [ ${#weekly_files[@]} -gt 0 ]; then
     echo "# Weekly Reports" >> "$SUMMARY_FILE"
     echo "" >> "$SUMMARY_FILE"
-    for i in $(seq 1 $((${#weekly_files[@]} - 1))); do
-        file="${weekly_files[$i]}"
+    for file in "${weekly_files[@]}"; do
         filename=$(basename "$file")
         title="${filename%.markdown}"
         echo "- [$title](./weekly/$filename)" >> "$SUMMARY_FILE"
@@ -58,10 +57,8 @@ if [ ${#monthly_files[@]} -gt 0 ]; then
 fi
 
 # Add About section
-cat >> "$SUMMARY_FILE" << 'EOF'
-# About
-
-[About IFT Weekly News](./About.md)
-EOF
+echo "---" >> "$SUMMARY_FILE"
+echo "" >> "$SUMMARY_FILE"
+echo "[About](./About.md)" >> "$SUMMARY_FILE"
 
 echo "✓ Generated $SUMMARY_FILE with ${#weekly_files[@]} weekly and ${#monthly_files[@]} monthly report(s)"
