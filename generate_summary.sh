@@ -5,9 +5,15 @@ set -e
 
 REPORTS_DIR="reports"
 SUMMARY_FILE="$REPORTS_DIR/SUMMARY.md"
+WEEKLY_DIR="$REPORTS_DIR/weekly"
+MONTHLY_DIR="$REPORTS_DIR/monthly"
 
-# Get all markdown files sorted in reverse chronological order (newest first)
-mapfile -t files < <(find "$REPORTS_DIR" -name "*.markdown" -type f | sort -r)
+# Copy README.md into reports folder for About page
+cp README.md "$REPORTS_DIR/About.md"
+
+# Get all weekly and monthly reports sorted in reverse chronological order (newest first)
+mapfile -t weekly_files < <(find "$WEEKLY_DIR" -name "*.markdown" -type f 2>/dev/null | sort -r || true)
+mapfile -t monthly_files < <(find "$MONTHLY_DIR" -name "*.markdown" -type f 2>/dev/null | sort -r || true)
 
 # Start the SUMMARY.md file
 cat > "$SUMMARY_FILE" << 'EOF'
@@ -15,24 +21,38 @@ cat > "$SUMMARY_FILE" << 'EOF'
 
 EOF
 
-# Add the latest report as the landing page (first item, no section heading)
-if [ ${#files[@]} -gt 0 ]; then
-    latest_file="${files[0]}"
+# Add the latest weekly report as the landing page
+if [ ${#weekly_files[@]} -gt 0 ]; then
+    latest_file="${weekly_files[0]}"
     filename=$(basename "$latest_file")
     title="${filename%.markdown}"
-    echo "[$title](./$filename)" >> "$SUMMARY_FILE"
+    # Use relative path from reports dir
+    relative_path="./weekly/$filename"
+    echo "[$title]($relative_path)" >> "$SUMMARY_FILE"
     echo "" >> "$SUMMARY_FILE"
 fi
 
-# Add "Previous Reports" section with older reports
-if [ ${#files[@]} -gt 1 ]; then
-    echo "# Previous Reports" >> "$SUMMARY_FILE"
+# Add "Weekly Reports" section
+if [ ${#weekly_files[@]} -gt 1 ]; then
+    echo "# Weekly Reports" >> "$SUMMARY_FILE"
     echo "" >> "$SUMMARY_FILE"
-    for i in $(seq 1 $((${#files[@]} - 1))); do
-        file="${files[$i]}"
+    for i in $(seq 1 $((${#weekly_files[@]} - 1))); do
+        file="${weekly_files[$i]}"
         filename=$(basename "$file")
         title="${filename%.markdown}"
-        echo "- [$title](./$filename)" >> "$SUMMARY_FILE"
+        echo "- [$title](./weekly/$filename)" >> "$SUMMARY_FILE"
+    done
+    echo "" >> "$SUMMARY_FILE"
+fi
+
+# Add "Monthly Reports" section
+if [ ${#monthly_files[@]} -gt 0 ]; then
+    echo "# Monthly Reports" >> "$SUMMARY_FILE"
+    echo "" >> "$SUMMARY_FILE"
+    for file in "${monthly_files[@]}"; do
+        filename=$(basename "$file")
+        title="${filename%.markdown}"
+        echo "- [$title](./monthly/$filename)" >> "$SUMMARY_FILE"
     done
     echo "" >> "$SUMMARY_FILE"
 fi
@@ -41,7 +61,7 @@ fi
 cat >> "$SUMMARY_FILE" << 'EOF'
 # About
 
-[About IFT Weekly News](../README.md)
+[About IFT Weekly News](./About.md)
 EOF
 
-echo "✓ Generated $SUMMARY_FILE with ${#files[@]} report(s)"
+echo "✓ Generated $SUMMARY_FILE with ${#weekly_files[@]} weekly and ${#monthly_files[@]} monthly report(s)"
