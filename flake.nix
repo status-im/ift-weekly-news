@@ -25,6 +25,7 @@
           packages = with pkgsFor.${system}.buildPackages; [
             mdbook
             ghp-import
+            jq
           ];
         };
       });

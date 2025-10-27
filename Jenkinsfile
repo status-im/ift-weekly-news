@@ -34,7 +34,7 @@ pipeline {
   stages {
     stage('Build') {
       steps { script {
-        nix.develop('./generate_summary.sh && mdbook build', pure: true)
+        nix.develop('./generate_summary.sh && mdbook build && ./generate_api.sh', pure: true)
         jenkins.genBuildMetaJSON('book/build.json')
       } }
     }
