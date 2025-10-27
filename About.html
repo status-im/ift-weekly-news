@@ -179,6 +179,15 @@
                         <h1 id="ift-weekly-news"><a class="header" href="#ift-weekly-news">IFT Weekly News</a></h1>
 <p>The repository build <a href="https://news.free.technology">https://news.free.technology</a>.</p>
 <p>This repository supports <strong>townhall preparation</strong> by collecting relevant weekly updates.</p>
+<h2 id="api-access"><a class="header" href="#api-access">API Access</a></h2>
+<p>JSON API endpoints are available for programmatic access to reports.</p>
+<p><strong>🔒 Authentication Required:</strong> All API endpoints are protected by Keycloak authentication.</p>
+<p>See <a href="API.html">API.md</a> for full documentation including authentication examples.</p>
+<ul>
+<li>Weekly reports: <code>https://news.free.technology/api/weekly/</code></li>
+<li>Monthly reports: <code>https://news.free.technology/api/monthly/</code></li>
+<li>Latest: <code>https://news.free.technology/api/weekly/latest.json</code></li>
+</ul>
 <p>Data is automatically pulled from various sources and added to this repo via an <strong>n8n pipeline</strong>.</p>
 <p>The pipeline runs <strong>every Friday</strong>, fetching all new data from the past week.</p>
 <p>You can view the workflow <a href="https://n8n.free.technology/workflow/ssJC5jcgiCQ5zFbM">here</a>.</p>
