@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+<html lang="en" class="ayu" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2025-09test - IFT weekly news </title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../weekly/2025-10-27.html">2025-10-27</a></li><li class="chapter-item expanded affix "><li class="part-title">Weekly Reports</li><li class="chapter-item expanded "><a href="../weekly/2025-10-27.html">2025-10-27</a></li><li class="chapter-item expanded "><a href="../weekly/2025-10-24.html">2025-10-24</a></li><li class="chapter-item expanded "><a href="../weekly/2025-10-23.html">2025-10-23</a></li><li class="chapter-item expanded affix "><li class="part-title">Monthly Reports</li><li class="chapter-item expanded "><a href="../monthly/2025-09test.html" class="active">2025-09test</a></li><li class="chapter-item expanded "><a href="../monthly/2025-09.html">2025-09</a></li><li class="chapter-item expanded "><a href="../monthly/2025-08.html">2025-08</a></li><li class="chapter-item expanded "><a href="../monthly/2025-07.html">2025-07</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../About.html">About</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">IFT weekly news </h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/status-im/ift-weekly-news" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><strong>2025-10-28 MONTHLY REPORT</strong></p>
+<h2 id="blog-posts"><a class="header" href="#blog-posts">Blog Posts</a></h2>
+<ul>
+<li>
+<p><strong>Status</strong>:</p>
+<ul>
+<li><strong>2025-09-12</strong> - <a href="https://status.app/blog/status-portfolio-wallet-beta-try-it-out-to-win-a-keycard-a-shoutout-on-x-2">Status Portfolio Wallet Beta - Try it out to win a Keycard!</a>
+<blockquote>
+<p>We’re launching the beta of our Status Portfolio Wallet browser extens...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-05</strong> - <a href="https://status.app/blog/status-desktop-v2-35-local-backups-new-home-page-performance-boosts-and-more">Status Desktop v2.35: Local Backups, New Home Page, Performance Boosts, and More</a>
+<blockquote>
+<p>❗ Important Notes for This Release ⚠️ Mandatory Upgrade for v2.32 and ...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-05</strong> - <a href="https://status.app/blog/meet-status-v2-35">Meet Status v2.35!</a>
+<blockquote>
+<p>On-device (Local) backups, new Home page, performance boosts, and more...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-09</strong> - <a href="https://status.app/blog/update-to-v2-35-breaking-change">Update to v2.35 — breaking change!</a>
+<blockquote>
+<p>If you’re still on Status Desktop v2.32 or earlier, please update to v...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-09</strong> - <a href="https://status.app/blog/update-to-v2-34-breaking-change">Update to v2.34 — breaking change!</a>
+<blockquote>
+<p>If you’re still on Status Mobile v2.32 or earlier, please update to v2...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-12</strong> - <a href="https://status.app/blog/status-wallet-beta-win-a-keycard">Status Wallet Beta — Win a Keycard 📢</a>
+<blockquote>
+<p>We’re launching the beta of our Status Portfolio Wallet browser extens...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-19</strong> - <a href="https://status.app/blog/meet-status-v2-35-1">Meet Status v2.35.1!</a>
+<blockquote>
+<p>🚀 Korean is live, and we’re just getting started! Help us bring Statu...</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Nimbus</strong>:</p>
+<ul>
+<li><strong>2025-09-17</strong> - <a href="https://blog.nimbus.team/pureth-efficient-complete-data-verification-for-ethereum">Pureth: Efficient, complete data verification for Ethereum</a>
+<blockquote>
+<p>Today, the Ethereum community is rightly focused on Enshrined Proposer...</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Codex</strong>:</p>
+<ul>
+<li><strong>2025-09-01</strong> - <a href="https://blog.codex.storage/codex-august-updates-2">Codex August Updates</a>
+<blockquote>
+<p>Welcome to the Codex newsletter. Our monthly update offers a regular l...</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Nomos</strong>:</p>
+<ul>
+<li><strong>2025-09-08</strong> - <a href="https://blog.nomos.tech/lottery-difficulty-in-private-pos-the-case-of-cryptarchia">Lottery Difficulty in Private PoS: The Case of Cryptarchia</a>
+<blockquote>
+<p>In Proof of Stake (PoS) consensus protocols, the likelihood of an elig...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-03</strong> - <a href="https://blog.nomos.tech/nomos-monthly-august-2025">Nomos Monthly August 2025</a>
+<blockquote>
+<p>August was a landmark month for Nomos, marked by the finalisation of t...</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2025-09-01</strong> - <a href="https://press.logos.co/article/a-governor-hurled-from-a-window-on-farewell-to-westphalias-cover">A governor hurled from a window on Farewell to Westphalia’s cover?!</a>
+<blockquote>
+<p>You’re all probably very familiar with the cover of Farewell to Westph...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-09</strong> - <a href="https://press.logos.co/article/farewell-to-westphalia-lands-on-16-sept">"Farewell to Westphalia" lands on 16 Sept!</a>
+<blockquote>
+<p>In just seven days, Farewell to Westphalia will be publicly available....</p>
+</blockquote>
+</li>
+<li><strong>2025-09-16</strong> - <a href="https://press.logos.co/article/get-farewell-to-westphalia-now-2">Get "Farewell to Westphalia" now!</a>
+<blockquote>
+<p>The wait is finally over; Farewell to Westphalia is now available. It’...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-24</strong> - <a href="https://press.logos.co/article/what-readers-are-saying-about-farewell-to-westphalia-2">What Readers Are Saying About "Farewell to Westphalia"</a>
+<blockquote>
+<p>Farewell to Westphalia has been out for just over a week, and the resp...</p>
+</blockquote>
+</li>
+<li><strong>2025-09-26</strong> - <a href="https://press.logos.co/article/privacy-in-practice-hack-for-freedom">Privacy in Practice: Hack for Freedom</a>
+<blockquote>
+<p>In a world where surveillance and censorship threaten citizens from Ne...</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="forum-posts"><a class="header" href="#forum-posts">Forum Posts</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2025-09-16</strong> - 👁️‍🗨️ 18 💬 0  <a href="https://forum.logos.co/t/lets-discuss-farewell-to-westphalia-the-new-book-by-jarrad-hope-and-peter-ludlow/1338/1">Let's discuss Farewell to Westphalia, the new book by Jarrad Hope and Peter Ludlow</a></li>
+<li><strong>2025-09-10</strong> - 👁️‍🗨️ 17 💬 0  <a href="https://forum.logos.co/t/learnings-from-logos-circles/1331/1">Learnings from Logos Circles</a></li>
+<li><strong>2025-09-21</strong> - 👁️‍🗨️ 13 💬 0  <a href="https://forum.logos.co/t/ift-proposal-unique-identity-and-other-attestations-by-peer-notaries-aura/1343/1">IFT Proposal: Unique Identity and Other Attestations by Peer Notaries: Aura</a></li>
+<li><strong>2025-09-25</strong> - 👁️‍🗨️ 12 💬 0  <a href="https://forum.logos.co/t/scala-secure-calendar-app/1355/1">Scala: Secure CALendar App</a></li>
+<li><strong>2025-09-16</strong> - 👁️‍🗨️ 10 💬 0  <a href="https://forum.logos.co/t/circle-leads-updates-september/1339/1">Circle Leads Updates: September</a></li>
+<li><strong>2025-09-21</strong> - 👁️‍🗨️ 9 💬 0  <a href="https://forum.logos.co/t/ift-proposal-relational-contract-daos-pacta/1344/1">IFT Proposal: Relational Contract DAOs: Pacta</a></li>
+<li><strong>2025-09-24</strong> - 👁️‍🗨️ 7 💬 0  <a href="https://forum.logos.co/t/introduccion-al-stack-de-logos-y-sus-posibilidades/1354/1">Introducción al Stack de Logos y sus Posibilidades</a></li>
+<li><strong>2025-09-26</strong> - 👁️‍🗨️ 2 💬 0  <a href="https://forum.logos.co/t/from-offline-to-online-piracy-a-genealogy-of-logos/1357/1">From Offline to Online Piracy: A Genealogy of Logos</a></li>
+<li><strong>2025-09-13</strong> - 👁️‍🗨️ 1 💬 0  <a href="https://forum.logos.co/t/what-is-a-network-state/1336/1">What Is a Network State?</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Status</strong>:</p>
+<ul>
+<li><strong>2025-09-16</strong> - 👁️‍🗨️ 9 💬 0  <a href="https://discuss.status.app/t/blocked-install-on-macos/5065/1">Blocked install on macos</a></li>
+<li><strong>2025-09-19</strong> - 👁️‍🗨️ 8 💬 0  <a href="https://discuss.status.app/t/requesting-feature-ideas/5068/1">Requesting Feature Ideas</a></li>
+<li><strong>2025-09-24</strong> - 👁️‍🗨️ 7 💬 0  <a href="https://discuss.status.app/t/whats-your-internal-team-collaboration-software/5074/1">What's your Internal Team Collaboration Software?</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2025-09-08</strong> - 👁️‍🗨️ 17 💬 3  <a href="https://forum.vac.dev/t/zk-based-ticket-system-for-store-service-incentivization-mvp/565/1">ZK-Based Ticket System for Store Service Incentivization MVP</a></li>
+<li><strong>2025-09-05</strong> - 👁️‍🗨️ 14 💬 1  <a href="https://forum.vac.dev/t/mix-implementation-in-javascript-and-js-waku/563/1">Mix implementation in javascript and js-waku</a></li>
+<li><strong>2025-09-29</strong> - 👁️‍🗨️ 11 💬 0  <a href="https://forum.vac.dev/t/starting-a-long-term-project-to-improve-logos-documentation/573/1">Starting a long-term project to improve Logos documentation</a></li>
+<li><strong>2025-09-05</strong> - 👁️‍🗨️ 10 💬 0  <a href="https://forum.vac.dev/t/discussion-on-the-gkr-protocol/564/1">Discussion on the GKR protocol</a></li>
+<li><strong>2025-09-30</strong> - 👁️‍🗨️ 8 💬 0  <a href="https://forum.vac.dev/t/ift-research-call-september-24th-2025-multi-steward-de-mls-details-on-our-decentralized-mls-solution/575/1">IFT Research Call, September 24th 2025 - Multi Steward de-MLS - Details on Our Decentralized MLS Solution</a></li>
+<li><strong>2025-09-15</strong> - 👁️‍🗨️ 8 💬 0  <a href="https://forum.vac.dev/t/ift-research-call-september-10th-2025-updates-on-the-development-of-nescience/566/1">IFT Research Call, September 10th 2025 - Updates on the development of Nescience</a></li>
+<li><strong>2025-09-18</strong> - 👁️‍🗨️ 7 💬 0  <a href="https://forum.vac.dev/t/idea-logos-box/569/1">Idea: Logos Box</a></li>
+<li><strong>2025-09-16</strong> - 👁️‍🗨️ 5 💬 0  <a href="https://forum.vac.dev/t/encrypted-metastable-group-chat/567/1">Encrypted metastable group chat</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="youtube-videos"><a class="header" href="#youtube-videos">YouTube Videos</a></h2>
+<p><strong>2025-09-27</strong> - TBP S02E07 - We'll do it live, kinda.</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/0of1gU2vH5I" title="TBP S02E07 - We'll do it live, kinda." frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-15</strong> - IFT ZK Call: 2nd Sept 2025 - Discussion on the GKR protocol</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/2qsCQU44n7U" title="IFT ZK Call: 2nd Sept 2025 - Discussion on the GKR protocol" frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-29</strong> - Vibe Coding with Waku - Logos Dev Club - October 2, 2025</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/5aLuYcFr_zc" title="Vibe Coding with Waku - Logos Dev Club - October 2, 2025" frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-15</strong> - Simon Brown talks building on Ethereum.</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/6K9LDHmKO60" title="Simon Brown talks building on Ethereum." frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-06</strong> - IFT Townhall - Sept 05</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/RbBmIWqZ-EM" title="IFT Townhall - Sept 05" frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-08</strong> - HIO Personals: Simon Brown - CNS Labs</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/TczHk_23y98" title="HIO Personals: Simon Brown - CNS Labs" frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-18</strong> - IFT Townhall - Sept 19, 2025</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Z6-GIaGUMZ4" title="IFT Townhall - Sept 19, 2025" frameborder="0" allowfullscreen></iframe>
+<p><strong>2025-09-15</strong> - IFT Research Call: 10th Sept 2025 - Updates to Nescience</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/phkCcEgGljM" title="IFT Research Call: 10th Sept 2025 - Updates to Nescience" frameborder="0" allowfullscreen></iframe>
+<h2 id="releases"><a class="header" href="#releases">Releases</a></h2>
+<ul>
+<li>
+<p><strong>Status</strong>:</p>
+<ul>
+<li><strong>2025-09-04</strong> <a href="https://github.com/status-im/status-desktop/releases/tag/2.35.0">2.35.0</a></li>
+<li><strong>2025-09-19</strong> <a href="https://github.com/status-im/status-desktop/releases/tag/2.35.1">2.35.1</a></li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../weekly/2025-10-23.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../monthly/2025-09.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../weekly/2025-10-23.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../monthly/2025-09.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
