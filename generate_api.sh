@@ -10,7 +10,6 @@ MONTHLY_DIR="$REPORTS_DIR/monthly"
 API_WEEKLY_DIR="$API_DIR/weekly"
 API_MONTHLY_DIR="$API_DIR/monthly"
 
-# Create API directories
 mkdir -p "$API_WEEKLY_DIR"
 mkdir -p "$API_MONTHLY_DIR"
 
@@ -45,13 +44,13 @@ if [ ${#weekly_files[@]} -gt 0 ]; then
     for file in "${weekly_files[@]}"; do
         filename=$(basename "$file" .markdown)
         markdown_to_json "$file" > "$API_WEEKLY_DIR/${filename}.json"
-        echo "  ✓ Created $API_WEEKLY_DIR/${filename}.json"
+        echo " Created $API_WEEKLY_DIR/${filename}.json"
     done
 
     # Create latest.json (most recent weekly report)
     latest_weekly="${weekly_files[0]}"
     markdown_to_json "$latest_weekly" > "$API_WEEKLY_DIR/latest.json"
-    echo "  ✓ Created $API_WEEKLY_DIR/latest.json"
+    echo " Created $API_WEEKLY_DIR/latest.json"
 
     # Create index.json (list of all weekly reports)
     weekly_list=$(jq -n --argjson files "$(
@@ -62,7 +61,7 @@ if [ ${#weekly_files[@]} -gt 0 ]; then
     )" '$files')
 
     echo "$weekly_list" | jq '{reports: ., count: length, type: "weekly"}' > "$API_WEEKLY_DIR/index.json"
-    echo "  ✓ Created $API_WEEKLY_DIR/index.json"
+    echo " Created $API_WEEKLY_DIR/index.json"
 fi
 
 # Process monthly reports
@@ -75,13 +74,13 @@ if [ ${#monthly_files[@]} -gt 0 ]; then
     for file in "${monthly_files[@]}"; do
         filename=$(basename "$file" .markdown)
         markdown_to_json "$file" > "$API_MONTHLY_DIR/${filename}.json"
-        echo "  ✓ Created $API_MONTHLY_DIR/${filename}.json"
+        echo " Created $API_MONTHLY_DIR/${filename}.json"
     done
 
     # Create latest.json (most recent monthly report)
     latest_monthly="${monthly_files[0]}"
     markdown_to_json "$latest_monthly" > "$API_MONTHLY_DIR/latest.json"
-    echo "  ✓ Created $API_MONTHLY_DIR/latest.json"
+    echo " Created $API_MONTHLY_DIR/latest.json"
 
     # Create index.json (list of all monthly reports)
     monthly_list=$(jq -n --argjson files "$(
@@ -92,7 +91,7 @@ if [ ${#monthly_files[@]} -gt 0 ]; then
     )" '$files')
 
     echo "$monthly_list" | jq '{reports: ., count: length, type: "monthly"}' > "$API_MONTHLY_DIR/index.json"
-    echo "  ✓ Created $API_MONTHLY_DIR/index.json"
+    echo " Created $API_MONTHLY_DIR/index.json"
 fi
 
 # Create main API index
@@ -116,8 +115,6 @@ cat > "$API_DIR/index.json" <<EOF
 }
 EOF
 
-echo "  ✓ Created $API_DIR/index.json"
+echo " Created $API_DIR/index.json"
 echo ""
-echo "✅ API generation complete!"
-echo "   Weekly reports: ${#weekly_files[@]}"
-echo "   Monthly reports: ${#monthly_files[@]}"
+echo " API generation complete!"
