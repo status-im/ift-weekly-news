@@ -2,14 +2,9 @@
 
 The IFT Weekly News site provides JSON API endpoints for programmatic access to reports.
 
-## 🔒 Authentication
+## 🌐 Public Access
 
-**All API endpoints require authentication via Keycloak.**
-
-The API inherits the same authentication layer as the main site. You must:
-1. Authenticate with Keycloak (OAuth/OIDC)
-2. Obtain an access token
-3. Include the token in your API requests
+**All API endpoints are publicly accessible.** No authentication required.
 
 ## Base URL
 
@@ -171,26 +166,8 @@ GET https://news.free.technology/api/monthly/index.json
 ### JavaScript/Node.js
 
 ```javascript
-// First, obtain a Keycloak token
-const getToken = async () => {
-  const response = await fetch('https://your-keycloak-domain/auth/realms/your-realm/protocol/openid-connect/token', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({
-      client_id: 'your-client-id',
-      client_secret: 'your-client-secret',
-      grant_type: 'client_credentials'
-    })
-  });
-  const data = await response.json();
-  return data.access_token;
-};
-
-// Get latest weekly report with authentication
-const token = await getToken();
-const response = await fetch('https://news.free.technology/api/weekly/latest.json', {
-  headers: { 'Authorization': `Bearer ${token}` }
-});
+// Get latest weekly report
+const response = await fetch('https://news.free.technology/api/weekly/latest.json');
 const data = await response.json();
 console.log(`Latest report: ${data.date}`);
 console.log(data.content);
@@ -201,20 +178,8 @@ console.log(data.content);
 ```python
 import requests
 
-# First, obtain a Keycloak token
-token_response = requests.post(
-    'https://your-keycloak-domain/auth/realms/your-realm/protocol/openid-connect/token',
-    data={
-        'client_id': 'your-client-id',
-        'client_secret': 'your-client-secret',
-        'grant_type': 'client_credentials'
-    }
-)
-token = token_response.json()['access_token']
-
-# Get list of all weekly reports with authentication
-headers = {'Authorization': f'Bearer {token}'}
-response = requests.get('https://news.free.technology/api/weekly/index.json', headers=headers)
+# Get list of all weekly reports
+response = requests.get('https://news.free.technology/api/weekly/index.json')
 data = response.json()
 
 print(f"Total weekly reports: {data['count']}")
@@ -222,23 +187,17 @@ for report in data['reports']:
     print(f"- {report['date']}: {report['url']}")
 ```
 
-### curl (with authentication)
+### curl
 
 ```bash
-# First, obtain a Keycloak token
-TOKEN=$(curl -X POST "https://your-keycloak-domain/auth/realms/your-realm/protocol/openid-connect/token" \
-  -d "client_id=your-client-id" \
-  -d "client_secret=your-client-secret" \
-  -d "grant_type=client_credentials" \
-  | jq -r .access_token)
-
 # Get latest weekly report
-curl -H "Authorization: Bearer $TOKEN" \
-  https://news.free.technology/api/weekly/latest.json | jq .
+curl https://news.free.technology/api/weekly/latest.json | jq .
 
 # Get specific monthly report
-curl -H "Authorization: Bearer $TOKEN" \
-  https://news.free.technology/api/monthly/2025-09.json | jq .content -r
+curl https://news.free.technology/api/monthly/2025-09.json | jq .content -r
+
+# Get list of all reports
+curl https://news.free.technology/api/weekly/index.json | jq .
 ```
 
 ---
@@ -263,9 +222,7 @@ All endpoints return JSON with CORS enabled and proper `Content-Type: applicatio
 
 - API endpoints are **static JSON files** generated during the build process
 - Updates occur automatically when new reports are published (typically every Friday via n8n)
-- **Authentication required** - All endpoints are protected by Keycloak authentication
-- You must obtain and include a valid access token in your requests
-- Access is controlled by the same Keycloak realm as the main site
+- **No authentication required** - All endpoints are publicly accessible
 
 ---
 

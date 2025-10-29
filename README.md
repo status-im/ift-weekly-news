@@ -8,9 +8,9 @@ This repository supports **townhall preparation** by collecting relevant weekly 
 
 JSON API endpoints are available for programmatic access to reports.
 
-**🔒 Authentication Required:** All API endpoints are protected by Keycloak authentication.
+**🌐 Public Access:** All API endpoints are publicly accessible, no authentication required.
 
-See [API.md](API.md) for full documentation including authentication examples.
+See [API.md](API.md) for full documentation and usage examples.
 
 - Weekly reports: `https://news.free.technology/api/weekly/`
 - Monthly reports: `https://news.free.technology/api/monthly/`
