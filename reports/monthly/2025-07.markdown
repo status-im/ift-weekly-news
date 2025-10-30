@@ -1,1 +1,122 @@
-townhall helper 
+# **2025-10-30 MONTHLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2025-07-09** - [Status Launches First Gasless Layer 2 on Linea](https://status.app/blog/status-network-first-gasless-l2)
+    _Status (SNT) has launched the world’s first natively gasless Layer 2 o..._
+  * **2025-07-02** - [Gasless Tx & Screenshot Fix](https://status.app/blog/gasless-tx-screenshot-fix)
+    _A new Status Desktop version (2.34.2) was just released! It fixes send..._
+  * **2025-07-07** - [Gasless Transaction Fix](https://status.app/blog/gasless-transaction-fix)
+    _Patch release: fixed sending gasless transactions on the Status Networ..._
+  * **2025-07-14** - [Status Core Development Fund Update](https://status.app/blog/status-core-development-fund-update)
+    _The Status team is in the process of migrating our Core Development fu..._
+  * **2025-07-16** - [Patch Release: Fixed Price Fetching](https://status.app/blog/patch-release-fixed-price-fetching)
+    _Fixed an issue where market price fetching failed frequently, triggeri..._
+  * **2025-07-21** - [Patch Release: Fixed Price Fetching](https://status.app/blog/patch-release-fixed-price-fetching-2)
+    _Resolved an issue where token prices were not fetched correctly Update..._
+  * **2025-07-29** - [Status Steps Up as Founding Member of Linea Consortium](https://status.app/blog/status-steps-up-as-founding-member-of-linea-consortium)
+    _Status (SNT) has been appointed a founding member of the new Linea Con..._
+
+* **Codex**:
+
+  * **2025-07-01** - [Codex June Updates](https://blog.codex.storage/codex-june-updates)
+    _Welcome to the Codex newsletter. Our monthly update offers a regular l..._
+  * **2025-07-03** - [Codex Factory: Creating Local Codex Clusters for Developers](https://blog.codex.storage/codex-factory-creating-local-codex-clusters-for-developers)
+    _In a recent demonstration, the Codex team provided an overview of Code..._
+
+* **Nomos**:
+
+  * **2025-07-10** - [Stirring, Mixing, Blending: Different Approaches to Proposer Anonymity](https://blog.nomos.tech/stirring-mixing-blending-different-approaches-to-proposer-anonymity)
+    _An important aspect of building a privacy-preserving peer-to-peer netw..._
+
+* **Logos**:
+
+  * **2025-07-07** - [Archival Warfare and Blockchain’s Response](https://press.logos.co/article/archival-warfare-and-blockchains-response)
+    _In 1985, infamous Colombian drug trafficker Pablo Escobar reportedly p..._
+  * **2025-07-14** - [The Future of Public Goods Is Onchain](https://press.logos.co/article/the-future-of-public-goods-is-onchain)
+    _In Farewell to Westphalia, Peter and I ask: What if the tools for deli..._
+  * **2025-07-21** - [Coordination Without Coercion: Blockchain’s Peaceful Revolution](https://press.logos.co/article/coordination-without-coercion-blockchains-peaceful-revolution)
+    _In Farewell to Westphalia, Peter Ludlow and I explore how blockchain t..._
+  * **2025-07-28** - [Blockchain Governance Has Limits – And That’s Fine](https://press.logos.co/article/blockchain-governance-has-limits-and-thats-fine)
+    _As you probably guessed, Farewell to Westphalia focuses primarily on t..._
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2025-07-09** - 
+<span class="category">Meetups</span> - [Private, decentralised marketplace needed by Lisbon Circle](https://forum.logos.co/t/private-decentralised-marketplace-needed-by-lisbon-circle/480/1)
+  * **2025-07-18** - 
+<span class="category">General</span> - [PrivyCycle - Private Cycle Tracking](https://forum.logos.co/t/privycycle-private-cycle-tracking/520/1)
+  * **2025-07-30** - 
+<span class="category">Meetups</span> - [Vpavlin's Zanzalu Experience](https://forum.logos.co/t/vpavlins-zanzalu-experience/558/1)
+  * **2025-07-13** - 
+<span class="category">Meetups</span> - [Logos Circle Los Angeles](https://forum.logos.co/t/logos-circle-los-angeles/485/1)
+  * **2025-07-02** - 
+<span class="category">General</span> - [Decentralised Zotero](https://forum.logos.co/t/decentralised-zotero/475/1)
+  * **2025-07-18** - 
+<span class="category">General</span> - [NOVALAR: Decentralized Housing Protocol - Seeking Community Input & Collaborators](https://forum.logos.co/t/novalar-decentralized-housing-protocol-seeking-community-input-collaborators/523/1)
+  * **2025-07-31** - 
+<span class="category">General</span> - [Waku Community Contribution Opportunities](https://forum.logos.co/t/waku-community-contribution-opportunities/561/1)
+  * **2025-07-28** - 
+<span class="category">Meetups</span> - [Ongoing IT training via dedicated computer room Zanzibar school](https://forum.logos.co/t/ongoing-it-training-via-dedicated-computer-room-zanzibar-school/555/1)
+  * **2025-07-30** - 
+<span class="category">General</span> - [Restate: Legitimizing rights outside traditional territorial jurisdictions](https://forum.logos.co/t/restate-legitimizing-rights-outside-traditional-territorial-jurisdictions/559/1)
+  * **2025-07-23** - 
+<span class="category">Press Engine</span> - [Why Build a Network State?](https://forum.logos.co/t/why-build-a-network-state/543/1)
+
+* **Vac**:
+  * **2025-07-24** - 
+<span class="category">Waku</span> - [Service Incentivisation MVP](https://forum.vac.dev/t/service-incentivisation-mvp/547/1)
+  * **2025-07-17** - 
+<span class="category">Waku</span> - [Improving Content Topics: A Coordinate-Based Approach for Better Privacy, Distribution and Dev Ex](https://forum.vac.dev/t/improving-content-topics-a-coordinate-based-approach-for-better-privacy-distribution-and-dev-ex/540/1)
+  * **2025-07-29** - 
+<span class="category">Status</span> - [Proposal: Status X - a minimal chat app on ChatSDK](https://forum.vac.dev/t/proposal-status-x-a-minimal-chat-app-on-chatsdk/550/1)
+  * **2025-07-09** - 
+<span class="category">Waku</span> - [Virtual offsite recommendations: Target API and architecture](https://forum.vac.dev/t/virtual-offsite-recommendations-target-api-and-architecture/537/1)
+  * **2025-07-25** - 
+<span class="category">Logos</span> - [New nim-ffi repository](https://forum.vac.dev/t/new-nim-ffi-repository/548/1)
+  * **2025-07-07** - 
+<span class="category">Waku</span> - [Virtual offsite recommendations: Vision, Mission and principles](https://forum.vac.dev/t/virtual-offsite-recommendations-vision-mission-and-principles/527/1)
+  * **2025-07-09** - 
+<span class="category">Waku</span> - [RLN-based micropayment scheme](https://forum.vac.dev/t/rln-based-micropayment-scheme/536/1)
+  * **2025-07-07** - 
+<span class="category">Waku</span> - [Waku as a metastable network](https://forum.vac.dev/t/waku-as-a-metastable-network/529/1)
+  * **2025-07-15** - 
+<span class="category">Waku</span> - [Modify RLN Circuit: Signature as Inputs Instead of Private Key](https://forum.vac.dev/t/modify-rln-circuit-signature-as-inputs-instead-of-private-key/539/1)
+  * **2025-07-08** - 
+<span class="category">Waku</span> - [Offloading RLN in Waku with Trusted Execution Environments](https://forum.vac.dev/t/offloading-rln-in-waku-with-trusted-execution-environments/532/1)
+  * **2025-07-03** - 
+<span class="category">Waku</span> - [Virtual offsite recommendations: Service Marketplace](https://forum.vac.dev/t/virtual-offsite-recommendations-service-marketplace/524/1)
+  * **2025-07-04** - 
+<span class="category">Vac</span> - [Arithmetic circuit representations](https://forum.vac.dev/t/arithmetic-circuit-representations/525/1)
+  * **2025-07-08** - 
+<span class="category">Waku</span> - [Virtual Offsite recommendations: Building FOSS Developer Community](https://forum.vac.dev/t/virtual-offsite-recommendations-building-foss-developer-community/533/1)
+  * **2025-07-07** - 
+<span class="category">Vac</span> - [DST reports Q2](https://forum.vac.dev/t/dst-reports-q2/528/1)
+
+
+## YouTube Videos
+
+**2025-07-03** - HIO YT Shorts Live 24/7
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/5LIqJThurrM" title="HIO YT Shorts Live 24/7" frameborder="0" allowfullscreen></iframe>
+
+**2025-07-05** - IFT ZK Call July 1st 2025 - Introduction to Arithmetic Circuit Representations
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/laZADpEj7v0" title="IFT ZK Call July 1st 2025 - Introduction to Arithmetic Circuit Representations" frameborder="0" allowfullscreen></iframe>
+
+**2025-07-12** - IFT Town Hall July 11, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/sWkihw1ehqw" title="IFT Town Hall July 11, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-07-06** - 24/7 HIO YT Shorts Stream
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/xuvkjKBw7H8" title="24/7 HIO YT Shorts Stream" frameborder="0" allowfullscreen></iframe>
+
+**2025-07-08** - DEE WEEKLY 7: Bitcoin Core 28.2, Pakistan Plans for BTC, Solana Alpenglow
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/zLCMeP-C6hw" title="DEE WEEKLY 7: Bitcoin Core 28.2, Pakistan Plans for BTC, Solana Alpenglow" frameborder="0" allowfullscreen></iframe>
+
+
