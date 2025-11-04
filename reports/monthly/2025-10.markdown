@@ -1,1 +1,194 @@
-townhall helper 
+# **2025-10 MONTHLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2025-10-10** - [Status Network Presents the First Gasless Ethereum L2 at Korea Blockchain Week](https://status.app/blog/status-network-presents-the-first-gasless-ethereum-l2-at-korea-blockchain-week)
+    _At this year's Korea Blockchain Week 2025, held in Seoul on September ..._
+  * **2025-10-28** - [Final Release v2\.34\.4 & What’s Next](https://status.app/blog/final-release-v2-34-4-whats-next)
+    _The final feature release for this Clojure\-based Mobile App v2\.34\.4, m..._
+  * **2025-10-28** - [Legacy Mobile App v2\.34\.4, Unified Mobile App, and What’s Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)
+    _Dear Status App Community, As many of you know, the Status app has his..._
+
+* **Nomos**:
+
+  * **2025-10-03** - [Nomos Monthly September 2025](https://blog.nomos.tech/nomos-monthly-september-2025)
+    _September was a month of intensive engineering progress across Nomos\. ..._
+  * **2025-10-06** - [Participating in Nomos Bedrock Services](https://blog.nomos.tech/participating-in-nomos-bedrock-services)
+    _Nomos is designed as a blockchain infrastructure that prioritises priv..._
+
+* **Logos**:
+
+  * **2025-10-06** - [State of the Logos Network: September 2025](https://press.logos.co/article/september-2025)
+    _<p\><i\>"Farewell to Westphalia" released worldwide, build needed activi..._
+  * **2025-10-09** - [Prototyping Parallel Institutions: Learnings for Logos Circles](https://press.logos.co/article/circles-lisbon-to-berlin)
+    _<p\>Logos Circles are grassroots, values\-driven communities building lo..._
+  * **2025-10-15** - [The Fall of Democracy \(and What Comes After\)](https://press.logos.co/article/fall-democracy)
+    _<p\>This op\-ed on the fall of democracy is part of a series of articles..._
+  * **2025-10-24** - [Hacking for Real World Impact with Funding the Commons & Tor](https://press.logos.co/article/realfi-hack)
+    _<p\>Starting 23 September, Logos unveiled a major campaign to bring pri..._
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2025-10-12** - 
+<span class="category">Learn</span> - [Cypherpunks code; let's build "Tutorial Mode"](https://forum.logos.co/t/cypherpunks-code-lets-build-tutorial-mode/1380/1)
+  * **2025-10-14** - 
+<span class="category">Meetups</span> - [Porto Circle winnable issue: Build Europe’s First Digital Escape Egress](https://forum.logos.co/t/porto-circle-winnable-issue-build-europe-s-first-digital-escape-egress/1382/1)
+  * **2025-10-17** - 
+<span class="category">Tech</span> - [P2P field coordination for activit and protest movements](https://forum.logos.co/t/p2p-field-coordination-for-activit-and-protest-movements/1396/1)
+  * **2025-10-01** - 
+<span class="category">General</span> - [Cognitive Security as a Core Layer for Parallel Societies... and beyond](https://forum.logos.co/t/cognitive-security-as-a-core-layer-for-parallel-societies-and-beyond/1362/1)
+  * **2025-10-18** - 
+<span class="category">General</span> - [Hidden Payment Channels](https://forum.logos.co/t/hidden-payment-channels/1399/1)
+  * **2025-10-17** - 
+<span class="category">General</span> - [🧠 TL;DR — Cognitive Sovereignty & Perceptual Defense: A Follow-Up Reflection](https://forum.logos.co/t/tl-dr-cognitive-sovereignty-perceptual-defense-a-follow-up-reflection/1397/1)
+  * **2025-10-21** - 
+<span class="category">Meetups</span> - [First Berlin circles](https://forum.logos.co/t/first-berlin-circles/1409/1)
+  * **2025-10-02** - 
+<span class="category">Tech</span> - [Building a Decentralized Polling App Template with Waku](https://forum.logos.co/t/building-a-decentralized-polling-app-template-with-waku/1364/1)
+  * **2025-10-09** - 
+<span class="category">Meetups</span> - [Highlights From Logos Circle San José, CR #1](https://forum.logos.co/t/highlights-from-logos-circle-san-jose-cr-1/1376/1)
+  * **2025-10-09** - 
+<span class="category">Meetups</span> - [Logos Circle Barcelona #2 – Meetup Notes](https://forum.logos.co/t/logos-circle-barcelona-2-meetup-notes/1375/1)
+  * **2025-10-31** - 
+<span class="category">General</span> - [App proposal - decentralized antivirus and cyber security application](https://forum.logos.co/t/app-proposal-decentralized-antivirus-and-cyber-security-application/1421/1)
+  * **2025-10-09** - 
+<span class="category">General</span> - [Logos Circle Prague Chapter 1](https://forum.logos.co/t/logos-circle-prague-chapter-1/1373/1)
+  * **2025-10-15** - 
+<span class="category">Press Engine</span> - [We Need Sovereign Tools: A Keycard Manifesto](https://forum.logos.co/t/we-need-sovereign-tools-a-keycard-manifesto/1385/1)
+
+* **Status**:
+  * **2025-10-15** - 
+<span class="category">Proposals</span> - [Fundraising through IEO & Listing With Coinstore](https://discuss.status.app/t/fundraising-through-ieo-listing-with-coinstore/6637/1)
+
+* **Vac**:
+  * **2025-10-21** - 
+<span class="category">Logos</span> - [Why a Web SDK Is Critical for Logos Adoption](https://forum.vac.dev/t/why-a-web-sdk-is-critical-for-logos-adoption/583/1)
+  * **2025-10-17** - 
+<span class="category">Waku</span> - [Introducing the Reliable Channel API](https://forum.vac.dev/t/introducing-the-reliable-channel-api/580/1)
+  * **2025-10-13** - 
+<span class="category">Uncategorized</span> - [Off-Chain Micropayments: Prior Work and Design Framework](https://forum.vac.dev/t/off-chain-micropayments-prior-work-and-design-framework/579/1)
+  * **2025-10-07** - 
+<span class="category">Vac</span> - [DST summary 2025Q3](https://forum.vac.dev/t/dst-summary-2025q3/577/1)
+  * **2025-10-09** - 
+<span class="category">Vac</span> - [Discussion on ZK verification](https://forum.vac.dev/t/discussion-on-zk-verification/578/1)
+
+
+## YouTube Videos
+
+**2025-10-29** - Logos Dev Club - Real-Fi Hackathon Demos - October 28, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/-GVbF7jX_-Y" title="Logos Dev Club - Real-Fi Hackathon Demos - October 28, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-01** - Vibecoding with the Logos Technology Stack - Waku 101
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/34ABO8yXjl0" title="Vibecoding with the Logos Technology Stack - Waku 101" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-10** - Logos Podcast - Corey Petty: Tech Is Neutral, How You Use It Is Not
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/5XMZqE8uNRU" title="Logos Podcast - Corey Petty: Tech Is Neutral, How You Use It Is Not" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-03** - Vibe Coding with Waku - Logos Dev Club - October 2, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/5aLuYcFr_zc" title="Vibe Coding with Waku - Logos Dev Club - October 2, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-02** - Vibe Coding with Rust & Waku - Logos Dev Club - October 6, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/84u4YHDFW-I" title="Vibe Coding with Rust & Waku - Logos Dev Club - October 6, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-29** - Is it time to say Farewell to Westphalia?
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/9iERn7P0R0c" title="Is it time to say Farewell to Westphalia?" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-10** - IFT Research Call: 24th Sept 2025 - Multi Steward de-MLS: Details on Our Decentralised MLS Solution
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/FXpxZsaxdEs" title="IFT Research Call: 24th Sept 2025 - Multi Steward de-MLS: Details on Our Decentralised MLS Solution" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-03** - Logos Podcast - Stella Assange: Human Rights & Alternative Modes of Organising
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/GgV113__FJA" title="Logos Podcast - Stella Assange: Human Rights & Alternative Modes of Organising" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-09** - Logos Dev Club - Vibe Coding in RUST with Waku - October 8, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/JBeg-p5meIk" title="Logos Dev Club - Vibe Coding in RUST with Waku - October 8, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-02** - Logos Podcast - Edward Snowden: Censorship Resistance, Cyber States & Privacy
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Od-ixXNOTx4" title="Logos Podcast - Edward Snowden: Censorship Resistance, Cyber States & Privacy" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-01** - Building a hackathon project for RealFi Hack with Waku (Logos tech stack)
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/RHACJauY2-M" title="Building a hackathon project for RealFi Hack with Waku (Logos tech stack)" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-29** - Farewell to Westphalia: Available to read now
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/T0kNpazXeWU" title="Farewell to Westphalia: Available to read now" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-10** - Logos Podcast - Michel Bauwens: P2P & Commons Strategy
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/VCNRNWZ059M" title="Logos Podcast - Michel Bauwens: P2P & Commons Strategy" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-13** - IFT ZK Call: 7th Oct 2025 - Selective Disclosure of Identity using Passport
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/W9TAODmAn-A" title="IFT ZK Call: 7th Oct 2025 - Selective Disclosure of Identity using Passport" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-21** - Waku Hackathon Demos, Session 2
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/b67IKkg7-JA" title="Waku Hackathon Demos, Session 2" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-09** - Vibecoding with the Logos tech stack : Waku 101
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/gbzSZvzXVIs" title="Vibecoding with the Logos tech stack : Waku 101" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-09** - Logos Podcast - Peter Ludlow: Crypto Anarchy and Cyberstates
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/gew826t_cx4" title="Logos Podcast - Peter Ludlow: Crypto Anarchy and Cyberstates" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-03** - IFT Townhall - Oct 03
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/iPmn24U32Ik" title="IFT Townhall - Oct 03" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-30** - IFT Townhall - Oct 30, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/lJ1Bm8X_ez4" title="IFT Townhall - Oct 30, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-20** - Waku Hackathon Demos, Session 1
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/mPw2-816CUY" title="Waku Hackathon Demos, Session 1" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-14** - Logos Circle: Online - October 14, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/q4Rs5hQbyY0" title="Logos Circle: Online - October 14, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-09** - Logos Podcast - Ben Wizner: Speech, Privacy, and Technology
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/rdBnCcOA5RY" title="Logos Podcast - Ben Wizner: Speech, Privacy, and Technology" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-09** - Logos Podcast - Patri Friedman: Creating Politically Autonomous Communities
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/z12Ai1_yc2s" title="Logos Podcast - Patri Friedman: Creating Politically Autonomous Communities" frameborder="0" allowfullscreen></iframe>
+
+
+## Releases
+
+* **Nimbus**:
+
+  * **2025-10-31** nimbus-eth2 - [v25.10.0](https://github.com/status-im/nimbus-eth2/releases/tag/v25.10.0)
+
+* **Vac**:
+
+  * **2025-10-27** nim-cbor-serialization - [v0.1.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.1.0)
+  * **2025-10-16** nim-libp2p - [v1.14.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.14.0)
+  * **2025-10-20** nim-libp2p - [v1.14.1](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.14.1)
+  * **2025-10-21** nim-libp2p - [v1.14.2](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.14.2)
+  * **2025-10-28** nim-libp2p - [v1.14.3](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.14.3)
+  * **2025-10-16** nim-ngtcp2 - [v0.39.0](https://github.com/vacp2p/nim-ngtcp2/releases/tag/v0.39.0)
+  * **2025-10-16** nim-quic - [v0.2.16](https://github.com/vacp2p/nim-quic/releases/tag/v0.2.16)
+  * **2025-10-16** nim-quic - [v0.3.0](https://github.com/vacp2p/nim-quic/releases/tag/v0.3.0)
+  * **2025-10-21** nim-quic - [v0.4.0](https://github.com/vacp2p/nim-quic/releases/tag/v0.4.0)
+  * **2025-10-24** nim-quic - [v0.5.0](https://github.com/vacp2p/nim-quic/releases/tag/v0.5.0)
+  * **2025-10-28** nim-quic - [v0.5.1](https://github.com/vacp2p/nim-quic/releases/tag/v0.5.1)
+
+
