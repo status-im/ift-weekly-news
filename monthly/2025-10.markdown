@@ -5,28 +5,28 @@
 
   * **2025-10-10** - [Status Network Presents the First Gasless Ethereum L2 at Korea Blockchain Week](https://status.app/blog/status-network-presents-the-first-gasless-ethereum-l2-at-korea-blockchain-week)
     _At this year's Korea Blockchain Week 2025, held in Seoul on September ..._
-  * **2025-10-28** - [Final Release v2.34.4 & What’s Next](https://status.app/blog/final-release-v2-34-4-whats-next)
-    _The final feature release for this Clojure-based Mobile App v2.34.4, m..._
-  * **2025-10-28** - [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)
+  * **2025-10-28** - [Final Release v2\.34\.4 & What’s Next](https://status.app/blog/final-release-v2-34-4-whats-next)
+    _The final feature release for this Clojure\-based Mobile App v2\.34\.4, m..._
+  * **2025-10-28** - [Legacy Mobile App v2\.34\.4, Unified Mobile App, and What’s Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)
     _Dear Status App Community, As many of you know, the Status app has his..._
 
 * **Nomos**:
 
   * **2025-10-03** - [Nomos Monthly September 2025](https://blog.nomos.tech/nomos-monthly-september-2025)
-    _September was a month of intensive engineering progress across Nomos. ..._
+    _September was a month of intensive engineering progress across Nomos\. ..._
   * **2025-10-06** - [Participating in Nomos Bedrock Services](https://blog.nomos.tech/participating-in-nomos-bedrock-services)
     _Nomos is designed as a blockchain infrastructure that prioritises priv..._
 
 * **Logos**:
 
   * **2025-10-06** - [State of the Logos Network: September 2025](https://press.logos.co/article/september-2025)
-    _<p><i>"Farewell to Westphalia" released worldwide, build needed activi..._
+    _<p\><i\>"Farewell to Westphalia" released worldwide, build needed activi..._
   * **2025-10-09** - [Prototyping Parallel Institutions: Learnings for Logos Circles](https://press.logos.co/article/circles-lisbon-to-berlin)
-    _<p>Logos Circles are grassroots, values-driven communities building lo..._
-  * **2025-10-15** - [The Fall of Democracy (and What Comes After)](https://press.logos.co/article/fall-democracy)
-    _<p>This op-ed on the fall of democracy is part of a series of articles..._
+    _<p\>Logos Circles are grassroots, values\-driven communities building lo..._
+  * **2025-10-15** - [The Fall of Democracy \(and What Comes After\)](https://press.logos.co/article/fall-democracy)
+    _<p\>This op\-ed on the fall of democracy is part of a series of articles..._
   * **2025-10-24** - [Hacking for Real World Impact with Funding the Commons & Tor](https://press.logos.co/article/realfi-hack)
-    _<p>Starting 23 September, Logos unveiled a major campaign to bring pri..._
+    _<p\>Starting 23 September, Logos unveiled a major campaign to bring pri..._
 
 
 ## Forum Posts
@@ -82,7 +82,7 @@
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/-GVbF7jX_-Y" title="Logos Dev Club - Real-Fi Hackathon Demos - October 28, 2025" frameborder="0" allowfullscreen></iframe>
 
-**2025-10-02** - Vibecoding with the Logos Technology Stack - Waku 101
+**2025-10-01** - Vibecoding with the Logos Technology Stack - Waku 101
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/34ABO8yXjl0" title="Vibecoding with the Logos Technology Stack - Waku 101" frameborder="0" allowfullscreen></iframe>
 
@@ -110,7 +110,7 @@
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/GgV113__FJA" title="Logos Podcast - Stella Assange: Human Rights & Alternative Modes of Organising" frameborder="0" allowfullscreen></iframe>
 
-**2025-10-02** - Logos Dev Club - Vibe Coding in RUST with Waku - October 8, 2025
+**2025-10-09** - Logos Dev Club - Vibe Coding in RUST with Waku - October 8, 2025
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/JBeg-p5meIk" title="Logos Dev Club - Vibe Coding in RUST with Waku - October 8, 2025" frameborder="0" allowfullscreen></iframe>
 
@@ -118,9 +118,9 @@
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/Od-ixXNOTx4" title="Logos Podcast - Edward Snowden: Censorship Resistance, Cyber States & Privacy" frameborder="0" allowfullscreen></iframe>
 
-**2025-10-01** - Building a Hackathon Project for RealFi Hack with Waku (Logos tech stack)
+**2025-10-01** - Building a hackathon project for RealFi Hack with Waku (Logos tech stack)
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/RHACJauY2-M" title="Building a Hackathon Project for RealFi Hack with Waku (Logos tech stack)" frameborder="0" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/RHACJauY2-M" title="Building a hackathon project for RealFi Hack with Waku (Logos tech stack)" frameborder="0" allowfullscreen></iframe>
 
 **2025-10-29** - Farewell to Westphalia: Available to read now
 
