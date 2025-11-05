@@ -1,1 +1,40 @@
-townhall helper 
+# **2025-11-05 WEEKLY REPORT**
+## Blog Posts
+
+* **Nomos**:
+
+  * **2025-11-04** - [Nomos Monthly October 2025](https://blog.nomos.tech/nomos-monthly-october-2025)
+    _October was a productive and defining month for the Nomos project, mar..._
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2025-10-31** - 
+<span class="category">General</span>  -  [App proposal - decentralized antivirus and cyber security application](https://forum.logos.co/t/app-proposal-decentralized-antivirus-and-cyber-security-application/1421/1)
+
+
+## YouTube Videos
+
+**2025-10-29** - Is it time to say Farewell to Westphalia?
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/9iERn7P0R0c?rel=0" title="Is it time to say Farewell to Westphalia?" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-29** - Farewell to Westphalia: Available to read now
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/T0kNpazXeWU?rel=0" title="Farewell to Westphalia: Available to read now" frameborder="0" allowfullscreen></iframe>
+
+**2025-10-30** - IFT Townhall - Oct 30, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/lJ1Bm8X_ez4?rel=0" title="IFT Townhall - Oct 30, 2025" frameborder="0" allowfullscreen></iframe>
+
+
+## Releases
+
+* **Nimbus**:
+
+  * **2025-11-03** nimbus-eth1 - [v0.2.2](https://github.com/status-im/nimbus-eth1/releases/tag/v0.2.2)
+  * **2025-10-31** nimbus-eth2 - [v25.10.0](https://github.com/status-im/nimbus-eth2/releases/tag/v25.10.0)
+  * **2025-11-03** nimbus-eth2 - [v25.11.0](https://github.com/status-im/nimbus-eth2/releases/tag/v25.11.0)
+
+
