@@ -18,15 +18,15 @@
 
 **2025-10-29** - Is it time to say Farewell to Westphalia?
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/9iERn7P0R0c" title="Is it time to say Farewell to Westphalia?" frameborder="0" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/9iERn7P0R0c?rel=0" title="Is it time to say Farewell to Westphalia?" frameborder="0" allowfullscreen></iframe>
 
 **2025-10-29** - Farewell to Westphalia: Available to read now
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/T0kNpazXeWU" title="Farewell to Westphalia: Available to read now" frameborder="0" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/T0kNpazXeWU?rel=0" title="Farewell to Westphalia: Available to read now" frameborder="0" allowfullscreen></iframe>
 
 **2025-10-30** - IFT Townhall - Oct 30, 2025
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/lJ1Bm8X_ez4" title="IFT Townhall - Oct 30, 2025" frameborder="0" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/lJ1Bm8X_ez4?rel=0" title="IFT Townhall - Oct 30, 2025" frameborder="0" allowfullscreen></iframe>
 
 
 ## Releases
