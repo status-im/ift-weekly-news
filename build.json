@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-11-05T09:46:11Z",
+    "timestamp": "2025-11-05T10:26:39Z",
     "git": {
-        "commit": "39bb395ee85d049d3fd7e2e1d6ea6d5f57785db4",
+        "commit": "1ade97e804f66cbb433271b56b0086072e8a53bd",
         "branch": "origin/master",
         "url": "git@github.com:status-im/ift-weekly-news.git"
     },
     "build": {
-        "id": "59",
-        "number": "59",
+        "id": "60",
+        "number": "60",
         "name": "website/news.free.technology",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/news.free.technology/59/"
+        "url": "https://ci.infra.status.im/job/website/job/news.free.technology/60/"
     }
 }
