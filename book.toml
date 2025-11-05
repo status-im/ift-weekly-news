@@ -13,3 +13,4 @@ no-section-label = true
 additional-css = ["theme/custom.css"]
 git-repository-url = "https://github.com/status-im/ift-weekly-news"
 git-branch = "master"
+sanitize = false
