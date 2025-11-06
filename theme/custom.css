@@ -1,5 +1,20 @@
 /* Custom styles for IFT Weekly News */
 
+/* Typography 
+body {
+  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
+}
+
+/* Sans-serif for UI elements */
+.sidebar, nav, button, .menu-bar {
+  font-family: 'Segoe UI', Helvetica, 'DejaVu Sans', -apple-system, BlinkMacSystemFont, Roboto, Lato, Arial, sans-serif;
+}
+
+/* Monospace for code */
+code, pre, .hljs {
+  font-family: Consolas, Monaco, 'DejaVu Sans Mono', monospace;
+}
+
 .category {
   color: #8b5cf6;
   font-weight: bold;
