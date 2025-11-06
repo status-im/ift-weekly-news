@@ -6,15 +6,12 @@
 }
 
 /* Make collapsible section headers (Weekly/Monthly Reports) more prominent */
-strong {
+/* Target the parent list items that have children (collapsible sections) */
+.sidebar .chapter > li.chapter-item.expanded > div > a,
+.sidebar .chapter > li.chapter-item > div > a {
   color: #ffffff !important;
   font-weight: 900 !important;
   font-size: 1.15em !important;
   letter-spacing: 1.5px !important;
-}
-
-/* Target the sidebar links that contain strong tags */
-.sidebar a:has(strong),
-nav a:has(strong) {
-  color: #ffffff !important;
+  text-transform: uppercase !important;
 }
