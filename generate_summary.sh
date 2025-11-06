@@ -32,26 +32,24 @@ if [ ${#weekly_files[@]} -gt 0 ]; then
     echo "" >> "$SUMMARY_FILE"
 fi
 
-# Add "Weekly Reports" section with ALL weekly reports
+# Add "Weekly Reports" section with ALL weekly reports as collapsible dropdown
 if [ ${#weekly_files[@]} -gt 0 ]; then
-    echo "# Weekly Reports" >> "$SUMMARY_FILE"
-    echo "" >> "$SUMMARY_FILE"
+    echo "- [Weekly Reports]()" >> "$SUMMARY_FILE"
     for file in "${weekly_files[@]}"; do
         filename=$(basename "$file")
         title="${filename%.markdown}"
-        echo "- [$title](./weekly/$filename)" >> "$SUMMARY_FILE"
+        echo "  - [$title](./weekly/$filename)" >> "$SUMMARY_FILE"
     done
     echo "" >> "$SUMMARY_FILE"
 fi
 
-# Add "Monthly Reports" section
+# Add "Monthly Reports" section as collapsible dropdown
 if [ ${#monthly_files[@]} -gt 0 ]; then
-    echo "# Monthly Reports" >> "$SUMMARY_FILE"
-    echo "" >> "$SUMMARY_FILE"
+    echo "- [Monthly Reports]()" >> "$SUMMARY_FILE"
     for file in "${monthly_files[@]}"; do
         filename=$(basename "$file")
         title="${filename%.markdown}"
-        echo "- [$title](./monthly/$filename)" >> "$SUMMARY_FILE"
+        echo "  - [$title](./monthly/$filename)" >> "$SUMMARY_FILE"
     done
     echo "" >> "$SUMMARY_FILE"
 fi

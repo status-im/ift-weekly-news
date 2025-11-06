@@ -1,4 +1,4 @@
- # IFT Weekly News
+ # IFT News
 
 The repository build [https://news.free.technology](https://news.free.technology).
 
