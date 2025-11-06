@@ -6,11 +6,15 @@
 }
 
 /* Make collapsible section headers (Weekly/Monthly Reports) more prominent */
-.sidebar-scrollbox .chapter li.chapter-item > div strong,
-.sidebar-scrollbox .chapter li.chapter-item > a strong,
-.sidebar .chapter li strong {
+strong {
   color: #ffffff !important;
   font-weight: 900 !important;
-  font-size: 1.1em !important;
-  letter-spacing: 1px !important;
+  font-size: 1.15em !important;
+  letter-spacing: 1.5px !important;
+}
+
+/* Target the sidebar links that contain strong tags */
+.sidebar a:has(strong),
+nav a:has(strong) {
+  color: #ffffff !important;
 }

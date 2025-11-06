@@ -34,7 +34,7 @@ fi
 
 # Add "Weekly Reports" section with ALL weekly reports as collapsible dropdown
 if [ ${#weekly_files[@]} -gt 0 ]; then
-    echo "- [**WEEKLY REPORTS**]()" >> "$SUMMARY_FILE"
+    echo "- [<strong>WEEKLY REPORTS</strong>]()" >> "$SUMMARY_FILE"
     for file in "${weekly_files[@]}"; do
         filename=$(basename "$file")
         title="${filename%.markdown}"
@@ -45,7 +45,7 @@ fi
 
 # Add "Monthly Reports" section as collapsible dropdown
 if [ ${#monthly_files[@]} -gt 0 ]; then
-    echo "- [**MONTHLY REPORTS**]()" >> "$SUMMARY_FILE"
+    echo "- [<strong>MONTHLY REPORTS</strong>]()" >> "$SUMMARY_FILE"
     for file in "${monthly_files[@]}"; do
         filename=$(basename "$file")
         title="${filename%.markdown}"
