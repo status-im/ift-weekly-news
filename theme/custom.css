@@ -6,12 +6,13 @@
 }
 
 /* Make collapsible section headers (Weekly/Monthly Reports) more prominent */
-.chapter li.chapter-item > a {
-  font-size: 1.1em;
-  font-weight: 700;
-  color: #ffffff;
+.sidebar .chapter > li.chapter-item.expanded > div > a,
+.sidebar .chapter > li.chapter-item > div > a {
+  font-size: 1.15em !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  letter-spacing: 0.8px;
+  padding-top: 0.8em;
+  padding-bottom: 0.3em;
 }
