@@ -1,0 +1,41 @@
+# **2025-11-17 WEEKLY REPORT**
+## Blog Posts
+
+* **Nomos**:
+
+  * **2025-11-10** - [Message Encapsulation in the Nomos Blend Network](https://blog.nomos.tech/message-encapsulation-in-the-nomos-blend-network)
+    _An indispensable component of Nomos, the Blend Network strengthens the..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2025-11-10** - 
+<span class="category">Meetups</span>  -  [Logos Circle Barcelona #3](https://forum.logos.co/t/logos-circle-barcelona-3/1434/1)
+  * **2025-11-14** - 
+<span class="category">General</span>  -  [Logos is entering a new chapter](https://forum.logos.co/t/logos-is-entering-a-new-chapter/1437/1)
+  * **2025-11-13** - 
+<span class="category">Meetups</span>  -  [Logos Circle San José #2 - Highlights](https://forum.logos.co/t/logos-circle-san-jose-2-highlights/1436/1)
+
+* **Vac**:
+
+  * **2025-11-13** - 
+<span class="category">Uncategorized</span>  -  [Libp2p Day @ DevConnect Update](https://forum.vac.dev/t/libp2p-day-devconnect-update/590/1)
+
+
+## YouTube Videos
+
+**2025-11-12** - Logos Circle: Online, November 11, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/8JD7ywajd30?rel=0" title="Logos Circle: Online, November 11, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2025-11-13** - Prototypes and Privacy
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/I4EpwdQN6ss?rel=0" title="Prototypes and Privacy" frameborder="0" allowfullscreen></iframe>
+
+**2025-11-13** - Who is Logos?  Vaclav Pavlin
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/SqKfjHnz3kY?rel=0" title="Who is Logos?  Vaclav Pavlin" frameborder="0" allowfullscreen></iframe>
+
+
