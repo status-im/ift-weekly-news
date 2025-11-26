@@ -1,0 +1,32 @@
+# **2025-11-26 WEEKLY REPORT**
+## Blog Posts
+
+* **Nomos**:
+
+  * **2025-11-24** - [Rebrand Announcement](https://blog.nomos.tech/rebrand-announcement)
+    _Over the past months, the community has given us clear feedback: the L..._
+
+
+## Forum Posts
+
+* **Vac**:
+
+  * **2025-11-20** - 
+<span class="category">Logos</span>  -  [Price of Forgery Reputation System](https://forum.vac.dev/t/price-of-forgery-reputation-system/595/1)
+  * **2025-11-19** - 
+<span class="category">Vac</span>  -  [Using hashgraph p2p consensus for RLN memberships](https://forum.vac.dev/t/using-hashgraph-p2p-consensus-for-rln-memberships/594/1)
+  * **2025-11-24** - 
+<span class="category">Logos</span>  -  [Off-Chain Payment Protocols: Classification and Architectural Choice](https://forum.vac.dev/t/off-chain-payment-protocols-classification-and-architectural-choice/596/1)
+
+
+## YouTube Videos
+
+**2025-11-19** - How private messaging self-heals: Double Ratchet made simple
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/5sTNO8cXlO8?rel=0" title="How private messaging self-heals: Double Ratchet made simple" frameborder="0" allowfullscreen></iframe>
+
+**2025-11-19** - IFT Research Call - November 19, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/F9bS42Z7fi4?rel=0" title="IFT Research Call - November 19, 2025" frameborder="0" allowfullscreen></iframe>
+
+
