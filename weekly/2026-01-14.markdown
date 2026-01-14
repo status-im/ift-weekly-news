@@ -1,0 +1,64 @@
+# **2026-01-14 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-01-08** - [Status Network in 2025: Building a Gasless and Private Layer 2](https://status.app/blog/status-network-in-2025-building-a-gasless-and-private-layer-2)
+    _2025 was a foundational year for Status Network\. The focus was on buil..._
+  * **2026-01-09** - [Devconnect, Revisited: What we shared, what we learned, what we’re building](https://status.app/blog/devconnect-revisited-what-we-shared-what-we-learned-what-were-building)
+    _Two months after Devconnect, the conversations from that week still sh..._
+  * **2026-01-12** - [Building a Private, Gasless Network in Public: A 2025 Transparency Update](https://status.app/blog/building-a-private-gasless-network-in-public-a-2025-transparency-update)
+    _When people hear ‘gasless Layer 2’, their reaction is usually one of t..._
+
+* **Nomos**:
+
+  * **2026-01-08** - [2025 Year in Review](https://blog.nomos.tech/2025-year-in-review)
+    _The year 2025 marked a transformative period for the Logos Blockchain,..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-01-07** - 
+<span class="category">Circles</span>  -  [Circles Improvement Proposal #1: Roles + Snowflake Model](https://forum.logos.co/t/circles-improvement-proposal-1-roles-snowflake-model/1477/1)
+  * **2026-01-07** - 
+<span class="category">General</span>  -  [Free Permanent Web Hosting Using Ethereum Call-data](https://forum.logos.co/t/free-permanent-web-hosting-using-ethereum-call-data/1476/1)
+  * **2026-01-08** - 
+<span class="category">Press Engine</span>  -  [State of the Logos Network: November 2025](https://forum.logos.co/t/state-of-the-logos-network-november-2025/1480/1)
+
+
+## YouTube Videos
+
+**2026-01-08** - Digital Nomadism and OPSEC
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/BoEcI6Uuxew?rel=0" title="Digital Nomadism and OPSEC" frameborder="0" allowfullscreen></iframe>
+
+**2026-01-09** - IFT Townhall - January 09, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/IEqACr0b68I?rel=0" title="IFT Townhall - January 09, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2026-01-08** - Logos Dev Club - January 12, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/QD22oocTGTc?rel=0" title="Logos Dev Club - January 12, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-01-07** - Logos Circle: Online - January 6, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/b4Dix0BG_jY?rel=0" title="Logos Circle: Online - January 6, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-01-13** - Logos Circle: Online - January 13, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/nEEpE9QYr6E?rel=0" title="Logos Circle: Online - January 13, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-01-09** - IFT Research Call - January 7, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/xjlRHJEr7z4?rel=0" title="IFT Research Call - January 7, 2026" frameborder="0" allowfullscreen></iframe>
+
+
+## Releases
+
+* **Keycard**:
+
+  * **2026-01-12** keycard-shell - [v1.0.4](https://github.com/keycard-tech/keycard-shell/releases/tag/v1.0.4)
+
+
