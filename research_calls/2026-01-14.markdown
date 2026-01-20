@@ -1,0 +1,14 @@
+# January 14th 2026 - Anonymity in Decentralized File Sharing: Practical Limitations and Open Questions
+
+Please contact [ugur@status.im](mailto:filip@status.im) or [ksr@status.im](mailto:ksr@status.im) to schedule a presentation.
+
+**Links:**
+
+- [Video Link](https://www.youtube.com/watch?v=_w5Tc-a_8a8)
+- [Transcript Link](https://www.notion.so/IFT-Research-Call-11c8f96fb65c80b882d5cee6ab6bfe46?pvs=21)
+- [Slides](https://docs.google.com/presentation/d/1838MKj6d5KwM_qn3sZFy9pyMcxhATs5KpTHcYy6dghg/edit?usp=sharing)
+- [YouTube](https://www.youtube.com/watch?v=_w5Tc-a_8a8)
+
+### Agenda
+
+Mohammed from Logos Storage team will present on the subject of Anonymity in Decentralized File Sharing: Practical Limitations and Open Questions.

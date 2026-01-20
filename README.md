@@ -1,6 +1,6 @@
  # IFT News
 
-The repository build [https://news.free.technology](https://news.free.technology).
+The repository builds [https://news.free.technology](https://news.free.technology).
 
 This repository supports **townhall preparation** by collecting relevant weekly updates.
 
