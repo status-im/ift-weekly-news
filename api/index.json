@@ -4,7 +4,7 @@
     "weekly": {
       "latest": "https://news.free.technology/api/weekly/latest.json",
       "list": "https://news.free.technology/api/weekly/index.json",
-      "count": 14
+      "count": 15
     },
     "monthly": {
       "latest": "https://news.free.technology/api/monthly/latest.json",
@@ -13,5 +13,5 @@
     }
   },
   "documentation": "https://news.free.technology/",
-  "generated_at": "2026-02-01T14:01:24Z"
+  "generated_at": "2026-02-04T08:01:06Z"
 }
