@@ -1,0 +1,63 @@
+# **2026-02-11 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-02-04** - [Turtle opens Status Network vaults to a broader LP distribution](https://status.app/blog/turtle-opens-status-network-vaults-to-a-broader-lp-distribution)
+    _Status Network, the first fully gasless Layer 2, is now included in Tu..._
+
+* **Logos**:
+
+  * **2026-02-05** - [Logos Dev Update: January 2026](https://press.logos.co/article/developer-update-jan-2026)
+    _<p\>Over the past month, focus centred on Logos Testnet v0\.1 and the de..._
+  * **2026-02-09** - [State of the Logos Network: January 2026](https://press.logos.co/article/january-2026)
+    _<p\><i\>Parallel Society tickets go live, Logos Broadcast Network hits t..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-02-07** - 
+<span class="category">Articles</span>  -  [Building Freedom Without Gatekeepers](https://forum.logos.co/t/building-freedom-without-gatekeepers/1513/1)
+  * **2026-02-09** - 
+<span class="category">Circles</span>  -  [Logos Circle BRUSSELS, 02 2026](https://forum.logos.co/t/logos-circle-brussels-02-2026/1517/1)
+  * **2026-02-10** - 
+<span class="category">General</span>  -  [Logos Circle Benin City, February 2026 Meetup Report](https://forum.logos.co/t/logos-circle-benin-city-february-2026-meetup-report/1518/1)
+  * **2026-02-09** - 
+<span class="category">Articles</span>  -  [State of the Logos Network: January 2026](https://forum.logos.co/t/state-of-the-logos-network-january-2026/1516/1)
+
+
+## YouTube Videos
+
+**2026-02-05** - Logos Weekly Update - February 4, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/0wX3mDkZNGQ?rel=0" title="Logos Weekly Update - February 4, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-10** - Logos Circle: Online - February 10, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/1wFfqGRHOsQ?rel=0" title="Logos Circle: Online - February 10, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-06** - IFT Townhall - February 06, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/uWDNvGyi7aA?rel=0" title="IFT Townhall - February 06, 2025" frameborder="0" allowfullscreen></iframe>
+
+
+## Releases
+
+* **Keycard**:
+
+  * **2026-02-06** keycard-shell - [v1.1.0](https://github.com/keycard-tech/keycard-shell/releases/tag/v1.1.0)
+
+* **Logos**:
+
+  * **2026-02-06** nim-datastore - [0.2.2](https://github.com/logos-storage/nim-datastore/releases/tag/0.2.2)
+  * **2026-02-09** nim-datastore - [0.2.3](https://github.com/logos-storage/nim-datastore/releases/tag/0.2.3)
+
+* **Vac**:
+
+  * **2026-02-09** hashgraph-like-consensus - [Release v0.1.1](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.1.1)
+  * **2026-02-09** nim-cbor-serialization - [v0.2.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.2.0)
+  * **2026-02-10** nim-cbor-serialization - [v0.3.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.3.0)
+
+
