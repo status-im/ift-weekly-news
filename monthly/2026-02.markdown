@@ -1,0 +1,203 @@
+# **2026-02 MONTHLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-02-02** - [Migrate to Unified Status Mobile App](https://status.app/blog/migrate-to-unified-status-mobile-app)
+    _Still on the Legacy Status app? The new Status mobile app includes all..._
+  * **2026-02-04** - [Turtle opens Status Network vaults to a broader LP distribution](https://status.app/blog/turtle-opens-status-network-vaults-to-a-broader-lp-distribution)
+    _Status Network, the first fully gasless Layer 2, is now included in Tu..._
+  * **2026-02-10** - [Introducing FIRM: the native stablecoin of Status Network](https://status.app/blog/introducing-firm-the-native-stablecoin-of-status-network)
+    _Status Network is the first reputation\-based L2 for humans and bots en..._
+  * **2026-02-16** - [iOS patch v2\.36\.2: Fixed local backup](https://status.app/blog/ios-patch-v2-36-2-fixed-local-backup)
+    _We’ve published v2\.36\.2 patch update for iOS that fixes the local back..._
+  * **2026-02-27** - [Future Outlook for Privacy Tokens: From Opt\-In Anonymity to Privacy by Default](https://status.app/blog/future-outlook-for-privacy-tokens-from-opt-in-anonymity-to-privacy-by-default)
+    _The Evolution of the Privacy Token: From Anonymity to Usability Privac..._
+  * **2026-02-27** - [What Is a Soulbound Token? Non\-Transferable Reputation Explained](https://status.app/blog/what-is-a-soulbound-token-non-transferable-reputation-explained)
+    _A soulbound token \(SBT\) is a non\-transferable digital credential issue..._
+  * **2026-02-27** - [DEX vs CEX: Which Is Better for Trading in 2026?](https://status.app/blog/dex-vs-cex-which-is-better-for-trading-in-2026)
+    _A CEX \(centralized exchange\) like Coinbase or Binance holds your funds..._
+
+* **Logos**:
+
+  * **2026-02-24** - [The Logos Tech Stack: An Operating System for Sovereignty](https://press.logos.co/article/logos-as-an-operating-system)
+    _<p\>Logos is a modular, microkernel\-based stack for decentralised infra..._
+  * **2026-02-02** - [The Importance of Proposer Anonymity](https://press.logos.co/article/why-proposer-anonymity)
+    _<p\>Identifiable block proposers enable censorship, coercion, and stake..._
+  * **2026-02-05** - [Logos Dev Update: January 2026](https://press.logos.co/article/developer-update-jan-2026)
+    _<p\>Over the past month, focus centred on Logos Testnet v0\.1 and the de..._
+  * **2026-02-09** - [State of the Logos Network: January 2026](https://press.logos.co/article/january-2026)
+    _<p\><i\>Parallel Society tickets go live, Logos Broadcast Network hits t..._
+  * **2026-02-16** - [Metadata in the Age of AI Inference ](https://press.logos.co/article/metadata-ai-inference)
+    _<p\>Even when content is encrypted, metadata reveals who we are, how we..._
+  * **2026-02-19** - [Social Institutions in the Era of Blockchain\-Based Governance](https://press.logos.co/article/social-institutions-blockchain-governance)
+    _<p\>Beyond finance, blockchain is changing how collective decisions are..._
+  * **2026-02-19** - [Your Browser Has Already Betrayed You](https://press.logos.co/article/browser-betrayed-you)
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2026-02-13** - 
+<span class="category">Proposals</span> - [Logos on Spasm: Cypherpunk Lucid Dream](https://forum.logos.co/t/logos-on-spasm-cypherpunk-lucid-dream/1526/1)
+  * **2026-02-16** - 
+<span class="category">Tech</span> - [Your encrypted messages are private. Your metadata is not](https://forum.logos.co/t/your-encrypted-messages-are-private-your-metadata-is-not/1530/1)
+  * **2026-02-03** - 
+<span class="category">Circles</span> - [Logos Circle Mexico City _ 3rd Meetup Report](https://forum.logos.co/t/logos-circle-mexico-city-3rd-meetup-report/1505/1)
+  * **2026-02-19** - 
+<span class="category">Site Feedback</span> - [Come talk to us - our forum is open](https://forum.logos.co/t/come-talk-to-us-our-forum-is-open/1535/1)
+  * **2026-02-07** - 
+<span class="category">Articles</span> - [Building Freedom Without Gatekeepers](https://forum.logos.co/t/building-freedom-without-gatekeepers/1513/1)
+  * **2026-02-26** - 
+<span class="category">Circles</span> - [Logos Circle Ukraine — Launch Proposal](https://forum.logos.co/t/logos-circle-ukraine-launch-proposal/1547/1)
+  * **2026-02-09** - 
+<span class="category">Circles</span> - [Logos Circle BRUSSELS, 02 2026](https://forum.logos.co/t/logos-circle-brussels-02-2026/1517/1)
+  * **2026-02-23** - 
+<span class="category">Circles</span> - [Logos Circle Nairobi #3](https://forum.logos.co/t/logos-circle-nairobi-3/1542/1)
+  * **2026-02-20** - 
+<span class="category">Circles</span> - [Logos Circle Porto #2](https://forum.logos.co/t/logos-circle-porto-2/1538/1)
+  * **2026-02-10** - 
+<span class="category">Circles</span> - [Logos Circle Benin City, February 2026 Meetup Report](https://forum.logos.co/t/logos-circle-benin-city-february-2026-meetup-report/1518/1)
+  * **2026-02-28** - 
+<span class="category">Circles</span> - [Logos Circle Abuja #2](https://forum.logos.co/t/logos-circle-abuja-2/1551/1)
+  * **2026-02-17** - 
+<span class="category">Proposals</span> - [About the Proposals category](https://forum.logos.co/t/about-the-proposals-category/1533/1)
+  * **2026-02-09** - 
+<span class="category">Articles</span> - [State of the Logos Network: January 2026](https://forum.logos.co/t/state-of-the-logos-network-january-2026/1516/1)
+
+* **Status**:
+  * **2026-02-19** - 
+<span class="category">Announcements</span> - [In Need of Translation? Get in touch!](https://discuss.status.app/t/in-need-of-translation-get-in-touch/6671/1)
+  * **2026-02-11** - 
+<span class="category">Status Desktop</span> - [Sha Sum Checksum for app download files](https://discuss.status.app/t/sha-sum-checksum-for-app-download-files/6668/1)
+
+* **Vac**:
+  * **2026-02-10** - 
+<span class="category">Logos</span> - [Request for Draft Review: Intro to Logos Tech Stack and Testnet v0.1](https://forum.vac.dev/t/request-for-draft-review-intro-to-logos-tech-stack-and-testnet-v0-1/664/1)
+  * **2026-02-16** - 
+<span class="category">Logos</span> - [Block context in LEE: a design exploration](https://forum.vac.dev/t/block-context-in-lee-a-design-exploration/666/1)
+  * **2026-02-26** - 
+<span class="category">Logos</span> - [Analysis of RLN for Mix](https://forum.vac.dev/t/analysis-of-rln-for-mix/675/1)
+  * **2026-02-25** - 
+<span class="category">Logos</span> - [DMLS (IETF Internet-Draft) vs. de-MLS: A Comparison](https://forum.vac.dev/t/dmls-ietf-internet-draft-vs-de-mls-a-comparison/669/1)
+  * **2026-02-23** - 
+<span class="category">Logos</span> - [RLN verification in Status Gasless L2](https://forum.vac.dev/t/rln-verification-in-status-gasless-l2/668/1)
+  * **2026-02-26** - 
+<span class="category">Logos</span> - [Off-Chain Payment Protocols on LEE](https://forum.vac.dev/t/off-chain-payment-protocols-on-lee/674/1)
+  * **2026-02-25** - 
+<span class="category">Vac</span> - [Introducing intops—a Nim library with arithmetic primitives for big integers](https://forum.vac.dev/t/introducing-intops-a-nim-library-with-arithmetic-primitives-for-big-integers/672/1)
+
+
+## YouTube Videos
+
+**2026-02-05** - Logos Weekly Update - February 4, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/0wX3mDkZNGQ" title="Logos Weekly Update - February 4, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-10** - Logos Circle: Online - February 10, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/1wFfqGRHOsQ" title="Logos Circle: Online - February 10, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-17** - Logos Weekly Update - February 18, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/4B8dwBq30bA" title="Logos Weekly Update - February 18, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-03** - Logos Dev Club - February 2, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/EH5-_Qufmwk" title="Logos Dev Club - February 2, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-19** - IFT Townhall - February 20, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Eq_6T4yw7l0" title="IFT Townhall - February 20, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-12** - Logos Weekly Update - February 11, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/K04ij_Rw_WM" title="Logos Weekly Update - February 11, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-18** - Logos Team Updates
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/KfPpmQTFPNc" title="Logos Team Updates" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-24** - λ Logos Weekly Update - February 25, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/bvIuPczGSMo" title="λ Logos Weekly Update - February 25, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-25** - Privacy is a Human Right
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/cxUWKtmuB_c" title="Privacy is a Human Right" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-12** - The Great Unbundling: Jurisdiction, Talent, and Parallel Societies
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/ddzYznSXTJA" title="The Great Unbundling: Jurisdiction, Talent, and Parallel Societies" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-24** - Logos Team Updates - Blockchain and LEZ
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/gSbQ8W9HRWo" title="Logos Team Updates - Blockchain and LEZ" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-17** - Logos Circle: Online - February 17, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/m4l20KW6Wbk" title="Logos Circle: Online - February 17, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-25** - Logos Team Updates - Storage and Messaging
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/nI_1PYwoy9s" title="Logos Team Updates - Storage and Messaging" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-24** - A technology stack for cypherpunks
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/olUyARBZapA" title="A technology stack for cypherpunks" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-23** - Logos Dev Club - February 23, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/rLeMeBHSk6U" title="Logos Dev Club - February 23, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-16** - Logos Dev Club - February 16, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/sl_G4moPDK4" title="Logos Dev Club - February 16, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-06** - IFT Townhall - February 06, 2025
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/uWDNvGyi7aA" title="IFT Townhall - February 06, 2025" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-19** - The Polycentric Order: Blockchain and the Future of the Institution
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/yZ7MHE6jHjI" title="The Polycentric Order: Blockchain and the Future of the Institution" frameborder="0" allowfullscreen></iframe>
+
+**2026-02-04** - Logos Circle: Online - February 3, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/yeoQa3omcvE" title="Logos Circle: Online - February 3, 2026" frameborder="0" allowfullscreen></iframe>
+
+
+## Releases
+
+* **Keycard**:
+
+  * **2026-02-06** keycard-shell - [v1.1.0](https://github.com/keycard-tech/keycard-shell/releases/tag/v1.1.0)
+  * **2026-02-27** keycard-shell - [v1.1.1](https://github.com/keycard-tech/keycard-shell/releases/tag/v1.1.1)
+
+* **Logos**:
+
+  * **2026-02-18** logos-blockchain - [Logos Blockchain Node 0.1.4](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.1.4)
+  * **2026-02-20** logos-blockchain - [Logos Blockchain Node 0.1.5](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.1.5)
+  * **2026-02-23** logos-blockchain - [Logos Blockchain Node 0.1.6](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.1.6)
+  * **2026-02-24** logos-blockchain - [Logos Blockchain Node 0.1.7](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.1.7)
+  * **2026-02-25** logos-blockchain - [Logos Blockchain Node 0.1.8](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.1.8)
+  * **2026-02-26** logos-blockchain - [Logos Blockchain Node 0.1.9](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.1.9)
+  * **2026-02-28** logos-scaffold - [v0.1.0](https://github.com/logos-co/logos-scaffold/releases/tag/v0.1.0)
+  * **2026-02-02** logos-storage-nim - [v0.3.1](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.3.1)
+  * **2026-02-06** nim-datastore - [0.2.2](https://github.com/logos-storage/nim-datastore/releases/tag/0.2.2)
+  * **2026-02-09** nim-datastore - [0.2.3](https://github.com/logos-storage/nim-datastore/releases/tag/0.2.3)
+
+* **Nimbus**:
+
+  * **2026-02-13** nimbus-eth2 - [v26.2.0](https://github.com/status-im/nimbus-eth2/releases/tag/v26.2.0)
+  * **2026-02-18** nimbus-eth2 - [v26.2.1](https://github.com/status-im/nimbus-eth2/releases/tag/v26.2.1)
+
+* **Vac**:
+
+  * **2026-02-12** de-mls - [v2.1.0](https://github.com/vacp2p/de-mls/releases/tag/v2.1.0)
+  * **2026-02-09** hashgraph-like-consensus - [Release v0.1.1](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.1.1)
+  * **2026-02-09** nim-cbor-serialization - [v0.2.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.2.0)
+  * **2026-02-10** nim-cbor-serialization - [v0.3.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.3.0)
+  * **2026-02-02** nim-libp2p - [v1.15.2](https://github.com/vacp2p/nim-libp2p/releases/tag/v1.15.2)
+
+
