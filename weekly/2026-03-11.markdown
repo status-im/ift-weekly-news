@@ -1,0 +1,57 @@
+# **2026-03-11 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-03-07** - [What Is Account Abstraction? ERC\-4337 and Gasless UX](https://status.app/blog/what-is-account-abstraction)
+    _Account abstraction separates who authorizes a transaction from who pa..._
+  * **2026-03-08** - [What Is Ethereum Rollup Technology? Optimistic vs Zero\-Knowledge Rollups](https://status.app/blog/ethereum-rollup-technology-optimistic-zk)
+    _Ethereum rollups are Layer 2 networks that batch thousands of transact..._
+  * **2026-03-08** - [What Is Yield Farming? How Native Yield Differs From Traditional DeFi Farming](https://status.app/blog/yield-farming-vs-native-yield)
+    _Yield farming is an active DeFi strategy where users move capital betw..._
+  * **2026-03-04** - [Orvex DEX: Zero\-Fee Trading on Status Network](https://status.app/blog/orvex-dex-zero-fee-trading)
+    _Orvex is the native decentralized exchange \(DEX\) built on Status Netwo..._
+  * **2026-03-08** - [What Is EIP\-4844? Proto\-Danksharding and Cheaper Layer 2 Fees](https://status.app/blog/what-is-eip-4844-proto-danksharding-l2-fees)
+    _EIP\-4844, activated in Ethereum's March 2024 Dencun upgrade, introduce..._
+  * **2026-03-08** - [What Is On\-Chain Governance? Token Voting vs Earned Reputation](https://status.app/blog/what-is-on-chain-governance)
+    _On\-chain governance lets participants vote on protocol decisions witho..._
+  * **2026-03-04** - [Status Network Economic Model: Yield, Funding Pool, and Zero Gas](https://status.app/blog/status-network-economic-model-yield-funding-pool-and-zero-gas)
+    _Status Network is a fully gasless Ethereum Layer 2 built on reputation..._
+  * **2026-03-07** - [What Is a Stablecoin? Backed, Algorithmic, and Yield\-Bearing Types](https://status.app/blog/what-is-a-stablecoin-backed-algorithmic-and-yield-bearing-types)
+    _A stablecoin is a crypto token pegged to a stable asset, usually the U..._
+  * **2026-03-08** - [What Is a Blockchain Bridge? Cross\-Chain Asset Transfers Explained](https://status.app/blog/what-is-a-blockchain-bridge-cross-chain)
+    _A blockchain bridge is a protocol that moves assets between two separa..._
+  * **2026-03-08** - [What Is zkEVM? How Linea and Status Network Use Zero\-Knowledge EVM](https://status.app/blog/zkevm-zero-knowledge-ethereum-virtual-machine)
+    _A zkEVM \(zero\-knowledge Ethereum Virtual Machine\) is an Ethereum Layer..._
+  * **2026-03-08** - [What Is Collateralized Debt Position \(CDP\)? How FIRM Creates USF Stablecoin](https://status.app/blog/collateralized-debt-position-cdp-firm-usf)
+    _A collateralized debt position \(CDP\) lets you lock crypto assets in a ..._
+  * **2026-03-09** - [What Is Zero\-Knowledge Proof \(ZKP\)? How Status Network Uses ZK for Privacy](https://status.app/blog/zero-knowledge-proof-zk-privacy-status)
+    _A zero\-knowledge proof \(ZKP\) lets one party prove a statement is true ..._
+  * **2026-03-09** - [What Is a Liquidity Pool? How Orvex DEX Uses LPs Instead of Order Books](https://status.app/blog/liquidity-pool-amm-orvex-dex-status)
+    _A liquidity pool is a smart contract holding paired tokens that trader..._
+
+* **Logos**:
+
+  * **2026-03-05** - [State of the Logos Network: February 2026](https://press.logos.co/article/feb-2026)
+    _<p\>Logos Testnet v0\.1 imminent, Parallel Society final tickets and sta..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-03-09** - 
+<span class="category">Articles</span>  -  [State of the Logos Network: February 2026](https://forum.logos.co/t/state-of-the-logos-network-february-2026/1558/1)
+  * **2026-03-06** - 
+<span class="category">Circles</span>  -  [Logos Circle Enugu #2](https://forum.logos.co/t/logos-circle-enugu-2/1557/1)
+  * **2026-03-05** - 
+<span class="category">Circles</span>  -  [Barcelona's circles recap (#4, #5 and #6)](https://forum.logos.co/t/barcelonas-circles-recap-4-5-and-6/1556/1)
+
+* **Vac**:
+
+  * **2026-03-05** - 
+<span class="category">Uncategorized</span>  -  [Timing Correlation Risks in Mixnet Delay Strategies](https://forum.vac.dev/t/timing-correlation-risks-in-mixnet-delay-strategies/677/1)
+  * **2026-03-08** - 
+<span class="category">Uncategorized</span>  -  [Price of forgery Protocol](https://forum.vac.dev/t/price-of-forgery-protocol/679/1)
+
+
