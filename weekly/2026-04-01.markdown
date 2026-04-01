@@ -1,0 +1,63 @@
+# **2026-04-01 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-03-25** - [How Do Layer 2 Networks Make Money? The Business Model Explained](https://status.app/blog/how-do-layer-2s-make-money)
+    _Layer 2 networks earn revenue through sequencer fees, native yield fro..._
+  * **2026-03-25** - [What Is Impermanent Loss? The Hidden Risk of Providing Liquidity](https://status.app/blog/what-is-impermanent-loss-liquidity-provider-risk)
+    _Impermanent loss is the difference in value between holding tokens in ..._
+  * **2026-03-27** - [What Is a Stealth Address? How Blockchain Privacy Actually Works](https://status.app/blog/what-is-a-stealth-address-blockchain-privacy)
+    _A stealth address is a one\-time cryptographic address generated fresh ..._
+  * **2026-03-27** - [What Is a Nullifier in Zero\-Knowledge Cryptography? How Double\-Spend Is Prevented](https://status.app/blog/what-is-a-nullifier-zero-knowledge-cryptography)
+    _nullifier is a unique tag derived from a secret key\. It marks that an ..._
+  * **2026-03-30** - [What Is On\-Chain Identity? DIDs, Soulbound Tokens, and Verifiable Credentials](https://status.app/blog/what-is-on-chain-identity-dids-soulbound-tokens)
+    _On\-chain identity lets users prove who they are using blockchain data\...._
+  * **2026-03-30** - [Rate Limiting Nullifiers \(RLN\) Explained: ZK Spam Protection](https://status.app/blog/rate-limiting-nullifiers-rln-explained)
+    _Rate Limiting Nullifiers \(RLN\) are zero\-knowledge cryptographic protoc..._
+
+* **Logos**:
+
+  * **2026-03-30** - [Decentralise the Log, Not the Server](https://press.logos.co/article/decentralise-log-not-server)
+    _<p\>This article explores why conventional approaches to sharing state ..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-03-27** - 
+<span class="category">Circles</span>  -  [Logos Circle Cape Town #1](https://forum.logos.co/t/logos-circle-cape-town-1/1579/1)
+
+* **Vac**:
+
+  * **2026-03-26** - 
+<span class="category">Vac</span>  -  [RLN Partial Proofs in Practice](https://forum.vac.dev/t/rln-partial-proofs-in-practice/686/1)
+
+
+## YouTube Videos
+
+**2026-03-26** - AI Privacy & Sovereignty - Logos Dev Club - March 25, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/LSjnpMTrQl0?rel=0" title="AI Privacy & Sovereignty - Logos Dev Club - March 25, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-03-31** - Logos Blockchain - Logos Dev Club - March 30, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Nm2Q_MiR_WM?rel=0" title="Logos Blockchain - Logos Dev Club - March 30, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-03-25** - Logos Circle: Online - March 24, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/PC0miXVhlnQ?rel=0" title="Logos Circle: Online - March 24, 2026" frameborder="0" allowfullscreen></iframe>
+
+**2026-03-26** - Testnet v0.1 - Logos Dev Club - March 25, 2026
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Qwe9hRn3lWA?rel=0" title="Testnet v0.1 - Logos Dev Club - March 25, 2026" frameborder="0" allowfullscreen></iframe>
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-03-25** logos-delivery - [Release v0.37.3](https://github.com/logos-messaging/logos-delivery/releases/tag/v0.37.3)
+
+
