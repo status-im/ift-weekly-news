@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<html lang="en" class="ayu" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2026-03 - IFT News</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../weekly/2026-04-01.html">2026-04-01</a></li><li class="chapter-item "><div>WEEKLY REPORTS</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../weekly/2026-04-01.html">2026-04-01</a></li><li class="chapter-item "><a href="../weekly/2026-03-25.html">2026-03-25</a></li><li class="chapter-item "><a href="../weekly/2026-03-18.html">2026-03-18</a></li><li class="chapter-item "><a href="../weekly/2026-03-11.html">2026-03-11</a></li><li class="chapter-item "><a href="../weekly/2026-03-04.html">2026-03-04</a></li><li class="chapter-item "><a href="../weekly/2026-02-25.html">2026-02-25</a></li><li class="chapter-item "><a href="../weekly/2026-02-18.html">2026-02-18</a></li><li class="chapter-item "><a href="../weekly/2026-02-11.html">2026-02-11</a></li><li class="chapter-item "><a href="../weekly/2026-02-04.html">2026-02-04</a></li><li class="chapter-item "><a href="../weekly/2026-01-28.html">2026-01-28</a></li><li class="chapter-item "><a href="../weekly/2026-01-21.html">2026-01-21</a></li><li class="chapter-item "><a href="../weekly/2026-01-14.html">2026-01-14</a></li><li class="chapter-item "><a href="../weekly/2026-01-07.html">2026-01-07</a></li><li class="chapter-item "><a href="../weekly/2025-12-31.html">2025-12-31</a></li><li class="chapter-item "><a href="../weekly/2025-12-24.html">2025-12-24</a></li><li class="chapter-item "><a href="../weekly/2025-12-17.html">2025-12-17</a></li><li class="chapter-item "><a href="../weekly/2025-12-10.html">2025-12-10</a></li><li class="chapter-item "><a href="../weekly/2025-12-03.html">2025-12-03</a></li><li class="chapter-item "><a href="../weekly/2025-11-26.html">2025-11-26</a></li><li class="chapter-item "><a href="../weekly/2025-11-19.html">2025-11-19</a></li><li class="chapter-item "><a href="../weekly/2025-11-17.html">2025-11-17</a></li><li class="chapter-item "><a href="../weekly/2025-11-05.html">2025-11-05</a></li><li class="chapter-item "><a href="../weekly/2025-10-31.html">2025-10-31</a></li></ol></li><li class="chapter-item expanded "><div>MONTHLY REPORTS</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../monthly/2026-03.html" class="active">2026-03</a></li><li class="chapter-item "><a href="../monthly/2026-02.html">2026-02</a></li><li class="chapter-item "><a href="../monthly/2026-01.html">2026-01</a></li><li class="chapter-item "><a href="../monthly/2025-12.html">2025-12</a></li><li class="chapter-item "><a href="../monthly/2025-11.html">2025-11</a></li><li class="chapter-item "><a href="../monthly/2025-10.html">2025-10</a></li><li class="chapter-item "><a href="../monthly/2025-09.html">2025-09</a></li><li class="chapter-item "><a href="../monthly/2025-08.html">2025-08</a></li><li class="chapter-item "><a href="../monthly/2025-07.html">2025-07</a></li><li class="chapter-item "><a href="../monthly/2025-06.html">2025-06</a></li><li class="spacer"></li></ol></li><li class="chapter-item "><a href="../About.html">About</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">IFT News</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/status-im/ift-weekly-news" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="2026-03-monthly-report"><a class="header" href="#2026-03-monthly-report"><strong>2026-03 MONTHLY REPORT</strong></a></h1>
+<h2 id="blog-posts"><a class="header" href="#blog-posts">Blog Posts</a></h2>
+<ul>
+<li>
+<p><strong>Status</strong>:</p>
+<ul>
+<li><strong>2026-03-07</strong> - <a href="https://status.app/blog/what-is-account-abstraction">What Is Account Abstraction? ERC-4337 and Gasless UX</a>
+<em>Account abstraction separates who authorizes a transaction from who pa...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/ethereum-rollup-technology-optimistic-zk">What Is Ethereum Rollup Technology? Optimistic vs Zero-Knowledge Rollups</a>
+<em>Ethereum rollups are Layer 2 networks that batch thousands of transact...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/yield-farming-vs-native-yield">What Is Yield Farming? How Native Yield Differs From Traditional DeFi Farming</a>
+<em>Yield farming is an active DeFi strategy where users move capital betw...</em></li>
+<li><strong>2026-03-04</strong> - <a href="https://status.app/blog/orvex-dex-zero-fee-trading">Orvex DEX: Zero-Fee Trading on Status Network</a>
+<em>Orvex is the native decentralized exchange (DEX) built on Status Netwo...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/what-is-on-chain-governance">What Is On-Chain Governance? Token Voting vs Earned Reputation</a>
+<em>On-chain governance lets participants vote on protocol decisions witho...</em></li>
+<li><strong>2026-03-04</strong> - <a href="https://status.app/blog/status-network-economic-model-yield-funding-pool-and-zero-gas">Status Network Economic Model: Yield, Funding Pool, and Zero Gas</a>
+<em>Status Network is a fully gasless Ethereum Layer 2 built on reputation...</em></li>
+<li><strong>2026-03-07</strong> - <a href="https://status.app/blog/what-is-a-stablecoin-backed-algorithmic-and-yield-bearing-types">What Is a Stablecoin? Backed, Algorithmic, and Yield-Bearing Types</a>
+<em>A stablecoin is a crypto token pegged to a stable asset, usually the U...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/what-is-a-blockchain-bridge-cross-chain">What Is a Blockchain Bridge? Cross-Chain Asset Transfers Explained</a>
+<em>A blockchain bridge is a protocol that moves assets between two separa...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/collateralized-debt-position-cdp-firm-usf">What Is Collateralized Debt Position (CDP)? How FIRM Creates USF Stablecoin</a>
+<em>A collateralized debt position (CDP) lets you lock crypto assets in a ...</em></li>
+<li><strong>2026-03-13</strong> - <a href="https://status.app/blog/what-is-data-availability-blockchain-layer-2">What Is Data Availability in Blockchain? Why Layer 2s Depend on It</a>
+<em>Data Availability (DA) is the cryptographic guarantee that all transac...</em></li>
+<li><strong>2026-03-09</strong> - <a href="https://status.app/blog/liquidity-pool-amm-orvex-dex-status">What Is a Liquidity Pool? How Orvex DEX Uses LPs Instead of Order Books</a>
+<em>A liquidity pool is a smart contract holding paired tokens that trader...</em></li>
+<li><strong>2026-03-13</strong> - <a href="https://status.app/blog/what-is-ethereum-gas-transaction-fees">What Is Ethereum Gas? Why Transactions Cost Money and How L2s Fix It</a>
+<em>Ethereum gas is a unit that measures the computational work needed to ...</em></li>
+<li><strong>2026-03-13</strong> - <a href="https://status.app/blog/the-dawn-of-nano-transaction-economics-beyond-the-friction-of-gas">The Dawn of Nano-Transaction Economics: Beyond the Friction of Gas</a>
+<em>For years, the promise of blockchain technology has been hindered by a...</em></li>
+<li><strong>2026-03-13</strong> - <a href="https://status.app/blog/what-is-ethereum-dencun-upgrade-layer-2-fees">What Is Ethereum Dencun? How the Upgrade Slashed Layer 2 Fees</a>
+<em>The Ethereum Dencun upgrade, activated on March 13, 2024, introduced E...</em></li>
+<li><strong>2026-03-17</strong> - <a href="https://status.app/blog/gasless-l2-vs-paymasters">Gasless L2 vs Paymasters: What's the Real Difference?</a>
+<em>Most Layer 2 networks today still use gas fees. Even when those fees a...</em></li>
+<li><strong>2026-03-17</strong> - <a href="https://status.app/blog/what-is-gusd-meta-stablecoin">What Is GUSD? The Yield-Generating Meta-Stablecoin on Status Network</a>
+<em>GUSD is a yield-bearing meta-stablecoin built for Status Network. Depo...</em></li>
+<li><strong>2026-03-19</strong> - <a href="https://status.app/blog/status-v2-37-more-control-over-your-digital-footprint-view-on-chain-friends-linea-support-keycard-dapps-on-mobile-smart-qr-code-scan-and-more">Status v2.37: More control over your digital footprint, view on-chain friends, Linea support, Keycard &amp; dApps on mobile, smart QR code scan, and more</a>
+<em>Release Roundup Status v2.37 brings you: * More control over your digi...</em></li>
+<li><strong>2026-03-25</strong> - <a href="https://status.app/blog/how-do-layer-2s-make-money">How Do Layer 2 Networks Make Money? The Business Model Explained</a>
+<em>Layer 2 networks earn revenue through sequencer fees, native yield fro...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/zkevm-zero-knowledge-ethereum-virtual-machine">What Is zkEVM? How Linea and Status Network Use Zero-Knowledge EVM</a>
+<em>A zkEVM (zero-knowledge Ethereum Virtual Machine) is an Ethereum Layer...</em></li>
+<li><strong>2026-03-19</strong> - <a href="https://status.app/blog/status-v2-37-is-out">Status v2.37 is out!</a>
+<em>Bringing you the more control over your digital footprint, view on-cha...</em></li>
+<li><strong>2026-03-19</strong> - <a href="https://status.app/blog/status-communities-get-reliable-messaging-with-the-sds-protocol">Status Communities Get Reliable Messaging with the SDS Protocol</a>
+<em>What is the SDS Protocol? SDS stands for Scalable Data Sync - a protoc...</em></li>
+<li><strong>2026-03-23</strong> - <a href="https://status.app/blog/introducing-bermuda-the-composable-privacy-layer-of-status-network">Introducing Bermuda: The Composable Privacy Layer of Status Network</a>
+<em>Status Network is the first reputation-based L2 designed for humans an...</em></li>
+<li><strong>2026-03-24</strong> - <a href="https://status.app/blog/what-is-defi-decentralized-finance-explained">What Is DeFi? Decentralized Finance Explained for Beginners</a>
+<em>DeFi (decentralized finance) is a system of financial apps built on bl...</em></li>
+<li><strong>2026-03-24</strong> - <a href="https://status.app/blog/why-ethereum-gas-fees-spike-eip-1559-explained">Why Do Ethereum Gas Fees Spike? Network Congestion and EIP-1559 Explained</a>
+<em>Ethereum gas fees spike when user demand for block space exceeds suppl...</em></li>
+<li><strong>2026-03-24</strong> - <a href="https://status.app/blog/sparse-merkle-tree-smt-rate-limiting">What Is Sparse Merkle Tree (SMT)? How RLN Uses SMT for Rate Limiting</a>
+<em>A Sparse Merkle Tree (SMT) is a fixed-size cryptographic tree where mo...</em></li>
+<li><strong>2026-03-24</strong> - <a href="https://status.app/blog/what-is-tvl-defi-total-value-locked">What Is Total Value Locked (TVL) in DeFi? How to Use It (and Its Limits)</a>
+<em>Total Value Locked (TVL) is the dollar value of all crypto assets depo...</em></li>
+<li><strong>2026-03-09</strong> - <a href="https://status.app/blog/zero-knowledge-proof-zk-privacy-status">What Is Zero-Knowledge Proof (ZKP)? How Status Network Uses ZK for Privacy</a>
+<em>A zero-knowledge proof (ZKP) lets one party prove a statement is true ...</em></li>
+<li><strong>2026-03-25</strong> - <a href="https://status.app/blog/what-is-impermanent-loss-liquidity-provider-risk">What Is Impermanent Loss? The Hidden Risk of Providing Liquidity</a>
+<em>Impermanent loss is the difference in value between holding tokens in ...</em></li>
+<li><strong>2026-03-08</strong> - <a href="https://status.app/blog/what-is-eip-4844-proto-danksharding-l2-fees">What Is EIP-4844? Proto-Danksharding and Cheaper Layer 2 Fees</a>
+<em>EIP-4844, activated in Ethereum's March 2024 Dencun upgrade, introduce...</em></li>
+<li><strong>2026-03-27</strong> - <a href="https://status.app/blog/what-is-a-stealth-address-blockchain-privacy">What Is a Stealth Address? How Blockchain Privacy Actually Works</a>
+<em>A stealth address is a one-time cryptographic address generated fresh ...</em></li>
+<li><strong>2026-03-27</strong> - <a href="https://status.app/blog/what-is-a-nullifier-zero-knowledge-cryptography">What Is a Nullifier in Zero-Knowledge Cryptography? How Double-Spend Is Prevented</a>
+<em>nullifier is a unique tag derived from a secret key. It marks that an ...</em></li>
+<li><strong>2026-03-30</strong> - <a href="https://status.app/blog/what-is-on-chain-identity-dids-soulbound-tokens">What Is On-Chain Identity? DIDs, Soulbound Tokens, and Verifiable Credentials</a>
+<em>On-chain identity lets users prove who they are using blockchain data....</em></li>
+<li><strong>2026-03-30</strong> - <a href="https://status.app/blog/rate-limiting-nullifiers-rln-explained">Rate Limiting Nullifiers (RLN) Explained: ZK Spam Protection</a>
+<em>Rate Limiting Nullifiers (RLN) are zero-knowledge cryptographic protoc...</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Nimbus</strong>:</p>
+<ul>
+<li><strong>2026-03-02</strong> - <a href="https://blog.nimbus.team/the-nimbus-unified-client">The Nimbus Unified Client</a>
+<em>Back to the Good Old Days of Running Ethereum There was a time—the pre...</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Keycard</strong>:</p>
+<ul>
+<li><strong>2026-03-16</strong> - <a href="https://keycard.tech/blog/keycard-shell-vs-ledger-what-makes-a-wallet-trusted">Keycard Shell vs Ledger: What Makes a Wallet Trusted?</a>
+<em>Hardware wallets come in many forms, but all have one primary purpose:...</em></li>
+<li><strong>2026-03-20</strong> - <a href="https://keycard.tech/blog/a-keycard-manifesto">A Keycard Manifesto</a>
+<em>(This is a repost of We need sovereign tools: a Keycard Manifesto post...</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-03-05</strong> - <a href="https://press.logos.co/article/feb-2026">State of the Logos Network: February 2026</a>
+<em>&lt;p&gt;Logos Testnet v0.1 imminent, Parallel Society final tickets and sta...</em></li>
+<li><strong>2026-03-18</strong> - <a href="https://press.logos.co/article/sovereign-zone-interoperability">The Secret to Sovereign Zone Interoperability on Logos</a>
+<em>&lt;p&gt;Discover how Mantle channels connect Sovereign Zones with atomic tr...</em></li>
+<li><strong>2026-03-16</strong> - <a href="https://press.logos.co/article/logos-testnet-v01">Logos Testnet v0.1: A Convergence Milestone</a>
+<em>&lt;p&gt;Logos Testnet v0.1 marks a convergence milestone towards a socio-ec...</em></li>
+<li><strong>2026-03-10</strong> - <a href="https://press.logos.co/article/developer-update-feb-2026">Logos Dev Update: February 2026</a>
+<em>&lt;p&gt;In February, development of the Logos stack prioritised the initial...</em></li>
+<li><strong>2026-03-24</strong> - <a href="https://press.logos.co/article/anonymous-block-proposers">Anonymous Block Proposers: How Logos Solves Leader Privacy</a>
+<em>&lt;p&gt;Private Proof-of-Stake allows block proposers to remain anonymous a...</em></li>
+<li><strong>2026-03-30</strong> - <a href="https://press.logos.co/article/decentralise-log-not-server">Decentralise the Log, Not the Server</a>
+<em>&lt;p&gt;This article explores why conventional state sharing fails, how rep...</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="forum-posts"><a class="header" href="#forum-posts">Forum Posts</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-03-18</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/circle-dev-exchange-idea/1569/1">Circle / Dev exchange idea</a></li>
+<li><strong>2026-03-24</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/planning-the-first-gathering-of-a-logos-circle/1577/1">Planning the first gathering of a Logos Circle</a></li>
+<li><strong>2026-03-22</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-ruse-2/1571/1">Logos Circle Ruse #2</a></li>
+<li><strong>2026-03-27</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-cape-town-1/1579/1">Logos Circle Cape Town #1</a></li>
+<li><strong>2026-03-24</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/anonymous-block-proposers-how-logos-solves-leader-privacy/1578/1">Anonymous Block Proposers: How Logos Solves Leader Privacy</a></li>
+<li><strong>2026-03-17</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-rome-1/1564/1">Logos Circle Rome #1</a></li>
+<li><strong>2026-03-10</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-benin-4/1560/1">Logos Circle Benin #4</a></li>
+<li><strong>2026-03-06</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-enugu-2/1557/1">Logos Circle Enugu #2</a></li>
+<li><strong>2026-03-05</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/barcelonas-circles-recap-4-5-and-6/1556/1">Barcelona's circles recap (#4, #5 and #6)</a></li>
+<li><strong>2026-03-23</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-mexico-city-3/1576/1">Logos Circle Mexico City _ #3</a></li>
+<li><strong>2026-03-01</strong> -
+<span class="category">Proposals</span> - <a href="https://forum.logos.co/t/dfi-ecosystem-x-logos-sovereign-intelligence-infrastructure-security-shield/1553/1">DFI Ecosystem x Logos: Sovereign Intelligence Infrastructure &amp; Security Shield</a></li>
+<li><strong>2026-03-01</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-around-bees-real-food-launch-proposal/1552/1">Logos Circle around Bees &amp; Real Food - Launch Proposal</a></li>
+<li><strong>2026-03-23</strong> -
+<span class="category">Tech</span> - <a href="https://forum.logos.co/t/progressive-depletion-minting-a-formally-verified-supply-control-mechanism-free-for-personal-use-and-community-projects/1574/1">Progressive Depletion Minting: a formally verified supply control mechanism, free for personal use and community projects</a></li>
+<li><strong>2026-03-09</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/state-of-the-logos-network-february-2026/1558/1">State of the Logos Network: February 2026</a></li>
+<li><strong>2026-03-18</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/the-secret-to-sovereign-zone-interoperability-on-logos/1570/1">The Secret to Sovereign Zone Interoperability on Logos</a></li>
+<li><strong>2026-03-16</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/logos-testnet-v0-1-a-convergence-milestone/1563/1">Logos Testnet v0.1: A Convergence Milestone</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2026-03-17</strong> -
+<span class="category">Logos</span> - <a href="https://forum.vac.dev/t/experiment-scope-for-testing-the-synchronization-de-mls-assumption/682/1">Experiment Scope for Testing the Synchronization de-MLS Assumption</a></li>
+<li><strong>2026-03-05</strong> -
+<span class="category">Uncategorized</span> - <a href="https://forum.vac.dev/t/timing-correlation-risks-in-mixnet-delay-strategies/677/1">Timing Correlation Risks in Mixnet Delay Strategies</a></li>
+<li><strong>2026-03-08</strong> -
+<span class="category">Uncategorized</span> - <a href="https://forum.vac.dev/t/price-of-forgery-protocol/679/1">Price of forgery Protocol</a></li>
+<li><strong>2026-03-26</strong> -
+<span class="category">Vac</span> - <a href="https://forum.vac.dev/t/rln-partial-proofs-in-practice/686/1">RLN Partial Proofs in Practice</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="youtube-videos"><a class="header" href="#youtube-videos">YouTube Videos</a></h2>
+<p><strong>2026-03-21</strong> - Testnet v0.1 &amp; Logos Basecamp Updates</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/67T5kFxJNEQ" title="Testnet v0.1 & Logos Basecamp Updates" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-20</strong> - AI Privacy &amp; Sovereignty - Logos Dev Club - March 25, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/LSjnpMTrQl0" title="AI Privacy & Sovereignty - Logos Dev Club - March 25, 2026" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-31</strong> - Logos Blockchain - Logos Dev Club - March 30, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Nm2Q_MiR_WM" title="Logos Blockchain - Logos Dev Club - March 30, 2026" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-18</strong> - Logos Circle: Online - March 17, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/OQFowymozBc" title="Logos Circle: Online - March 17, 2026" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-24</strong> - Logos Circle: Online - March 24, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/PC0miXVhlnQ" title="Logos Circle: Online - March 24, 2026" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-26</strong> - Testnet v0.1 - Logos Dev Club - March 25, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Qwe9hRn3lWA" title="Testnet v0.1 - Logos Dev Club - March 25, 2026" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-20</strong> - The Redistribution of Sovereignty</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/XAq14uyKwAw" title="The Redistribution of Sovereignty" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-02</strong> - Logos Dev Club - March 2, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/k8zN-aUCtFE" title="Logos Dev Club - March 2, 2026" frameborder="0" allowfullscreen></iframe>
+<p><strong>2026-03-11</strong> - Logos Circle: Online - March 11, 2026</p>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/vcnaq7k4-k0" title="Logos Circle: Online - March 11, 2026" frameborder="0" allowfullscreen></iframe>
+<h2 id="releases"><a class="header" href="#releases">Releases</a></h2>
+<ul>
+<li>
+<p><strong>Keycard</strong>:</p>
+<ul>
+<li><strong>2026-03-13</strong> keycard-shell - <a href="https://github.com/keycard-tech/keycard-shell/releases/tag/v1.1.2">v1.1.2</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-03-18</strong> logos-blockchain-circuits - <a href="https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.4.2">Circom Circuits v0.4.2</a></li>
+<li><strong>2026-03-03</strong> logos-blockchain - <a href="https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.0">Logos Blockchain Node 0.2.0</a></li>
+<li><strong>2026-03-03</strong> logos-blockchain - <a href="https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.1">Logos Blockchain Node 0.2.1</a></li>
+<li><strong>2026-03-12</strong> logos-delivery - <a href="https://github.com/logos-messaging/logos-delivery/releases/tag/v0.37.1">v0.37.1</a></li>
+<li><strong>2026-03-19</strong> logos-delivery - <a href="https://github.com/logos-messaging/logos-delivery/releases/tag/v0.37.2">v0.37.2</a></li>
+<li><strong>2026-03-25</strong> logos-delivery - <a href="https://github.com/logos-messaging/logos-delivery/releases/tag/v0.37.3">Release v0.37.3</a></li>
+<li><strong>2026-03-18</strong> logos-storage-go-bindings - <a href="https://github.com/logos-storage/logos-storage-go-bindings/releases/tag/v0.3.2">v0.3.2</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Nimbus</strong>:</p>
+<ul>
+<li><strong>2026-03-02</strong> nimbus-eth1 - <a href="https://github.com/status-im/nimbus-eth1/releases/tag/v0.3.0">v0.3.0</a></li>
+<li><strong>2026-03-02</strong> nimbus-eth2 - <a href="https://github.com/status-im/nimbus-eth2/releases/tag/v26.3.0">v26.3.0</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2026-03-19</strong> zerokit - <a href="https://github.com/vacp2p/zerokit/releases/tag/v2.0.0">v2.0.0</a></li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../weekly/2025-10-31.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../monthly/2026-02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../weekly/2025-10-31.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../monthly/2026-02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
