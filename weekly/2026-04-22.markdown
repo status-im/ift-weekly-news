@@ -1,0 +1,36 @@
+# **2026-04-22 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-04-15** - [Karma Tokenomics: designing a sustainable L2 based on reputation](https://status.app/blog/karma-tokenomics-designing-a-sustainable-l2-based-on-reputation)
+    _Every L2 building its revenue model on sequencing fees is building on ..._
+
+* **Logos**:
+
+  * **2026-04-17** - [Logos Testnet v0\.1 in Review](https://press.logos.co/article/testnet-v0-1-review)
+    _<p\>This article looks at what the data from Testnet v0\.1 shows, the mo..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-04-19** - 
+<span class="category">Circles</span>  -  [Logos Circle Nairobi #4](https://forum.logos.co/t/logos-circle-nairobi-4/1601/1)
+  * **2026-04-18** - 
+<span class="category">Circles</span>  -  [Logos Circle Ruse #3](https://forum.logos.co/t/logos-circle-ruse-3/1600/1)
+
+* **Vac**:
+
+  * **2026-04-17** - 
+<span class="category">Uncategorized</span>  -  [Super Steward role for de-MLS and modular de-MLS](https://forum.vac.dev/t/super-steward-role-for-de-mls-and-modular-de-mls/688/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-04-20** nim-serde - [v1.2.3](https://github.com/logos-storage/nim-serde/releases/tag/v1.2.3)
+
+
