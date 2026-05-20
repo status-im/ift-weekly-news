@@ -1,1 +1,29 @@
-townhall helper 
+# **2026-05-20 WEEKLY REPORT**
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-05-15** - 
+<span class="category">General</span>  -  [Logos Circles Kampala —May Meetup Report](https://forum.logos.co/t/logos-circles-kampala-may-meetup-report/1640/1)
+  * **2026-05-14** - 
+<span class="category">Crew wanted</span>  -  [About the Crew wanted category](https://forum.logos.co/t/about-the-crew-wanted-category/1639/1)
+  * **2026-05-16** - 
+<span class="category">Articles</span>  -  [Logos Dev Update: April 2026](https://forum.logos.co/t/logos-dev-update-april-2026/1641/1)
+
+* **Vac**:
+
+  * **2026-05-15** - 
+<span class="category">Logos</span>  -  [IFT Research Call - Draft-to-Funding: When Bets Can Influence Outcomes](https://forum.vac.dev/t/ift-research-call-draft-to-funding-when-bets-can-influence-outcomes/695/1)
+  * **2026-05-14** - 
+<span class="category">Logos</span>  -  [AI-Slop Steganographic Communication Channels](https://forum.vac.dev/t/ai-slop-steganographic-communication-channels/694/1)
+  * **2026-05-15** - 
+<span class="category">Uncategorized</span>  -  [Logos Oracle Network (LON) Requirements and Features](https://forum.vac.dev/t/logos-oracle-network-lon-requirements-and-features/696/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-05-19** logos-blockchain-circuits - [Circom Circuits v0.5.0](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.0)
+
+
