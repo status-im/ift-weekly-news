@@ -1,6 +1,11 @@
 {
   "reports": [
     {
+      "date": "2026-05-20",
+      "url": "https://news.free.technology/weekly/2026-05-20.html",
+      "api": "https://news.free.technology/api/weekly/2026-05-20.json"
+    },
+    {
       "date": "2026-05-06",
       "url": "https://news.free.technology/weekly/2026-05-06.html",
       "api": "https://news.free.technology/api/weekly/2026-05-06.json"
@@ -141,6 +146,6 @@
       "api": "https://news.free.technology/api/weekly/2025-10-31.json"
     }
   ],
-  "count": 28,
+  "count": 29,
   "type": "weekly"
 }
