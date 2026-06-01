@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html lang="en" class="ayu" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2026-05 - IFT News</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../weekly/2026-05-27.html">2026-05-27</a></li><li class="chapter-item "><div>WEEKLY REPORTS</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../weekly/2026-05-27.html">2026-05-27</a></li><li class="chapter-item "><a href="../weekly/2026-05-20.html">2026-05-20</a></li><li class="chapter-item "><a href="../weekly/2026-05-06.html">2026-05-06</a></li><li class="chapter-item "><a href="../weekly/2026-04-29.html">2026-04-29</a></li><li class="chapter-item "><a href="../weekly/2026-04-22.html">2026-04-22</a></li><li class="chapter-item "><a href="../weekly/2026-04-15.html">2026-04-15</a></li><li class="chapter-item "><a href="../weekly/2026-04-08.html">2026-04-08</a></li><li class="chapter-item "><a href="../weekly/2026-04-01.html">2026-04-01</a></li><li class="chapter-item "><a href="../weekly/2026-03-25.html">2026-03-25</a></li><li class="chapter-item "><a href="../weekly/2026-03-18.html">2026-03-18</a></li><li class="chapter-item "><a href="../weekly/2026-03-11.html">2026-03-11</a></li><li class="chapter-item "><a href="../weekly/2026-03-04.html">2026-03-04</a></li><li class="chapter-item "><a href="../weekly/2026-02-25.html">2026-02-25</a></li><li class="chapter-item "><a href="../weekly/2026-02-18.html">2026-02-18</a></li><li class="chapter-item "><a href="../weekly/2026-02-11.html">2026-02-11</a></li><li class="chapter-item "><a href="../weekly/2026-02-04.html">2026-02-04</a></li><li class="chapter-item "><a href="../weekly/2026-01-28.html">2026-01-28</a></li><li class="chapter-item "><a href="../weekly/2026-01-21.html">2026-01-21</a></li><li class="chapter-item "><a href="../weekly/2026-01-14.html">2026-01-14</a></li><li class="chapter-item "><a href="../weekly/2026-01-07.html">2026-01-07</a></li><li class="chapter-item "><a href="../weekly/2025-12-31.html">2025-12-31</a></li><li class="chapter-item "><a href="../weekly/2025-12-24.html">2025-12-24</a></li><li class="chapter-item "><a href="../weekly/2025-12-17.html">2025-12-17</a></li><li class="chapter-item "><a href="../weekly/2025-12-10.html">2025-12-10</a></li><li class="chapter-item "><a href="../weekly/2025-12-03.html">2025-12-03</a></li><li class="chapter-item "><a href="../weekly/2025-11-26.html">2025-11-26</a></li><li class="chapter-item "><a href="../weekly/2025-11-19.html">2025-11-19</a></li><li class="chapter-item "><a href="../weekly/2025-11-17.html">2025-11-17</a></li><li class="chapter-item "><a href="../weekly/2025-11-05.html">2025-11-05</a></li><li class="chapter-item "><a href="../weekly/2025-10-31.html">2025-10-31</a></li></ol></li><li class="chapter-item expanded "><div>MONTHLY REPORTS</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../monthly/2026-05.html" class="active">2026-05</a></li><li class="chapter-item "><a href="../monthly/2026-04.html">2026-04</a></li><li class="chapter-item "><a href="../monthly/2026-03.html">2026-03</a></li><li class="chapter-item "><a href="../monthly/2026-02.html">2026-02</a></li><li class="chapter-item "><a href="../monthly/2026-01.html">2026-01</a></li><li class="chapter-item "><a href="../monthly/2025-12.html">2025-12</a></li><li class="chapter-item "><a href="../monthly/2025-11.html">2025-11</a></li><li class="chapter-item "><a href="../monthly/2025-10.html">2025-10</a></li><li class="chapter-item "><a href="../monthly/2025-09.html">2025-09</a></li><li class="chapter-item "><a href="../monthly/2025-08.html">2025-08</a></li><li class="chapter-item "><a href="../monthly/2025-07.html">2025-07</a></li><li class="chapter-item "><a href="../monthly/2025-06.html">2025-06</a></li><li class="spacer"></li></ol></li><li class="chapter-item "><a href="../About.html">About</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">IFT News</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/status-im/ift-weekly-news" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="2026-05-monthly-report"><a class="header" href="#2026-05-monthly-report"><strong>2026-05 MONTHLY REPORT</strong></a></h1>
+<h2 id="blog-posts"><a class="header" href="#blog-posts">Blog Posts</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-05-04</strong> - <a href="https://press.logos.co/article/april-2026">State of the Logos Network: April 2026</a>
+<em>&lt;p&gt;Logos Testnet v0.1.2 now live, Testnet v0.1 stats show stability, λ...</em></li>
+<li><strong>2026-05-05</strong> - <a href="https://press.logos.co/article/logos-basecamp">Basecamp: Your Base of Operations on the Logos Frontier</a>
+<em>&lt;p&gt;Basecamp is a fully local launcher for the Logos stack, running all...</em></li>
+<li><strong>2026-05-06</strong> - <a href="https://press.logos.co/article/developer-update-apr-2026">Logos Dev Update: April 2026</a>
+<em>&lt;p&gt;April saw the launch of Logos Testnet v0.1.2, the second iteration ...</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="forum-posts"><a class="header" href="#forum-posts">Forum Posts</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-05-04</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-warri-april/1624/1">Logos Circle - Warri, April</a></li>
+<li><strong>2026-05-05</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-enugu-3/1627/1">Logos Circle Enugu #3</a></li>
+<li><strong>2026-05-04</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-awka-may/1625/1">Logos Circle - Awka, May</a></li>
+<li><strong>2026-05-03</strong> -
+<span class="category">Tech</span> - <a href="https://forum.logos.co/t/launched-a-testnet-explorer-for-logos-indexer-in-progress/1621/1">Launched a Testnet explorer for Logos (indexer in progress)</a></li>
+<li><strong>2026-05-07</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-lisbon-may/1633/1">Logos Circle Lisbon: May</a></li>
+<li><strong>2026-05-07</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-london-chapter-8/1632/1">Logos Circle London Chapter 8</a></li>
+<li><strong>2026-05-24</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-berlin-4/1650/1">Logos Circle Berlin #4</a></li>
+<li><strong>2026-05-24</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-ruse-4/1649/1">Logos Circle Ruse #4</a></li>
+<li><strong>2026-05-06</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-ghana-circle-april-event/1631/1">LOGOS Ghana Circle - April Event</a></li>
+<li><strong>2026-05-05</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-rome-3/1629/1">Logos Circle Rome #3</a></li>
+<li><strong>2026-05-26</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/kigali-may-circle-report/1655/1">Kigali May Circle Report</a></li>
+<li><strong>2026-05-12</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-delhi-ncr-1-may-2026/1638/1">Logos Circle Delhi-NCR #1, MAY 2026</a></li>
+<li><strong>2026-05-12</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-cape-town-2/1637/1">Logos Circle Cape Town #2</a></li>
+<li><strong>2026-05-11</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-ilorin-may-special-edition/1634/1">Logos Circle Ilorin : May (Special edition)</a></li>
+<li><strong>2026-05-27</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-nairobi-5/1657/1">Logos Circle Nairobi #5</a></li>
+<li><strong>2026-05-26</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-ghana-circle-event/1656/1">Logos Ghana Circle Event</a></li>
+<li><strong>2026-05-15</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circles-kampala-may-meetup-report/1640/1">Logos Circles Kampala —May Meetup Report</a></li>
+<li><strong>2026-05-14</strong> -
+<span class="category">Crew wanted</span> - <a href="https://forum.logos.co/t/about-the-crew-wanted-category/1639/1">About the Crew wanted category</a></li>
+<li><strong>2026-05-27</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-benin-city-may-2026/1658/1">Logos Circle Benin City, May 2026</a></li>
+<li><strong>2026-05-22</strong> -
+<span class="category">Proposals</span> - <a href="https://forum.logos.co/t/nabz-censorship-resistant-alive-check-in-protocol-prize-proposal/1648/1">Nabz — Censorship-Resistant Alive Check-in Protocol (λPrize Proposal)</a></li>
+<li><strong>2026-05-11</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-ilorin-x-gdg-on-campus-ilorin-build-with-ai-series-march-special-edition/1635/1">Logos Circle Ilorin x GDG On Campus Ilorin – Build with AI Series : MARCH (SPECIAL EDITION)</a></li>
+<li><strong>2026-05-16</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/logos-dev-update-april-2026/1641/1">Logos Dev Update: April 2026</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2026-05-04</strong> -
+<span class="category">Logos</span> - <a href="https://forum.vac.dev/t/service-discovery-network-simulation/689/1">Service Discovery Network Simulation</a></li>
+<li><strong>2026-05-07</strong> -
+<span class="category">Logos</span> - <a href="https://forum.vac.dev/t/ift-research-call-lez-oracle-bringing-offchain-data-to-the-logos-ecosystem/691/1">IFT Research Call - LEZ Oracle: Bringing offchain data to the Logos ecosystem</a></li>
+<li><strong>2026-05-12</strong> -
+<span class="category">Vac</span> - <a href="https://forum.vac.dev/t/masters-thesis-topic-for-with-logos/693/1">Master's Thesis Topic for/with Logos</a></li>
+<li><strong>2026-05-15</strong> -
+<span class="category">Uncategorized</span> - <a href="https://forum.vac.dev/t/logos-oracle-network-lon-requirements-and-features/696/1">Logos Oracle Network (LON) Requirements and Features</a></li>
+<li><strong>2026-05-15</strong> -
+<span class="category">Logos</span> - <a href="https://forum.vac.dev/t/ift-research-call-draft-to-funding-when-bets-can-influence-outcomes/695/1">IFT Research Call - Draft-to-Funding: When Bets Can Influence Outcomes</a></li>
+<li><strong>2026-05-14</strong> -
+<span class="category">Logos</span> - <a href="https://forum.vac.dev/t/ai-slop-steganographic-communication-channels/694/1">AI-Slop Steganographic Communication Channels</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="releases"><a class="header" href="#releases">Releases</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-05-29</strong> logos-blockchain-circuits - <a href="https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.0">Circom Circuits v0.5.0</a></li>
+<li><strong>2026-05-30</strong> logos-blockchain-circuits - <a href="https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.1">Circom Circuits v0.5.1</a></li>
+<li><strong>2026-05-08</strong> logos-delivery - <a href="https://github.com/logos-messaging/logos-delivery/releases/tag/v0.38.1">v0.38.1 </a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2026-05-28</strong> nim-boringssl - <a href="https://github.com/vacp2p/nim-boringssl/releases/tag/v0.0.7">v0.0.7</a></li>
+<li><strong>2026-05-29</strong> nim-lsquic - <a href="https://github.com/vacp2p/nim-lsquic/releases/tag/v0.4.3">v0.4.3</a></li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../weekly/2025-10-31.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../monthly/2026-04.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../weekly/2025-10-31.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../monthly/2026-04.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
