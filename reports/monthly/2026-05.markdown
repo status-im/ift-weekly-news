@@ -1,1 +1,90 @@
-townhall helper 
+# **2026-05 MONTHLY REPORT**
+## Blog Posts
+
+* **Logos**:
+
+  * **2026-05-04** - [State of the Logos Network: April 2026](https://press.logos.co/article/april-2026)
+    _<p\>Logos Testnet v0\.1\.2 now live, Testnet v0\.1 stats show stability, λ..._
+  * **2026-05-05** - [Basecamp: Your Base of Operations on the Logos Frontier](https://press.logos.co/article/logos-basecamp)
+    _<p\>Basecamp is a fully local launcher for the Logos stack, running all..._
+  * **2026-05-06** - [Logos Dev Update: April 2026](https://press.logos.co/article/developer-update-apr-2026)
+    _<p\>April saw the launch of Logos Testnet v0\.1\.2, the second iteration ..._
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2026-05-04** - 
+<span class="category">General</span> - [Logos Circle - Warri, April](https://forum.logos.co/t/logos-circle-warri-april/1624/1)
+  * **2026-05-05** - 
+<span class="category">Circles</span> - [Logos Circle Enugu #3](https://forum.logos.co/t/logos-circle-enugu-3/1627/1)
+  * **2026-05-04** - 
+<span class="category">General</span> - [Logos Circle - Awka, May](https://forum.logos.co/t/logos-circle-awka-may/1625/1)
+  * **2026-05-03** - 
+<span class="category">Tech</span> - [Launched a Testnet explorer for Logos (indexer in progress)](https://forum.logos.co/t/launched-a-testnet-explorer-for-logos-indexer-in-progress/1621/1)
+  * **2026-05-07** - 
+<span class="category">Circles</span> - [Logos Circle Lisbon: May](https://forum.logos.co/t/logos-circle-lisbon-may/1633/1)
+  * **2026-05-07** - 
+<span class="category">Circles</span> - [Logos Circle London Chapter 8](https://forum.logos.co/t/logos-circle-london-chapter-8/1632/1)
+  * **2026-05-24** - 
+<span class="category">Circles</span> - [Logos Circle Berlin #4](https://forum.logos.co/t/logos-circle-berlin-4/1650/1)
+  * **2026-05-24** - 
+<span class="category">Circles</span> - [Logos Circle Ruse #4](https://forum.logos.co/t/logos-circle-ruse-4/1649/1)
+  * **2026-05-06** - 
+<span class="category">Circles</span> - [LOGOS Ghana Circle - April Event](https://forum.logos.co/t/logos-ghana-circle-april-event/1631/1)
+  * **2026-05-05** - 
+<span class="category">Circles</span> - [Logos Circle Rome #3](https://forum.logos.co/t/logos-circle-rome-3/1629/1)
+  * **2026-05-26** - 
+<span class="category">General</span> - [Kigali May Circle Report](https://forum.logos.co/t/kigali-may-circle-report/1655/1)
+  * **2026-05-12** - 
+<span class="category">Circles</span> - [Logos Circle Delhi-NCR #1, MAY 2026](https://forum.logos.co/t/logos-circle-delhi-ncr-1-may-2026/1638/1)
+  * **2026-05-12** - 
+<span class="category">Circles</span> - [Logos Circle Cape Town #2](https://forum.logos.co/t/logos-circle-cape-town-2/1637/1)
+  * **2026-05-11** - 
+<span class="category">General</span> - [Logos Circle Ilorin : May (Special edition)](https://forum.logos.co/t/logos-circle-ilorin-may-special-edition/1634/1)
+  * **2026-05-27** - 
+<span class="category">Circles</span> - [Logos Circle Nairobi #5](https://forum.logos.co/t/logos-circle-nairobi-5/1657/1)
+  * **2026-05-26** - 
+<span class="category">General</span> - [Logos Ghana Circle Event](https://forum.logos.co/t/logos-ghana-circle-event/1656/1)
+  * **2026-05-15** - 
+<span class="category">General</span> - [Logos Circles Kampala —May Meetup Report](https://forum.logos.co/t/logos-circles-kampala-may-meetup-report/1640/1)
+  * **2026-05-14** - 
+<span class="category">Crew wanted</span> - [About the Crew wanted category](https://forum.logos.co/t/about-the-crew-wanted-category/1639/1)
+  * **2026-05-27** - 
+<span class="category">General</span> - [Logos Circle Benin City, May 2026](https://forum.logos.co/t/logos-circle-benin-city-may-2026/1658/1)
+  * **2026-05-22** - 
+<span class="category">Proposals</span> - [Nabz — Censorship-Resistant Alive Check-in Protocol (λPrize Proposal)](https://forum.logos.co/t/nabz-censorship-resistant-alive-check-in-protocol-prize-proposal/1648/1)
+  * **2026-05-11** - 
+<span class="category">General</span> - [Logos Circle Ilorin x GDG On Campus Ilorin – Build with AI Series : MARCH (SPECIAL EDITION)](https://forum.logos.co/t/logos-circle-ilorin-x-gdg-on-campus-ilorin-build-with-ai-series-march-special-edition/1635/1)
+  * **2026-05-16** - 
+<span class="category">Articles</span> - [Logos Dev Update: April 2026](https://forum.logos.co/t/logos-dev-update-april-2026/1641/1)
+
+* **Vac**:
+  * **2026-05-04** - 
+<span class="category">Logos</span> - [Service Discovery Network Simulation](https://forum.vac.dev/t/service-discovery-network-simulation/689/1)
+  * **2026-05-07** - 
+<span class="category">Logos</span> - [IFT Research Call - LEZ Oracle: Bringing offchain data to the Logos ecosystem](https://forum.vac.dev/t/ift-research-call-lez-oracle-bringing-offchain-data-to-the-logos-ecosystem/691/1)
+  * **2026-05-12** - 
+<span class="category">Vac</span> - [Master's Thesis Topic for/with Logos](https://forum.vac.dev/t/masters-thesis-topic-for-with-logos/693/1)
+  * **2026-05-15** - 
+<span class="category">Uncategorized</span> - [Logos Oracle Network (LON) Requirements and Features](https://forum.vac.dev/t/logos-oracle-network-lon-requirements-and-features/696/1)
+  * **2026-05-15** - 
+<span class="category">Logos</span> - [IFT Research Call - Draft-to-Funding: When Bets Can Influence Outcomes](https://forum.vac.dev/t/ift-research-call-draft-to-funding-when-bets-can-influence-outcomes/695/1)
+  * **2026-05-14** - 
+<span class="category">Logos</span> - [AI-Slop Steganographic Communication Channels](https://forum.vac.dev/t/ai-slop-steganographic-communication-channels/694/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-05-29** logos-blockchain-circuits - [Circom Circuits v0.5.0](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.0)
+  * **2026-05-30** logos-blockchain-circuits - [Circom Circuits v0.5.1](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.1)
+  * **2026-05-08** logos-delivery - [v0.38.1 ](https://github.com/logos-messaging/logos-delivery/releases/tag/v0.38.1)
+
+* **Vac**:
+
+  * **2026-05-28** nim-boringssl - [v0.0.7](https://github.com/vacp2p/nim-boringssl/releases/tag/v0.0.7)
+  * **2026-05-29** nim-lsquic - [v0.4.3](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.4.3)
+
+
