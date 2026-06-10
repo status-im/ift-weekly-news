@@ -1,0 +1,35 @@
+# **2026-06-10 WEEKLY REPORT**
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-06-08** - 
+<span class="category">Circles</span>  -  [Logos Circle Abuja - June 2026](https://forum.logos.co/t/logos-circle-abuja-june-2026/1681/1)
+  * **2026-06-08** - 
+<span class="category">Circles</span>  -  [Logos circle kano #1](https://forum.logos.co/t/logos-circle-kano-1/1679/1)
+  * **2026-06-08** - 
+<span class="category">Circles</span>  -  [Logos Circle Awka, June 2026](https://forum.logos.co/t/logos-circle-awka-june-2026/1682/1)
+  * **2026-06-09** - 
+<span class="category">General</span>  -  [Logos Ebonyi Circle – March 2026 Report](https://forum.logos.co/t/logos-ebonyi-circle-march-2026-report/1686/1)
+  * **2026-06-09** - 
+<span class="category">Circles</span>  -  [LOGOS Ebonyi Circle – February 2026 Launch Report](https://forum.logos.co/t/logos-ebonyi-circle-february-2026-launch-report/1685/1)
+
+* **Vac**:
+
+  * **2026-06-05** - 
+<span class="category">Uncategorized</span>  -  [LON Oracle Zone - Architecture Draft Specification](https://forum.vac.dev/t/lon-oracle-zone-architecture-draft-specification/698/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-06-05** logos-blockchain-circuits - [Circom Circuits v0.5.2](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.2)
+
+* **Vac**:
+
+  * **2026-06-03** hashgraph-like-consensus - [v0.5.0](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.5.0)
+  * **2026-06-05** hashgraph-like-consensus - [v0.5.1](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.5.1)
+  * **2026-06-03** nim-lsquic - [v0.5.1](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.1)
+
+
