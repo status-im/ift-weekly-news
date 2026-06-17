@@ -1,0 +1,30 @@
+# **2026-06-17 WEEKLY REPORT**
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-06-12** - 
+<span class="category">Circles</span>  -  [Logos Circle Enugu #4](https://forum.logos.co/t/logos-circle-enugu-4/1706/1)
+  * **2026-06-12** - 
+<span class="category">Circles</span>  -  [Logos Circle Vizag #1 — June 2026](https://forum.logos.co/t/logos-circle-vizag-1-june-2026/1703/1)
+  * **2026-06-15** - 
+<span class="category">General</span>  -  [Logos Circle Benin City - June 2026](https://forum.logos.co/t/logos-circle-benin-city-june-2026/1708/1)
+  * **2026-06-11** - 
+<span class="category">Circles</span>  -  [Logos Circle Lisbon: June - Node running workshop](https://forum.logos.co/t/logos-circle-lisbon-june-node-running-workshop/1701/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-06-11** logos-blockchain-module - [Logos Blockchain Module v0.0.1](https://github.com/logos-blockchain/logos-blockchain-module/releases/tag/v0.0.1)
+
+* **Status**:
+
+  * **2026-06-15** status-app - [2.38.0](https://github.com/status-im/status-app/releases/tag/2.38.0)
+
+* **Vac**:
+
+  * **2026-06-15** nim-cbor-serialization - [v0.4.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.4.0)
+
+
