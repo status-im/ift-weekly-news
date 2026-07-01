@@ -1,6 +1,11 @@
 {
   "reports": [
     {
+      "date": "2026-06",
+      "url": "https://news.free.technology/monthly/2026-06.html",
+      "api": "https://news.free.technology/api/monthly/2026-06.json"
+    },
+    {
       "date": "2026-05",
       "url": "https://news.free.technology/monthly/2026-05.html",
       "api": "https://news.free.technology/api/monthly/2026-05.json"
@@ -61,6 +66,6 @@
       "api": "https://news.free.technology/api/monthly/2025-06.json"
     }
   ],
-  "count": 12,
+  "count": 13,
   "type": "monthly"
 }
