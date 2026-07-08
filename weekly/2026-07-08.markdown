@@ -1,0 +1,64 @@
+# **2026-07-08 WEEKLY REPORT**
+## Blog Posts
+
+* **Logos**:
+
+  * **2026-07-01** - [State of the Logos Network: June 2026](https://press.logos.co/article/june-2026)
+    _<p\>Raising awareness on UK debt interest, building tools and taking ac..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-07-06** - 
+<span class="category">Circles</span>  -  [Logos Circle Kano July Meetup Report #2](https://forum.logos.co/t/logos-circle-kano-july-meetup-report-2/1760/1)
+  * **2026-07-05** - 
+<span class="category">General</span>  -  [Zanzibar Logos Circle – July 2026 Report](https://forum.logos.co/t/zanzibar-logos-circle-july-2026-report/1759/1)
+  * **2026-07-03** - 
+<span class="category">Circles</span>  -  [Logos Ghana Circle](https://forum.logos.co/t/logos-ghana-circle/1753/1)
+  * **2026-07-05** - 
+<span class="category">General</span>  -  [Logos Ebonyi Circle Report - June 2026](https://forum.logos.co/t/logos-ebonyi-circle-report-june-2026/1756/1)
+  * **2026-07-06** - 
+<span class="category">Circles</span>  -  [Logos Circle Awka, July 2026](https://forum.logos.co/t/logos-circle-awka-july-2026/1771/1)
+  * **2026-07-06** - 
+<span class="category">General</span>  -  [Logos Circle Port Harcourt – Meetup 2.0 Report](https://forum.logos.co/t/logos-circle-port-harcourt-meetup-2-0-report/1762/1)
+  * **2026-07-02** - 
+<span class="category">General</span>  -  [Logos Circle Katsina june report](https://forum.logos.co/t/logos-circle-katsina-june-report/1750/1)
+  * **2026-07-06** - 
+<span class="category">Circles</span>  -  [Logos London Circle Chapter 11](https://forum.logos.co/t/logos-london-circle-chapter-11/1763/1)
+  * **2026-07-05** - 
+<span class="category">General</span>  -  [Logos Abeokuta Circle – April 2026 Meetup Report](https://forum.logos.co/t/logos-abeokuta-circle-april-2026-meetup-report/1757/1)
+  * **2026-07-02** - 
+<span class="category">Circles</span>  -  [Logos Circle, Ibadan, June 2026 #1](https://forum.logos.co/t/logos-circle-ibadan-june-2026-1/1752/1)
+  * **2026-07-04** - 
+<span class="category">General</span>  -  [Kigali Circle June - Report](https://forum.logos.co/t/kigali-circle-june-report/1755/1)
+  * **2026-07-02** - 
+<span class="category">General</span>  -  [Logos Circle Delta, June](https://forum.logos.co/t/logos-circle-delta-june/1749/1)
+  * **2026-07-02** - 
+<span class="category">Circles</span>  -  [Lisbon Circle July](https://forum.logos.co/t/lisbon-circle-july/1751/1)
+
+* **Vac**:
+
+  * **2026-07-06** - 
+<span class="category">Nomos</span>  -  [Mohalla tech private limited customer care helpline number 7366869894 + ((736π]]]6869894)) call me7366869894](https://forum.vac.dev/t/mohalla-tech-private-limited-customer-care-helpline-number-7366869894-736-6869894-call-me7366869894/711/1)
+  * **2026-07-06** - 
+<span class="category">Logos</span>  -  [Mohalla tech private limited customer care helpline number 7366869894 + ((736π]]]6869894)) call me fn](https://forum.vac.dev/t/mohalla-tech-private-limited-customer-care-helpline-number-7366869894-736-6869894-call-me-fn/710/1)
+  * **2026-07-06** - 
+<span class="category">Codex</span>  -  [Mohalla tech private limited customer care helpline number 7366869894 + ((736π]]]6869894)) call me](https://forum.vac.dev/t/mohalla-tech-private-limited-customer-care-helpline-number-7366869894-736-6869894-call-me/709/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-07-01** logos-storage-nim - [v0.4.1](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.1)
+
+* **Vac**:
+
+  * **2026-07-06** hashgraph-like-consensus - [v0.6.0](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.6.0)
+  * **2026-07-02** nim-libp2p - [v2.1.2](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.2)
+  * **2026-07-03** nim-libp2p - [v2.1.3](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.3)
+  * **2026-07-06** nim-libp2p - [v2.1.4](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.4)
+
+
