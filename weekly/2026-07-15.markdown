@@ -1,0 +1,42 @@
+# **2026-07-15 WEEKLY REPORT**
+## Blog Posts
+
+* **Keycard**:
+
+  * **2026-07-10** - [Keycard: Modular, Open Hardware Wallet \(Overview\)](https://docs.keycard.tech/en/blog/keycard-modular-open-hardware-wallet-overview)
+    _A modular hardware wallet splits security responsibilities across sepa..._
+
+* **Logos**:
+
+  * **2026-07-13** - [Logos Dev Update: June 2026](https://press.logos.co/article/developer-update-june-2026)
+    _<p\>June saw the release of Logos Testnet v0\.2, the biggest release of ..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-07-09** - 
+<span class="category">General</span>  -  [Logos circle Dar- report-June 2026](https://forum.logos.co/t/logos-circle-dar-report-june-2026/1778/1)
+  * **2026-07-13** - 
+<span class="category">Circles</span>  -  [Logos Circle Ede, Osun State](https://forum.logos.co/t/logos-circle-ede-osun-state/1785/1)
+  * **2026-07-10** - 
+<span class="category">General</span>  -  [Logos Khartoum Circle – June 2026 Report](https://forum.logos.co/t/logos-khartoum-circle-june-2026-report/1780/1)
+  * **2026-07-14** - 
+<span class="category">Circles</span>  -  [Logos Circle: Delhi #2](https://forum.logos.co/t/logos-circle-delhi-2/1787/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-07-08** nim-libplum - [v0.6.0](https://github.com/logos-storage/nim-libplum/releases/tag/v0.6.0)
+
+* **Vac**:
+
+  * **2026-07-13** nim-libp2p - [v2.1.5](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.5)
+  * **2026-07-13** nim-libp2p - [v2.2.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.2.0)
+  * **2026-07-11** nim-lsquic - [v0.5.5](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.5)
+  * **2026-07-14** nim-lsquic - [v0.5.6](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.6)
+
+
