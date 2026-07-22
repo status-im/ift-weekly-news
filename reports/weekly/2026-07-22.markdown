@@ -1,1 +1,36 @@
-townhall helper 
+# **2026-07-22 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-07-16** - [Elements of Private, Secure Messaging Apps](null)
+    _Privacy in messaging is often reduced to a single feature: encryption\...._
+
+* **Logos**:
+
+  * **2026-07-20** - [A new stage for the Logos testnet](null)
+    _Logos Testnet v0\.2 is now live and ready for you to try out\. Since 30 ..._
+  * **2026-07-17** - [Building the Parallel Beside Logos Testnet v0\.1](https://press.logos.co/article/movement-recap-testnet)
+    _<p\>From its launch at Parallel Society to Circles’ global expansion an..._
+  * **2026-07-20** - [Logos Testnet v0\.2: From Convergence to Architectural Readiness](https://press.logos.co/article/testnet-v02-architectural-readiness)
+    _<p\>Testnet v0\.2 deploys and hardens the core protocols of the modular ..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-07-18** - 
+<span class="category">General</span>  -  [Logos Circle Kampala Report – July](https://forum.logos.co/t/logos-circle-kampala-report-july/1806/1)
+  * **2026-07-17** - 
+<span class="category">Circles</span>  -  [Logos Circle Abuja - July 2026](https://forum.logos.co/t/logos-circle-abuja-july-2026/1804/1)
+  * **2026-07-20** - 
+<span class="category">General</span>  -  [Logos Circle Zanzibar - 2nd Meet-Up in July](https://forum.logos.co/t/logos-circle-zanzibar-2nd-meet-up-in-july/1809/1)
+  * **2026-07-20** - 
+<span class="category">General</span>  -  [RaktChain – AI-Powered Smart Blood Donation & Emergency Response Platform](https://forum.logos.co/t/raktchain-ai-powered-smart-blood-donation-emergency-response-platform/1808/1)
+  * **2026-07-21** - 
+<span class="category">Tech</span>  -  [Independent RISC Zero + SP1 GPU Benchmarks for LEZ Free for Builders](https://forum.logos.co/t/independent-risc-zero-sp1-gpu-benchmarks-for-lez-free-for-builders/1811/1)
+  * **2026-07-21** - 
+<span class="category">Articles</span>  -  [Logos Testnet v0.2: From Convergence to Architectural Readiness](https://forum.logos.co/t/logos-testnet-v0-2-from-convergence-to-architectural-readiness/1810/1)
+
+
