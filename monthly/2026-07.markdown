@@ -1,0 +1,179 @@
+# **2026-07 MONTHLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-07-16** - [Elements of Private, Secure Messaging Apps](null)
+    _Privacy in messaging is often reduced to a single feature: encryption\...._
+  * **2026-07-21** - [Status v2\.38\.2 is Here\!](null)
+    _Fixes for high CPU and data usage overheating mobile devices, endless ..._
+
+* **Keycard**:
+
+  * **2026-07-10** - [Keycard: Modular, Open Hardware Wallet \(Overview\)](https://docs.keycard.tech/en/blog/keycard-modular-open-hardware-wallet-overview)
+    _A modular hardware wallet splits security responsibilities across sepa..._
+  * **2026-07-14** - [NFC & Card\-Format Wallets: Tap\-to\-Sign, and Is Bluetooth Safe?](https://docs.keycard.tech/en/blog/nfc-card-format-wallets-tap-to-sign-and-is-bluetooth-safe)
+    _An NFC hardware wallet is a smartcard\-sized device that signs transact..._
+  * **2026-07-14** - [Open\-Source Hardware Wallets: Verifiable, Auditable, Reproducible](https://docs.keycard.tech/en/blog/open-source-hardware-wallet)
+    _An open\-source hardware wallet is one whose firmware, bootloader, and ..._
+  * **2026-07-14** - [What Is an Air\-Gapped Hardware Wallet? \(QR Signing Explained\)](https://docs.keycard.tech/en/blog/what-is-an-air-gapped-hardware-wallet-qr-signing-explained)
+    _An air\-gapped hardware wallet is a signing device that has no wired or..._
+  * **2026-07-24** - [Open\-source Ledger alternatives compared: Keycard, Trezor, Coldcard and more](https://docs.keycard.tech/en/blog/open-source-ledger-alternatives-compared)
+    _If you want a hardware wallet whose signing code you can inspect rathe..._
+  * **2026-07-24** - [Best air\-gapped hardware wallets compared: QR signing, open source, and secure elements](https://docs.keycard.tech/en/blog/best-air-gapped-hardware-wallets-compared-qr-signing-open-source-and-secure-elem)
+    _The best air\-gapped hardware wallets use QR code signing to keep priva..._
+  * **2026-07-24** - [Smartcard hardware wallets: how a secure element stores and signs](https://docs.keycard.tech/en/blog/smartcard-hardware-wallets-how-a-secure-element-stores-and-signs)
+    _A smartcard hardware wallet is a hardware wallet that keeps private ke..._
+
+* **Logos**:
+
+  * **2026-07-20** - [A new stage for the Logos testnet](null)
+    _Logos Testnet v0\.2 is now live and ready for you to try out\. Since 30 ..._
+  * **2026-07-01** - [State of the Logos Network: June 2026](https://press.logos.co/article/june-2026)
+    _<p\>Raising awareness on UK debt interest, building tools and taking ac..._
+  * **2026-07-13** - [Logos Dev Update: June 2026](https://press.logos.co/article/developer-update-june-2026)
+    _<p\>June saw the release of Logos Testnet v0\.2, the biggest release of ..._
+  * **2026-07-14** - [The Convergence Phase: A Testnet v0\.1 Retrospective](https://press.logos.co/article/testnet-v01-retrospective)
+    _<p\><i\>With Testnet v0\.2 now live, we look back at the phase that broug..._
+  * **2026-07-17** - [Building the Parallel Beside Logos Testnet v0\.1](https://press.logos.co/article/movement-recap-testnet)
+    _<p\>From its launch at Parallel Society to Circles’ global expansion an..._
+  * **2026-07-20** - [Logos Testnet v0\.2: From Convergence to Architectural Readiness](https://press.logos.co/article/testnet-v02-architectural-readiness)
+    _<p\>Testnet v0\.2 deploys and hardens the core protocols of the modular ..._
+  * **2026-07-22** - [Logos Blockchain in Testnet v0\.2: Privacy Reaches Consensus](https://press.logos.co/article/logos-blockchain-v02)
+    _<p\>Testnet v0\.2 pairs private leader election with anonymous block bro..._
+  * **2026-07-28** - [Basecamp in Testnet v0\.2: The Local\-First Launcher for Privacy\-Preserving Applications](https://press.logos.co/article/basecamp-v02)
+    _<p\>Basecamp allows you to run the Logos stack on your own machine thro..._
+  * **2026-07-31** - [Bota Jardemalie on Surveillance, Exile, and Persecution](https://press.logos.co/article/bota-jardemalie-interview)
+    _<p\>A Harvard Law graduate and a New York\-qualified attorney, Bota Jard..._
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2026-07-06** - 
+<span class="category">Circles</span> - [Logos Circle Kano July Meetup Report #2](https://forum.logos.co/t/logos-circle-kano-july-meetup-report-2/1760/1)
+  * **2026-07-03** - 
+<span class="category">Circles</span> - [Logos Ghana Circle](https://forum.logos.co/t/logos-ghana-circle/1753/1)
+  * **2026-07-17** - 
+<span class="category">Circles</span> - [Logos Circle Abuja - July 2026](https://forum.logos.co/t/logos-circle-abuja-july-2026/1804/1)
+  * **2026-07-06** - 
+<span class="category">Circles</span> - [Logos Circle Awka, July 2026](https://forum.logos.co/t/logos-circle-awka-july-2026/1771/1)
+  * **2026-07-14** - 
+<span class="category">Circles</span> - [Logos Circle: Delhi #2](https://forum.logos.co/t/logos-circle-delhi-2/1787/1)
+  * **2026-07-13** - 
+<span class="category">Circles</span> - [Logos Circle Ede, Osun State](https://forum.logos.co/t/logos-circle-ede-osun-state/1785/1)
+  * **2026-07-07** - 
+<span class="category">General</span> - [Logos Circle Uyo - Meetup 2.0 Report](https://forum.logos.co/t/logos-circle-uyo-meetup-2-0-report/1775/1)
+  * **2026-07-05** - 
+<span class="category">General</span> - [Zanzibar Logos Circle – July 2026 Report](https://forum.logos.co/t/zanzibar-logos-circle-july-2026-report/1759/1)
+  * **2026-07-18** - 
+<span class="category">General</span> - [Logos Circle Kampala Report – July](https://forum.logos.co/t/logos-circle-kampala-report-july/1806/1)
+  * **2026-07-01** - 
+<span class="category">General</span> - [Logos Circle Aba – June 2026 #1](https://forum.logos.co/t/logos-circle-aba-june-2026-1/1739/1)
+  * **2026-07-15** - 
+<span class="category">General</span> - [Logos Circle Calabar – First Community Meetup](https://forum.logos.co/t/logos-circle-calabar-first-community-meetup/1790/1)
+  * **2026-07-28** - 
+<span class="category">Circles</span> - [1st Lagos Logos Cirlcle meetup July](https://forum.logos.co/t/1st-lagos-logos-cirlcle-meetup-july/1828/1)
+  * **2026-07-26** - 
+<span class="category">Circles</span> - [LOGOS CIRCLE WUKARI Meet-Up 2.0 JULY Report](https://forum.logos.co/t/logos-circle-wukari-meet-up-2-0-july-report/1822/1)
+  * **2026-07-26** - 
+<span class="category">Circles</span> - [LOGOS CIRCLE GOMBE CITY 1st MEETING REPORT](https://forum.logos.co/t/logos-circle-gombe-city-1st-meeting-report/1821/1)
+  * **2026-07-20** - 
+<span class="category">General</span> - [Logos Circle Zanzibar - 2nd Meet-Up in July](https://forum.logos.co/t/logos-circle-zanzibar-2nd-meet-up-in-july/1809/1)
+  * **2026-07-05** - 
+<span class="category">General</span> - [Logos Ebonyi Circle Report - June 2026](https://forum.logos.co/t/logos-ebonyi-circle-report-june-2026/1756/1)
+  * **2026-07-06** - 
+<span class="category">Circles</span> - [Logos London Circle Chapter 11](https://forum.logos.co/t/logos-london-circle-chapter-11/1763/1)
+  * **2026-07-22** - 
+<span class="category">Circles</span> - [Logos Circle: kanpur](https://forum.logos.co/t/logos-circle-kanpur/1818/1)
+  * **2026-07-22** - 
+<span class="category">General</span> - [Logos Circle Benin City - July 2026](https://forum.logos.co/t/logos-circle-benin-city-july-2026/1817/1)
+  * **2026-07-21** - 
+<span class="category">Circles</span> - [Logos Circle Vizag #2 — July 2026](https://forum.logos.co/t/logos-circle-vizag-2-july-2026/1812/1)
+  * **2026-07-14** - 
+<span class="category">Circles</span> - [Logos Circle Enugu #5](https://forum.logos.co/t/logos-circle-enugu-5/1789/1)
+  * **2026-07-09** - 
+<span class="category">General</span> - [Logos circle Dar- report-June 2026](https://forum.logos.co/t/logos-circle-dar-report-june-2026/1778/1)
+  * **2026-07-02** - 
+<span class="category">Circles</span> - [Lisbon Circle July](https://forum.logos.co/t/lisbon-circle-july/1751/1)
+  * **2026-07-06** - 
+<span class="category">General</span> - [Logos Circle Port Harcourt – Meetup 2.0 Report](https://forum.logos.co/t/logos-circle-port-harcourt-meetup-2-0-report/1762/1)
+  * **2026-07-30** - 
+<span class="category">Crew wanted</span> - [How to join or start a Logos Circle](https://forum.logos.co/t/how-to-join-or-start-a-logos-circle/1840/1)
+  * **2026-07-29** - 
+<span class="category">Circles</span> - [Logos Circle Madrid July 2026](https://forum.logos.co/t/logos-circle-madrid-july-2026/1834/1)
+  * **2026-07-27** - 
+<span class="category">Circles</span> - [Building Ghana’s Tech Future ( Kumasi)](https://forum.logos.co/t/building-ghana-s-tech-future-kumasi/1825/1)
+  * **2026-07-27** - 
+<span class="category">Circles</span> - [Logos Circle Ruse #6](https://forum.logos.co/t/logos-circle-ruse-6/1824/1)
+  * **2026-07-25** - 
+<span class="category">Circles</span> - [Logos Circle: Mumbai #01](https://forum.logos.co/t/logos-circle-mumbai-01/1819/1)
+  * **2026-07-02** - 
+<span class="category">Circles</span> - [Logos Circle, Ibadan, June 2026 #1](https://forum.logos.co/t/logos-circle-ibadan-june-2026-1/1752/1)
+  * **2026-07-02** - 
+<span class="category">General</span> - [Logos Circle Katsina june report](https://forum.logos.co/t/logos-circle-katsina-june-report/1750/1)
+  * **2026-07-28** - 
+<span class="category">General</span> - [Logos Circle Warri – Warri Tech Summit July](https://forum.logos.co/t/logos-circle-warri-warri-tech-summit-july/1830/1)
+  * **2026-07-15** - 
+<span class="category">Circles</span> - [Logos Circle Buenos Aires 2026 #3 - June 2026](https://forum.logos.co/t/logos-circle-buenos-aires-2026-3-june-2026/1797/1)
+  * **2026-07-20** - 
+<span class="category">General</span> - [RaktChain – AI-Powered Smart Blood Donation & Emergency Response Platform](https://forum.logos.co/t/raktchain-ai-powered-smart-blood-donation-emergency-response-platform/1808/1)
+  * **2026-07-05** - 
+<span class="category">General</span> - [Logos Abeokuta Circle – April 2026 Meetup Report](https://forum.logos.co/t/logos-abeokuta-circle-april-2026-meetup-report/1757/1)
+  * **2026-07-14** - 
+<span class="category">Circles</span> - [Logos Circle Buenos Aires 2026 #1 - March 2026](https://forum.logos.co/t/logos-circle-buenos-aires-2026-1-march-2026/1788/1)
+  * **2026-07-04** - 
+<span class="category">General</span> - [Kigali Circle June - Report](https://forum.logos.co/t/kigali-circle-june-report/1755/1)
+  * **2026-07-10** - 
+<span class="category">General</span> - [Logos Khartoum Circle – June 2026 Report](https://forum.logos.co/t/logos-khartoum-circle-june-2026-report/1780/1)
+  * **2026-07-02** - 
+<span class="category">General</span> - [Logos Circle Delta, June](https://forum.logos.co/t/logos-circle-delta-june/1749/1)
+  * **2026-07-30** - 
+<span class="category">Circles</span> - [Logos circle Ilorin(July edition)](https://forum.logos.co/t/logos-circle-ilorin-july-edition/1842/1)
+  * **2026-07-30** - 
+<span class="category">Circles</span> - [Logos London Circle Chapter 12](https://forum.logos.co/t/logos-london-circle-chapter-12/1841/1)
+  * **2026-07-31** - 
+<span class="category">General</span> - [Monetary Diversity Gathering II Brussels · October 23–25, 2026](https://forum.logos.co/t/monetary-diversity-gathering-ii-brussels-october-23-25-2026/1844/1)
+  * **2026-07-30** - 
+<span class="category">General</span> - [Basecamp Module Repository Links](https://forum.logos.co/t/basecamp-module-repository-links/1843/1)
+  * **2026-07-21** - 
+<span class="category">Tech</span> - [Independent RISC Zero + SP1 GPU Benchmarks for LEZ Free for Builders](https://forum.logos.co/t/independent-risc-zero-sp1-gpu-benchmarks-for-lez-free-for-builders/1811/1)
+  * **2026-07-21** - 
+<span class="category">Articles</span> - [Logos Testnet v0.2: From Convergence to Architectural Readiness](https://forum.logos.co/t/logos-testnet-v0-2-from-convergence-to-architectural-readiness/1810/1)
+  * **2026-07-15** - 
+<span class="category">Circles</span> - [Logos Circle Buenos Aires 2026 #2 - May 2026](https://forum.logos.co/t/logos-circle-buenos-aires-2026-2-may-2026/1791/1)
+  * **2026-07-01** - 
+<span class="category">Articles</span> - [Runtime and Networking: Inside the Foundations of Logos](https://forum.logos.co/t/runtime-and-networking-inside-the-foundations-of-logos/1742/1)
+
+* **Status**:
+  * **2026-07-30** - 
+<span class="category">Support</span> - [How to withdraw tokens from the Linea Status Vault?](https://discuss.status.app/t/how-to-withdraw-tokens-from-the-linea-status-vault/6728/1)
+
+* **Vac**:
+  * **2026-07-22** - 
+<span class="category">Uncategorized</span> - [Simulate a DoS-protected Mix network with allocated RLN memberships](https://forum.vac.dev/t/simulate-a-dos-protected-mix-network-with-allocated-rln-memberships/716/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-07-01** logos-storage-nim - [v0.4.1](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.1)
+  * **2026-07-31** nim-leveldb - [v0.2.2](https://github.com/logos-storage/nim-leveldb/releases/tag/0.2.2)
+  * **2026-07-08** nim-libplum - [v0.6.0](https://github.com/logos-storage/nim-libplum/releases/tag/v0.6.0)
+
+* **Vac**:
+
+  * **2026-07-06** hashgraph-like-consensus - [v0.6.0](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.6.0)
+  * **2026-07-30** nim-cbor-serialization - [v0.4.2](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.4.2)
+  * **2026-07-02** nim-libp2p - [v2.1.2](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.2)
+  * **2026-07-03** nim-libp2p - [v2.1.3](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.3)
+  * **2026-07-06** nim-libp2p - [v2.1.4](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.4)
+  * **2026-07-13** nim-libp2p - [v2.1.5](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.5)
+  * **2026-07-13** nim-libp2p - [v2.2.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.2.0)
+  * **2026-07-11** nim-lsquic - [v0.5.5](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.5)
+  * **2026-07-14** nim-lsquic - [v0.5.6](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.6)
+  * **2026-07-23** nim-lsquic - [v0.6.0](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.6.0)
+  * **2026-07-27** nim-lsquic - [v0.7.0](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.7.0)
+
+

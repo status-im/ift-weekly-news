@@ -1,0 +1,428 @@
+<!DOCTYPE HTML>
+<html lang="en" class="ayu" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2026-07 - IFT News</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../weekly/2026-07-29.html">2026-07-29</a></li><li class="chapter-item "><div>WEEKLY REPORTS</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../weekly/2026-07-29.html">2026-07-29</a></li><li class="chapter-item "><a href="../weekly/2026-07-22.html">2026-07-22</a></li><li class="chapter-item "><a href="../weekly/2026-07-15.html">2026-07-15</a></li><li class="chapter-item "><a href="../weekly/2026-07-08.html">2026-07-08</a></li><li class="chapter-item "><a href="../weekly/2026-07-01.html">2026-07-01</a></li><li class="chapter-item "><a href="../weekly/2026-06-24.html">2026-06-24</a></li><li class="chapter-item "><a href="../weekly/2026-06-17.html">2026-06-17</a></li><li class="chapter-item "><a href="../weekly/2026-06-10.html">2026-06-10</a></li><li class="chapter-item "><a href="../weekly/2026-06-03.html">2026-06-03</a></li><li class="chapter-item "><a href="../weekly/2026-05-27.html">2026-05-27</a></li><li class="chapter-item "><a href="../weekly/2026-05-20.html">2026-05-20</a></li><li class="chapter-item "><a href="../weekly/2026-05-06.html">2026-05-06</a></li><li class="chapter-item "><a href="../weekly/2026-04-29.html">2026-04-29</a></li><li class="chapter-item "><a href="../weekly/2026-04-22.html">2026-04-22</a></li><li class="chapter-item "><a href="../weekly/2026-04-15.html">2026-04-15</a></li><li class="chapter-item "><a href="../weekly/2026-04-08.html">2026-04-08</a></li><li class="chapter-item "><a href="../weekly/2026-04-01.html">2026-04-01</a></li><li class="chapter-item "><a href="../weekly/2026-03-25.html">2026-03-25</a></li><li class="chapter-item "><a href="../weekly/2026-03-18.html">2026-03-18</a></li><li class="chapter-item "><a href="../weekly/2026-03-11.html">2026-03-11</a></li><li class="chapter-item "><a href="../weekly/2026-03-04.html">2026-03-04</a></li><li class="chapter-item "><a href="../weekly/2026-02-25.html">2026-02-25</a></li><li class="chapter-item "><a href="../weekly/2026-02-18.html">2026-02-18</a></li><li class="chapter-item "><a href="../weekly/2026-02-11.html">2026-02-11</a></li><li class="chapter-item "><a href="../weekly/2026-02-04.html">2026-02-04</a></li><li class="chapter-item "><a href="../weekly/2026-01-28.html">2026-01-28</a></li><li class="chapter-item "><a href="../weekly/2026-01-21.html">2026-01-21</a></li><li class="chapter-item "><a href="../weekly/2026-01-14.html">2026-01-14</a></li><li class="chapter-item "><a href="../weekly/2026-01-07.html">2026-01-07</a></li><li class="chapter-item "><a href="../weekly/2025-12-31.html">2025-12-31</a></li><li class="chapter-item "><a href="../weekly/2025-12-24.html">2025-12-24</a></li><li class="chapter-item "><a href="../weekly/2025-12-17.html">2025-12-17</a></li><li class="chapter-item "><a href="../weekly/2025-12-10.html">2025-12-10</a></li><li class="chapter-item "><a href="../weekly/2025-12-03.html">2025-12-03</a></li><li class="chapter-item "><a href="../weekly/2025-11-26.html">2025-11-26</a></li><li class="chapter-item "><a href="../weekly/2025-11-19.html">2025-11-19</a></li><li class="chapter-item "><a href="../weekly/2025-11-17.html">2025-11-17</a></li><li class="chapter-item "><a href="../weekly/2025-11-05.html">2025-11-05</a></li><li class="chapter-item "><a href="../weekly/2025-10-31.html">2025-10-31</a></li></ol></li><li class="chapter-item expanded "><div>MONTHLY REPORTS</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../monthly/2026-07.html" class="active">2026-07</a></li><li class="chapter-item "><a href="../monthly/2026-06.html">2026-06</a></li><li class="chapter-item "><a href="../monthly/2026-05.html">2026-05</a></li><li class="chapter-item "><a href="../monthly/2026-04.html">2026-04</a></li><li class="chapter-item "><a href="../monthly/2026-03.html">2026-03</a></li><li class="chapter-item "><a href="../monthly/2026-02.html">2026-02</a></li><li class="chapter-item "><a href="../monthly/2026-01.html">2026-01</a></li><li class="chapter-item "><a href="../monthly/2025-12.html">2025-12</a></li><li class="chapter-item "><a href="../monthly/2025-11.html">2025-11</a></li><li class="chapter-item "><a href="../monthly/2025-10.html">2025-10</a></li><li class="chapter-item "><a href="../monthly/2025-09.html">2025-09</a></li><li class="chapter-item "><a href="../monthly/2025-08.html">2025-08</a></li><li class="chapter-item "><a href="../monthly/2025-07.html">2025-07</a></li><li class="chapter-item "><a href="../monthly/2025-06.html">2025-06</a></li><li class="spacer"></li></ol></li><li class="chapter-item "><a href="../About.html">About</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">IFT News</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/status-im/ift-weekly-news" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="2026-07-monthly-report"><a class="header" href="#2026-07-monthly-report"><strong>2026-07 MONTHLY REPORT</strong></a></h1>
+<h2 id="blog-posts"><a class="header" href="#blog-posts">Blog Posts</a></h2>
+<ul>
+<li>
+<p><strong>Status</strong>:</p>
+<ul>
+<li><strong>2026-07-16</strong> - <a href="null">Elements of Private, Secure Messaging Apps</a>
+<em>Privacy in messaging is often reduced to a single feature: encryption....</em></li>
+<li><strong>2026-07-21</strong> - <a href="null">Status v2.38.2 is Here!</a>
+<em>Fixes for high CPU and data usage overheating mobile devices, endless ...</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Keycard</strong>:</p>
+<ul>
+<li><strong>2026-07-10</strong> - <a href="https://docs.keycard.tech/en/blog/keycard-modular-open-hardware-wallet-overview">Keycard: Modular, Open Hardware Wallet (Overview)</a>
+<em>A modular hardware wallet splits security responsibilities across sepa...</em></li>
+<li><strong>2026-07-14</strong> - <a href="https://docs.keycard.tech/en/blog/nfc-card-format-wallets-tap-to-sign-and-is-bluetooth-safe">NFC &amp; Card-Format Wallets: Tap-to-Sign, and Is Bluetooth Safe?</a>
+<em>An NFC hardware wallet is a smartcard-sized device that signs transact...</em></li>
+<li><strong>2026-07-14</strong> - <a href="https://docs.keycard.tech/en/blog/open-source-hardware-wallet">Open-Source Hardware Wallets: Verifiable, Auditable, Reproducible</a>
+<em>An open-source hardware wallet is one whose firmware, bootloader, and ...</em></li>
+<li><strong>2026-07-14</strong> - <a href="https://docs.keycard.tech/en/blog/what-is-an-air-gapped-hardware-wallet-qr-signing-explained">What Is an Air-Gapped Hardware Wallet? (QR Signing Explained)</a>
+<em>An air-gapped hardware wallet is a signing device that has no wired or...</em></li>
+<li><strong>2026-07-24</strong> - <a href="https://docs.keycard.tech/en/blog/open-source-ledger-alternatives-compared">Open-source Ledger alternatives compared: Keycard, Trezor, Coldcard and more</a>
+<em>If you want a hardware wallet whose signing code you can inspect rathe...</em></li>
+<li><strong>2026-07-24</strong> - <a href="https://docs.keycard.tech/en/blog/best-air-gapped-hardware-wallets-compared-qr-signing-open-source-and-secure-elem">Best air-gapped hardware wallets compared: QR signing, open source, and secure elements</a>
+<em>The best air-gapped hardware wallets use QR code signing to keep priva...</em></li>
+<li><strong>2026-07-24</strong> - <a href="https://docs.keycard.tech/en/blog/smartcard-hardware-wallets-how-a-secure-element-stores-and-signs">Smartcard hardware wallets: how a secure element stores and signs</a>
+<em>A smartcard hardware wallet is a hardware wallet that keeps private ke...</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-07-20</strong> - <a href="null">A new stage for the Logos testnet</a>
+<em>Logos Testnet v0.2 is now live and ready for you to try out. Since 30 ...</em></li>
+<li><strong>2026-07-01</strong> - <a href="https://press.logos.co/article/june-2026">State of the Logos Network: June 2026</a>
+<em>&lt;p&gt;Raising awareness on UK debt interest, building tools and taking ac...</em></li>
+<li><strong>2026-07-13</strong> - <a href="https://press.logos.co/article/developer-update-june-2026">Logos Dev Update: June 2026</a>
+<em>&lt;p&gt;June saw the release of Logos Testnet v0.2, the biggest release of ...</em></li>
+<li><strong>2026-07-14</strong> - <a href="https://press.logos.co/article/testnet-v01-retrospective">The Convergence Phase: A Testnet v0.1 Retrospective</a>
+<em>&lt;p&gt;&lt;i&gt;With Testnet v0.2 now live, we look back at the phase that broug...</em></li>
+<li><strong>2026-07-17</strong> - <a href="https://press.logos.co/article/movement-recap-testnet">Building the Parallel Beside Logos Testnet v0.1</a>
+<em>&lt;p&gt;From its launch at Parallel Society to Circles’ global expansion an...</em></li>
+<li><strong>2026-07-20</strong> - <a href="https://press.logos.co/article/testnet-v02-architectural-readiness">Logos Testnet v0.2: From Convergence to Architectural Readiness</a>
+<em>&lt;p&gt;Testnet v0.2 deploys and hardens the core protocols of the modular ...</em></li>
+<li><strong>2026-07-22</strong> - <a href="https://press.logos.co/article/logos-blockchain-v02">Logos Blockchain in Testnet v0.2: Privacy Reaches Consensus</a>
+<em>&lt;p&gt;Testnet v0.2 pairs private leader election with anonymous block bro...</em></li>
+<li><strong>2026-07-28</strong> - <a href="https://press.logos.co/article/basecamp-v02">Basecamp in Testnet v0.2: The Local-First Launcher for Privacy-Preserving Applications</a>
+<em>&lt;p&gt;Basecamp allows you to run the Logos stack on your own machine thro...</em></li>
+<li><strong>2026-07-31</strong> - <a href="https://press.logos.co/article/bota-jardemalie-interview">Bota Jardemalie on Surveillance, Exile, and Persecution</a>
+<em>&lt;p&gt;A Harvard Law graduate and a New York-qualified attorney, Bota Jard...</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="forum-posts"><a class="header" href="#forum-posts">Forum Posts</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-07-06</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-kano-july-meetup-report-2/1760/1">Logos Circle Kano July Meetup Report #2</a></li>
+<li><strong>2026-07-03</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-ghana-circle/1753/1">Logos Ghana Circle</a></li>
+<li><strong>2026-07-17</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-abuja-july-2026/1804/1">Logos Circle Abuja - July 2026</a></li>
+<li><strong>2026-07-06</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-awka-july-2026/1771/1">Logos Circle Awka, July 2026</a></li>
+<li><strong>2026-07-14</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-delhi-2/1787/1">Logos Circle: Delhi #2</a></li>
+<li><strong>2026-07-13</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-ede-osun-state/1785/1">Logos Circle Ede, Osun State</a></li>
+<li><strong>2026-07-07</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-uyo-meetup-2-0-report/1775/1">Logos Circle Uyo - Meetup 2.0 Report</a></li>
+<li><strong>2026-07-05</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/zanzibar-logos-circle-july-2026-report/1759/1">Zanzibar Logos Circle – July 2026 Report</a></li>
+<li><strong>2026-07-18</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-kampala-report-july/1806/1">Logos Circle Kampala Report – July</a></li>
+<li><strong>2026-07-01</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-aba-june-2026-1/1739/1">Logos Circle Aba – June 2026 #1</a></li>
+<li><strong>2026-07-15</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-calabar-first-community-meetup/1790/1">Logos Circle Calabar – First Community Meetup</a></li>
+<li><strong>2026-07-28</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/1st-lagos-logos-cirlcle-meetup-july/1828/1">1st Lagos Logos Cirlcle meetup July</a></li>
+<li><strong>2026-07-26</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-wukari-meet-up-2-0-july-report/1822/1">LOGOS CIRCLE WUKARI Meet-Up 2.0 JULY Report</a></li>
+<li><strong>2026-07-26</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-gombe-city-1st-meeting-report/1821/1">LOGOS CIRCLE GOMBE CITY 1st MEETING REPORT</a></li>
+<li><strong>2026-07-20</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-zanzibar-2nd-meet-up-in-july/1809/1">Logos Circle Zanzibar - 2nd Meet-Up in July</a></li>
+<li><strong>2026-07-05</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-ebonyi-circle-report-june-2026/1756/1">Logos Ebonyi Circle Report - June 2026</a></li>
+<li><strong>2026-07-06</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-london-circle-chapter-11/1763/1">Logos London Circle Chapter 11</a></li>
+<li><strong>2026-07-22</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-kanpur/1818/1">Logos Circle: kanpur</a></li>
+<li><strong>2026-07-22</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-benin-city-july-2026/1817/1">Logos Circle Benin City - July 2026</a></li>
+<li><strong>2026-07-21</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-vizag-2-july-2026/1812/1">Logos Circle Vizag #2 — July 2026</a></li>
+<li><strong>2026-07-14</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-enugu-5/1789/1">Logos Circle Enugu #5</a></li>
+<li><strong>2026-07-09</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-dar-report-june-2026/1778/1">Logos circle Dar- report-June 2026</a></li>
+<li><strong>2026-07-02</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/lisbon-circle-july/1751/1">Lisbon Circle July</a></li>
+<li><strong>2026-07-06</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-port-harcourt-meetup-2-0-report/1762/1">Logos Circle Port Harcourt – Meetup 2.0 Report</a></li>
+<li><strong>2026-07-30</strong> -
+<span class="category">Crew wanted</span> - <a href="https://forum.logos.co/t/how-to-join-or-start-a-logos-circle/1840/1">How to join or start a Logos Circle</a></li>
+<li><strong>2026-07-29</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-madrid-july-2026/1834/1">Logos Circle Madrid July 2026</a></li>
+<li><strong>2026-07-27</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/building-ghana-s-tech-future-kumasi/1825/1">Building Ghana’s Tech Future ( Kumasi)</a></li>
+<li><strong>2026-07-27</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-ruse-6/1824/1">Logos Circle Ruse #6</a></li>
+<li><strong>2026-07-25</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-mumbai-01/1819/1">Logos Circle: Mumbai #01</a></li>
+<li><strong>2026-07-02</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-ibadan-june-2026-1/1752/1">Logos Circle, Ibadan, June 2026 #1</a></li>
+<li><strong>2026-07-02</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-katsina-june-report/1750/1">Logos Circle Katsina june report</a></li>
+<li><strong>2026-07-28</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-warri-warri-tech-summit-july/1830/1">Logos Circle Warri – Warri Tech Summit July</a></li>
+<li><strong>2026-07-15</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-buenos-aires-2026-3-june-2026/1797/1">Logos Circle Buenos Aires 2026 #3 - June 2026</a></li>
+<li><strong>2026-07-20</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/raktchain-ai-powered-smart-blood-donation-emergency-response-platform/1808/1">RaktChain – AI-Powered Smart Blood Donation &amp; Emergency Response Platform</a></li>
+<li><strong>2026-07-05</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-abeokuta-circle-april-2026-meetup-report/1757/1">Logos Abeokuta Circle – April 2026 Meetup Report</a></li>
+<li><strong>2026-07-14</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-buenos-aires-2026-1-march-2026/1788/1">Logos Circle Buenos Aires 2026 #1 - March 2026</a></li>
+<li><strong>2026-07-04</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/kigali-circle-june-report/1755/1">Kigali Circle June - Report</a></li>
+<li><strong>2026-07-10</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-khartoum-circle-june-2026-report/1780/1">Logos Khartoum Circle – June 2026 Report</a></li>
+<li><strong>2026-07-02</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/logos-circle-delta-june/1749/1">Logos Circle Delta, June</a></li>
+<li><strong>2026-07-30</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-ilorin-july-edition/1842/1">Logos circle Ilorin(July edition)</a></li>
+<li><strong>2026-07-30</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-london-circle-chapter-12/1841/1">Logos London Circle Chapter 12</a></li>
+<li><strong>2026-07-31</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/monetary-diversity-gathering-ii-brussels-october-23-25-2026/1844/1">Monetary Diversity Gathering II Brussels · October 23–25, 2026</a></li>
+<li><strong>2026-07-30</strong> -
+<span class="category">General</span> - <a href="https://forum.logos.co/t/basecamp-module-repository-links/1843/1">Basecamp Module Repository Links</a></li>
+<li><strong>2026-07-21</strong> -
+<span class="category">Tech</span> - <a href="https://forum.logos.co/t/independent-risc-zero-sp1-gpu-benchmarks-for-lez-free-for-builders/1811/1">Independent RISC Zero + SP1 GPU Benchmarks for LEZ Free for Builders</a></li>
+<li><strong>2026-07-21</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/logos-testnet-v0-2-from-convergence-to-architectural-readiness/1810/1">Logos Testnet v0.2: From Convergence to Architectural Readiness</a></li>
+<li><strong>2026-07-15</strong> -
+<span class="category">Circles</span> - <a href="https://forum.logos.co/t/logos-circle-buenos-aires-2026-2-may-2026/1791/1">Logos Circle Buenos Aires 2026 #2 - May 2026</a></li>
+<li><strong>2026-07-01</strong> -
+<span class="category">Articles</span> - <a href="https://forum.logos.co/t/runtime-and-networking-inside-the-foundations-of-logos/1742/1">Runtime and Networking: Inside the Foundations of Logos</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Status</strong>:</p>
+<ul>
+<li><strong>2026-07-30</strong> -
+<span class="category">Support</span> - <a href="https://discuss.status.app/t/how-to-withdraw-tokens-from-the-linea-status-vault/6728/1">How to withdraw tokens from the Linea Status Vault?</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2026-07-22</strong> -
+<span class="category">Uncategorized</span> - <a href="https://forum.vac.dev/t/simulate-a-dos-protected-mix-network-with-allocated-rln-memberships/716/1">Simulate a DoS-protected Mix network with allocated RLN memberships</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="releases"><a class="header" href="#releases">Releases</a></h2>
+<ul>
+<li>
+<p><strong>Logos</strong>:</p>
+<ul>
+<li><strong>2026-07-01</strong> logos-storage-nim - <a href="https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.1">v0.4.1</a></li>
+<li><strong>2026-07-31</strong> nim-leveldb - <a href="https://github.com/logos-storage/nim-leveldb/releases/tag/0.2.2">v0.2.2</a></li>
+<li><strong>2026-07-08</strong> nim-libplum - <a href="https://github.com/logos-storage/nim-libplum/releases/tag/v0.6.0">v0.6.0</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Vac</strong>:</p>
+<ul>
+<li><strong>2026-07-06</strong> hashgraph-like-consensus - <a href="https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.6.0">v0.6.0</a></li>
+<li><strong>2026-07-30</strong> nim-cbor-serialization - <a href="https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.4.2">v0.4.2</a></li>
+<li><strong>2026-07-02</strong> nim-libp2p - <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.2">v2.1.2</a></li>
+<li><strong>2026-07-03</strong> nim-libp2p - <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.3">v2.1.3</a></li>
+<li><strong>2026-07-06</strong> nim-libp2p - <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.4">v2.1.4</a></li>
+<li><strong>2026-07-13</strong> nim-libp2p - <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.5">v2.1.5</a></li>
+<li><strong>2026-07-13</strong> nim-libp2p - <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v2.2.0">v2.2.0</a></li>
+<li><strong>2026-07-11</strong> nim-lsquic - <a href="https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.5">v0.5.5</a></li>
+<li><strong>2026-07-14</strong> nim-lsquic - <a href="https://github.com/vacp2p/nim-lsquic/releases/tag/v0.5.6">v0.5.6</a></li>
+<li><strong>2026-07-23</strong> nim-lsquic - <a href="https://github.com/vacp2p/nim-lsquic/releases/tag/v0.6.0">v0.6.0</a></li>
+<li><strong>2026-07-27</strong> nim-lsquic - <a href="https://github.com/vacp2p/nim-lsquic/releases/tag/v0.7.0">v0.7.0</a></li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../weekly/2025-10-31.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../monthly/2026-06.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../weekly/2025-10-31.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../monthly/2026-06.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
