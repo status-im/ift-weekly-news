@@ -1,0 +1,39 @@
+# **2026-08-26 WEEKLY REPORT**
+## Blog Posts
+
+* **Keycard**:
+
+  * **2026-08-19** - [Random number generation in hardware wallets: how your seed is really made](https://docs.keycard.tech/en/blog/random-number-generation-in-hardware-wallets-how-your-seed-is-really-made)
+    _Every hardware wallet asks you to trust one thing above all others: th..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-08-24** - 
+<span class="category">Circles</span>  -  [Logos Circle Abuja - August 2026](https://forum.logos.co/t/logos-circle-abuja-august-2026/1885/1)
+  * **2026-08-20** - 
+<span class="category">General</span>  -  [Tech Updates Stream August 21, 2026](https://forum.logos.co/t/tech-updates-stream-august-21-2026/1883/1)
+  * **2026-08-25** - 
+<span class="category">General</span>  -  [Logos Abeokuta Circle — Medical Outreach Report](https://forum.logos.co/t/logos-abeokuta-circle-medical-outreach-report/1888/1)
+  * **2026-08-21** - 
+<span class="category">General</span>  -  [Tech Updates Stream August 28, 2026](https://forum.logos.co/t/tech-updates-stream-august-28-2026/1884/1)
+
+* **Vac**:
+
+  * **2026-08-20** - 
+<span class="category">Logos</span>  -  [Payment streams on LEZ](https://forum.vac.dev/t/payment-streams-on-lez/725/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-08-24** logos-blockchain - [Logos Blockchain Node 0.2.3](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.3)
+
+* **Vac**:
+
+  * **2026-08-20** nim-boringssl - [v0.0.11](https://github.com/vacp2p/nim-boringssl/releases/tag/v0.0.11)
+
+
