@@ -1,0 +1,168 @@
+# **2026-08 MONTHLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-08-13** - [When Your Recovery Phrase Isn’t Random Enough](null)
+    _More than $100M worth of Bitcoin has been linked to thefts involving a..._
+  * **2026-08-13** - [Can 12 Random Words Still Be Guessable?](null)
+    _A seed phrase can look perfectly random while the randomness behind it..._
+
+* **Keycard**:
+
+  * **2026-08-19** - [Random number generation in hardware wallets: how your seed is really made](https://docs.keycard.tech/en/blog/random-number-generation-in-hardware-wallets-how-your-seed-is-really-made)
+    _Every hardware wallet asks you to trust one thing above all others: th..._
+  * **2026-08-31** - [Reproducible builds in hardware wallets: why "same source, same binary" matters](https://docs.keycard.tech/en/blog/reproducible-builds-in-hardware-wallets-why-same-source-same-binary-matters)
+    _A reproducible build means that anyone can take the published source c..._
+
+* **Logos**:
+
+  * **2026-08-03** - [Why a human rights lawyer needs private infrastructure](null)
+    _Bota Jardemalie took a phone call in 2013 that changed her life\. On th..._
+  * **2026-08-12** - [Enter The Museum of Civil Liberties](null)
+    _Promises were made\. They were broken\. Introducing Past\. Present\. Futur..._
+  * **2026-08-13** - [Parallel Dispatch: USA Today journos say no to Palantir and more stories from the frontier](null)
+    _Welcome to Parallel Dispatch, your regular roundup of the most signifi..._
+  * **2026-08-26** - [Parallel Dispatch: Flock Safety under fire over police stalking claims and other stories from the frontier…](null)
+    _Welcome to Parallel Dispatch, your regular roundup of the major goings..._
+  * **2026-08-06** - [Testnet v0\.2\.1 is now live](null)
+    _In 2021, a new Bitcoin node took days to sync and trusted a handful of..._
+  * **2026-08-04** - [State of the Logos Network: July 2026](https://press.logos.co/article/july-2026)
+    _<p\>Testnet v0\.2 released, Bota Jardemalie shares her decade\-long pligh..._
+  * **2026-08-05** - [Interzone Bridging: Moving Value Between Zones on Logos](https://press.logos.co/article/interzone-bridging-logos)
+    _<p\>Interzone bridging makes Logos Zones interoperable and links them t..._
+  * **2026-08-06** - [Logos Dev Update: July 2026](https://press.logos.co/article/developer-update-july-2026)
+    _<p\>Following June's Testnet v0\.2 release, July was a month of consolid..._
+  * **2026-08-13** - [Running Logos Basecamp is Easy, as the HodlUp Podcast Found Out](https://press.logos.co/article/basecamp-on-hodl-up)
+    _<p\>In a recent interview, Dr Corey Petty explains why privacy must be ..._
+  * **2026-08-17** - [Parallel Education and Effective Community Action in Delhi](https://press.logos.co/article/parallel-education-delhi)
+    _<p\>Logos Circle / Delhi didn’t spend weeks debating what issue to tack..._
+
+
+## Forum Posts
+
+* **Logos**:
+  * **2026-08-31** - 
+<span class="category">Circles</span> - [Logos Circle Sokoto #1 August 2026](https://forum.logos.co/t/logos-circle-sokoto-1-august-2026/1905/1)
+  * **2026-08-30** - 
+<span class="category">Circles</span> - [Logos circle gombe august 2.0 2026](https://forum.logos.co/t/logos-circle-gombe-august-2-0-2026/1900/1)
+  * **2026-08-30** - 
+<span class="category">General</span> - [Logos Circle Keffi #1](https://forum.logos.co/t/logos-circle-keffi-1/1901/1)
+  * **2026-08-19** - 
+<span class="category">General</span> - [Λ Field Note · Build the Parallel: Supporting Community-Run Education — Zanzalu · July 2026](https://forum.logos.co/t/field-note-build-the-parallel-supporting-community-run-education-zanzalu-july-2026/1881/1)
+  * **2026-08-06** - 
+<span class="category">General</span> - [Logos Circle Calabar](https://forum.logos.co/t/logos-circle-calabar/1859/1)
+  * **2026-08-30** - 
+<span class="category">Circles</span> - [Logos Circle Bauchi 1.0 August 2026](https://forum.logos.co/t/logos-circle-bauchi-1-0-august-2026/1903/1)
+  * **2026-08-25** - 
+<span class="category">General</span> - [Logos Abeokuta Circle — Medical Outreach Report](https://forum.logos.co/t/logos-abeokuta-circle-medical-outreach-report/1888/1)
+  * **2026-08-24** - 
+<span class="category">Circles</span> - [Logos Circle Abuja - August 2026](https://forum.logos.co/t/logos-circle-abuja-august-2026/1885/1)
+  * **2026-08-14** - 
+<span class="category">General</span> - [Logos Circle Aba #2 — July 2026 Meetup Report](https://forum.logos.co/t/logos-circle-aba-2-july-2026-meetup-report/1873/1)
+  * **2026-08-05** - 
+<span class="category">Circles</span> - [Logos Circle Kaduna #2](https://forum.logos.co/t/logos-circle-kaduna-2/1857/1)
+  * **2026-08-03** - 
+<span class="category">General</span> - [Logos Circle Awka, August 2026](https://forum.logos.co/t/logos-circle-awka-august-2026/1848/1)
+  * **2026-08-13** - 
+<span class="category">General</span> - [Logos Circle Uyo Meetup 3.0 Report](https://forum.logos.co/t/logos-circle-uyo-meetup-3-0-report/1872/1)
+  * **2026-08-04** - 
+<span class="category">General</span> - [Logos Circle Ghana- July Event Report](https://forum.logos.co/t/logos-circle-ghana-july-event-report/1852/1)
+  * **2026-08-26** - 
+<span class="category">Tech</span> - [Testnet faucet OAuth callback returns HTTP 500 — unable to obtain testnet funds](https://forum.logos.co/t/testnet-faucet-oauth-callback-returns-http-500-unable-to-obtain-testnet-funds/1891/1)
+  * **2026-08-13** - 
+<span class="category">Circles</span> - [Logos Circle Ibadan II: Community Voices](https://forum.logos.co/t/logos-circle-ibadan-ii-community-voices/1871/1)
+  * **2026-08-14** - 
+<span class="category">General</span> - [Logos Circle, Ede](https://forum.logos.co/t/logos-circle-ede/1874/1)
+  * **2026-08-11** - 
+<span class="category">General</span> - [Logos Circle Port Harcourt – Meetup 3.0 Report](https://forum.logos.co/t/logos-circle-port-harcourt-meetup-3-0-report/1868/1)
+  * **2026-08-13** - 
+<span class="category">General</span> - [Logos Khartoum Circle – July 2026 Meetup Report](https://forum.logos.co/t/logos-khartoum-circle-july-2026-meetup-report/1870/1)
+  * **2026-08-09** - 
+<span class="category">General</span> - [Logos Basecamp Workshop at Zanzalu, Report](https://forum.logos.co/t/logos-basecamp-workshop-at-zanzalu-report/1864/1)
+  * **2026-08-09** - 
+<span class="category">Circles</span> - [Logos Circle Kano 3.0](https://forum.logos.co/t/logos-circle-kano-3-0/1863/1)
+  * **2026-08-05** - 
+<span class="category">General</span> - [Logos Abeokuta Circle – July 2026 Medical Outreach Report](https://forum.logos.co/t/logos-abeokuta-circle-july-2026-medical-outreach-report/1855/1)
+  * **2026-08-04** - 
+<span class="category">General</span> - [Yola logos circle first meet up report](https://forum.logos.co/t/yola-logos-circle-first-meet-up-report/1854/1)
+  * **2026-08-03** - 
+<span class="category">Circles</span> - [Logos Circle Lisbon: August](https://forum.logos.co/t/logos-circle-lisbon-august/1849/1)
+  * **2026-08-31** - 
+<span class="category">Circles</span> - [Logos Circle Maraba. 1.0 August, 2026](https://forum.logos.co/t/logos-circle-maraba-1-0-august-2026/1910/1)
+  * **2026-08-31** - 
+<span class="category">Circles</span> - [Logos Circle, Monrovia #1](https://forum.logos.co/t/logos-circle-monrovia-1/1907/1)
+  * **2026-08-30** - 
+<span class="category">Circles</span> - [HEALTHY CHILD, BRIGHT FUTURE CAMPAIGN REPORT. Outreach to success orphanage Pwadzu, Wukari](https://forum.logos.co/t/healthy-child-bright-future-campaign-report-outreach-to-success-orphanage-pwadzu-wukari/1902/1)
+  * **2026-08-18** - 
+<span class="category">Circles</span> - [Logos Circle Vizag #3 - Aug 2026](https://forum.logos.co/t/logos-circle-vizag-3-aug-2026/1880/1)
+  * **2026-08-04** - 
+<span class="category">General</span> - [Kigali Logos Circle July Report](https://forum.logos.co/t/kigali-logos-circle-july-report/1853/1)
+  * **2026-08-17** - 
+<span class="category">Circles</span> - [Logos Circle Dar #2](https://forum.logos.co/t/logos-circle-dar-2/1877/1)
+  * **2026-08-10** - 
+<span class="category">General</span> - [Logos Tech Updates | August 7, 2026](https://forum.logos.co/t/logos-tech-updates-august-7-2026/1865/1)
+  * **2026-08-06** - 
+<span class="category">General</span> - [Logos Circle Katsina # 2 meetup](https://forum.logos.co/t/logos-circle-katsina-2-meetup/1860/1)
+  * **2026-08-04** - 
+<span class="category">General</span> - [Logos Abeokuta Circle – June Monthly Report](https://forum.logos.co/t/logos-abeokuta-circle-june-monthly-report/1851/1)
+  * **2026-08-20** - 
+<span class="category">General</span> - [Tech Update Streams](https://forum.logos.co/t/tech-update-streams/1883/1)
+  * **2026-08-18** - 
+<span class="category">Circles</span> - [Logos Circle Vizag #3 — August 2026](https://forum.logos.co/t/logos-circle-vizag-3-august-2026/1878/1)
+  * **2026-08-05** - 
+<span class="category">General</span> - [Testnet v0.2.1 released: fee markets, BitTorrent-style sync, de-MLS for direct chats](https://forum.logos.co/t/testnet-v0-2-1-released-fee-markets-bittorrent-style-sync-de-mls-for-direct-chats/1856/1)
+  * **2026-08-21** - 
+<span class="category">General</span> - [Tech Updates Stream August 28, 2026](https://forum.logos.co/t/tech-updates-stream-august-28-2026/1884/1)
+
+* **Status**:
+  * **2026-08-01** - 
+<span class="category">Feature requests</span> - [Polygon support](https://discuss.status.app/t/polygon-support/6730/1)
+
+* **Vac**:
+  * **2026-08-10** - 
+<span class="category">Logos</span> - [RLN-based DoS protection for libp2p Mix: four constructions](https://forum.vac.dev/t/rln-based-dos-protection-for-libp2p-mix-four-constructions/720/1)
+  * **2026-08-18** - 
+<span class="category">Logos</span> - [The transaction supply chain, part 1: coming together with an intended action](https://forum.vac.dev/t/the-transaction-supply-chain-part-1-coming-together-with-an-intended-action/723/1)
+  * **2026-08-20** - 
+<span class="category">Logos</span> - [Payment streams on LEZ](https://forum.vac.dev/t/payment-streams-on-lez/725/1)
+  * **2026-08-12** - 
+<span class="category">Logos</span> - [Mix Path Selection](https://forum.vac.dev/t/mix-path-selection/721/1)
+  * **2026-08-04** - 
+<span class="category">Uncategorized</span> - [Logos techstack PQ readiness](https://forum.vac.dev/t/logos-techstack-pq-readiness/719/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-08-04** logos-blockchain-circuits - [Circom Circuits v0.5.4](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.4)
+  * **2026-08-05** logos-blockchain-circuits - [Circom Circuits v0.5.5](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.5)
+  * **2026-08-12** logos-blockchain-circuits - [Circom Circuits v0.5.6](https://github.com/logos-blockchain/logos-blockchain-circuits/releases/tag/v0.5.6)
+  * **2026-08-05** logos-blockchain - [Logos Blockchain Node 0.2.1](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.1)
+  * **2026-08-10** logos-blockchain - [Logos Blockchain Node 0.2.2](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.2)
+  * **2026-08-24** logos-blockchain - [Logos Blockchain Node 0.2.3](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.3)
+  * **2026-08-02** logos-execution-zone - [v0.2.1](https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.2.1)
+  * **2026-08-04** logos-execution-zone - [v0.2.2](https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.2.2)
+  * **2026-08-06** logos-execution-zone - [v0.2.3](https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.2.3)
+  * **2026-08-07** logos-execution-zone - [v0.2.4](https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.2.4)
+  * **2026-08-03** logos-storage-nim-dht - [v0.6.4](https://github.com/logos-storage/logos-storage-nim-dht/releases/tag/v0.6.4)
+  * **2026-08-04** logos-storage-nim - [v0.4.2](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.2)
+  * **2026-08-11** logos-storage-nim - [v0.4.3](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.3)
+  * **2026-08-13** logos-storage-nim - [v0.4.4](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.4)
+  * **2026-08-12** nim-libplum - [v0.6.1](https://github.com/logos-storage/nim-libplum/releases/tag/v0.6.1)
+  * **2026-08-13** nim-libplum - [v0.6.2](https://github.com/logos-storage/nim-libplum/releases/tag/v0.6.2)
+  * **2026-08-28** nim-libplum - [v0.6.3](https://github.com/logos-storage/nim-libplum/releases/tag/v0.6.3)
+
+* **Vac**:
+
+  * **2026-08-20** nim-boringssl - [v0.0.11](https://github.com/vacp2p/nim-boringssl/releases/tag/v0.0.11)
+  * **2026-08-15** nim-libp2p - [v2.1.6](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.6)
+  * **2026-08-15** nim-libp2p - [v2.2.1](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.2.1)
+  * **2026-08-24** nim-libp2p - [v2.3.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.3.0)
+  * **2026-08-28** nim-libp2p - [v2.3.1](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.3.1)
+  * **2026-08-02** nim-lsquic - [v0.8.0](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.8.0)
+  * **2026-08-10** nim-lsquic - [v0.8.1](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.8.1)
+  * **2026-08-01** zerokit - [v3.0.0](https://github.com/vacp2p/zerokit/releases/tag/v3.0.0)
+
+
