@@ -1,1 +1,53 @@
-townhall helper 
+# **2026-09-09 WEEKLY REPORT**
+## Blog Posts
+
+* **Logos**:
+
+  * **2026-09-03** - [State of the Logos Network: August 2026](https://press.logos.co/article/august-2026)
+    _<p\>Museum of Civil Liberties opens, raising chat control awareness, An..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-09-05** - 
+<span class="category">Circles</span>  -  [Logos Circle Ibadan III: Our First Winnable Issue](https://forum.logos.co/t/logos-circle-ibadan-iii-our-first-winnable-issue/1920/1)
+  * **2026-09-04** - 
+<span class="category">General</span>  -  [Logos Circle Accra – August Event Report](https://forum.logos.co/t/logos-circle-accra-august-event-report/1919/1)
+  * **2026-09-07** - 
+<span class="category">General</span>  -  [Logos Circle Zaria 1.0 August 2026 Report](https://forum.logos.co/t/logos-circle-zaria-1-0-august-2026-report/1923/1)
+  * **2026-09-07** - 
+<span class="category">Circles</span>  -  [Logos circle kano 4.0](https://forum.logos.co/t/logos-circle-kano-4-0/1924/1)
+  * **2026-09-03** - 
+<span class="category">General</span>  -  [Logos Circle Calabar- August 2026](https://forum.logos.co/t/logos-circle-calabar-august-2026/1918/1)
+  * **2026-09-07** - 
+<span class="category">General</span>  -  [Logos Circle Benin City - August 2026 Report](https://forum.logos.co/t/logos-circle-benin-city-august-2026-report/1922/1)
+  * **2026-09-07** - 
+<span class="category">General</span>  -  [Logos Circle Katsina # 3 meetup](https://forum.logos.co/t/logos-circle-katsina-3-meetup/1926/1)
+  * **2026-09-07** - 
+<span class="category">General</span>  -  [Logos circle yola meet up #2.0](https://forum.logos.co/t/logos-circle-yola-meet-up-2-0/1925/1)
+
+* **Status**:
+
+  * **2026-09-05** - 
+<span class="category">Feature requests</span>  -  [More energy and video and bigger pictures](https://discuss.status.app/t/more-energy-and-video-and-bigger-pictures/6739/1)
+
+* **Vac**:
+
+  * **2026-09-07** - 
+<span class="category">Logos</span>  -  [Hidden Service (Time-Based) Path Selection](https://forum.vac.dev/t/hidden-service-time-based-path-selection/730/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-09-04** logos-blockchain - [Logos Blockchain Node 0.2.4](https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.2.4)
+  * **2026-09-03** logos-storage-nim - [v0.4.5](https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.5)
+
+* **Vac**:
+
+  * **2026-09-07** hashgraph-like-consensus - [v0.7.0](https://github.com/vacp2p/hashgraph-like-consensus/releases/tag/v0.7.0)
+
+
