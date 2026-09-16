@@ -1,1 +1,49 @@
-townhall helper 
+# **2026-09-16 WEEKLY REPORT**
+## Blog Posts
+
+* **Logos**:
+
+  * **2026-09-09** - [Parallel Dispatch: Meta faces class action over facial recognition glasses and more…](null)
+    _Welcome to Parallel Dispatch, your regular roundup of the major goings..._
+  * **2026-09-14** - [Logos Dev Update: August 2026](https://press.logos.co/article/developer-update-aug-2026)
+    _<p\>August saw improvements to the integrability and privacy\-preserving..._
+  * **2026-09-14** - [Field Station / Rajasthan: A Coliving Residency to Build the Parallel](https://press.logos.co/article/field-station-rajasthan)
+    _<p\>From 23–31 October, Logos and Zu\-Grama are bringing around 30 peopl..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-09-14** - 
+<span class="category">General</span>  -  [LOGOS CIRCLE ILORIN - August 2026 Monthly Report](https://forum.logos.co/t/logos-circle-ilorin-august-2026-monthly-report/1938/1)
+  * **2026-09-10** - 
+<span class="category">Circles</span>  -  [Logos Circle Warri - AUGUST](https://forum.logos.co/t/logos-circle-warri-august/1931/1)
+  * **2026-09-14** - 
+<span class="category">General</span>  -  [Logos Circle Uyo – Meetup 4.0 Report](https://forum.logos.co/t/logos-circle-uyo-meetup-4-0-report/1937/1)
+  * **2026-09-13** - 
+<span class="category">Circles</span>  -  [LOGOS CIRCLE LAGOS #2 August](https://forum.logos.co/t/logos-circle-lagos-2-august/1936/1)
+  * **2026-09-13** - 
+<span class="category">General</span>  -  [Logos Abeokuta Circle - September Report](https://forum.logos.co/t/logos-abeokuta-circle-september-report/1935/1)
+  * **2026-09-11** - 
+<span class="category">General</span>  -  [Progress in the Zanzibar Impact Circle](https://forum.logos.co/t/progress-in-the-zanzibar-impact-circle/1933/1)
+  * **2026-09-10** - 
+<span class="category">General</span>  -  [Kigali- Logos Circle August Report](https://forum.logos.co/t/kigali-logos-circle-august-report/1932/1)
+  * **2026-09-14** - 
+<span class="category">General</span>  -  [Logos circle aba #3 — august 2026 meetup report](https://forum.logos.co/t/logos-circle-aba-3-august-2026-meetup-report/1939/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-09-10** nim-leveldb - [0.2.3](https://github.com/logos-storage/nim-leveldb/releases/tag/0.2.3)
+
+* **Vac**:
+
+  * **2026-09-09** nim-boringssl - [v0.0.12](https://github.com/vacp2p/nim-boringssl/releases/tag/v0.0.12)
+  * **2026-09-10** nim-libp2p - [v2.1.7](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.1.7)
+  * **2026-09-10** nim-libp2p - [v2.2.2](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.2.2)
+  * **2026-09-11** nim-lsquic - [v0.9.0](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.9.0)
+
+
