@@ -1,1 +1,38 @@
-townhall helper 
+# **2026-09-23 WEEKLY REPORT**
+## Blog Posts
+
+* **Logos**:
+
+  * **2026-09-16** - [PriFi – Securing the entire transaction supply chain](null)
+    _Blockchains made settlement more reliable than any institution before ..._
+  * **2026-09-21** - [Building the Tools for Private and Local\-First Coordination](https://press.logos.co/article/private-local-first-coordination-tools)
+    _<p\>Most privacy work in this industry revolves around the cryptography..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-09-18** - 
+<span class="category">Tech</span>  -  [Library to translate CRUD data interface/expectations to Logos core module capabilities](https://forum.logos.co/t/library-to-translate-crud-data-interface-expectations-to-logos-core-module-capabilities/1942/1)
+
+* **Status**:
+
+  * **2026-09-18** - 
+<span class="category">Shared Drafts</span>  -  [About the Shared Drafts category](https://discuss.status.app/t/about-the-shared-drafts-category/6740/1)
+
+
+## Releases
+
+* **Logos**:
+
+  * **2026-09-16** nim-leopard - [v0.1.2](https://github.com/logos-storage/nim-leopard/releases/tag/v0.1.2)
+
+* **Vac**:
+
+  * **2026-09-16** nim-libp2p - [v2.3.2](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.3.2)
+  * **2026-09-18** nim-libp2p - [v2.3.3](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.3.3)
+  * **2026-09-21** nim-libp2p - [v2.3.4](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.3.4)
+  * **2026-09-21** nim-lsquic - [v0.10.0](https://github.com/vacp2p/nim-lsquic/releases/tag/v0.10.0)
+
+
