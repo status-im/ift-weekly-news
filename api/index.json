@@ -9,9 +9,9 @@
     "monthly": {
       "latest": "https://news.free.technology/api/monthly/latest.json",
       "list": "https://news.free.technology/api/monthly/index.json",
-      "count": 15
+      "count": 16
     }
   },
   "documentation": "https://news.free.technology/",
-  "generated_at": "2026-09-30T07:01:31Z"
+  "generated_at": "2026-10-01T13:00:39Z"
 }
