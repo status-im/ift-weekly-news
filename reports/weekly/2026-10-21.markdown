@@ -1,1 +1,58 @@
-townhall helper 
+# **2026-10-21 WEEKLY REPORT**
+## Blog Posts
+
+* **Status**:
+
+  * **2026-10-14** - [Privacy Digest \#1 \(1\-12 Oct\. 2026\)](null)
+    _What's buzzing in the privacy world this week \* 💬Double Counter’s Oct..._
+
+* **Nimbus**:
+
+  * **2026-10-17** - [i2115 probe post](null)
+    _i2115..._
+  * **2026-10-17** - [i2191 probe 1](null)
+    _probe..._
+  * **2026-10-17** - [i2191 trigger](null)
+    _x..._
+  * **2026-10-18** - [i2412 trigger](null)
+    _i2412 trigger..._
+  * **2026-10-18** - [i2412 trigger2](null)
+    _t2..._
+  * **2026-10-18** - [i2412 trigger3](null)
+    _t3..._
+
+* **Keycard**:
+
+  * **2026-10-16** - [BIP39 passphrase: what the 25th word protects, and what it doesn't](https://docs.keycard.tech/en/blog/bip39-passphrase-what-the-25th-word-protects)
+    _A BIP39 passphrase is an optional extra secret you add to your recover..._
+
+* **Logos**:
+
+  * **2026-10-15** - [A new Logos event in Kampala](null)
+    _A new Logos event is coming to Kampala: Logos Circle Kampala: The SACC..._
+
+
+## Forum Posts
+
+* **Logos**:
+
+  * **2026-10-15** - 
+<span class="category">Proposals</span>  -  [LNS — LEZ Name Service: .lez names, private by default](https://forum.logos.co/t/lns-lez-name-service-lez-names-private-by-default/2016/1)
+  * **2026-10-16** - 
+<span class="category">Tech</span>  -  [New λPrize: LP-0018, OpenStreetMap Integration: Decentralized Map Data Distribution ($1,500)](https://forum.logos.co/t/new-prize-lp-0018-openstreetmap-integration-decentralized-map-data-distribution-1-500/2019/1)
+  * **2026-10-15** - 
+<span class="category">Tech</span>  -  [New RFP: RFP-021, Trustless Ethereum State Attestation for LEZ (Tier M)](https://forum.logos.co/t/new-rfp-rfp-021-trustless-ethereum-state-attestation-for-lez-tier-m/2010/1)
+  * **2026-10-18** - 
+<span class="category">Proposals</span>  -  [Names for Basecamp: posts, messages and pay under your LEZ name](https://forum.logos.co/t/names-for-basecamp-posts-messages-and-pay-under-your-lez-name/2020/1)
+  * **2026-10-15** - 
+<span class="category">Circles</span>  -  [Logos Circle Cape Town #3](https://forum.logos.co/t/logos-circle-cape-town-3/2018/1)
+  * **2026-10-15** - 
+<span class="category">General</span>  -  [Logos Circle Ede: Educational Outreach to St Joseph](https://forum.logos.co/t/logos-circle-ede-educational-outreach-to-st-joseph/2015/1)
+  * **2026-10-15** - 
+<span class="category">General</span>  -  [Logos Circle Uyo – Meetup 5.0 Report](https://forum.logos.co/t/logos-circle-uyo-meetup-5-0-report/2013/1)
+  * **2026-10-15** - 
+<span class="category">Circles</span>  -  [LOGOS CIRCLE LAGOS #3 September](https://forum.logos.co/t/logos-circle-lagos-3-september/2014/1)
+  * **2026-10-15** - 
+<span class="category">General</span>  -  [Logos Circle Port Harcourt Meetup 5.0 Report ( Orphanage Visitation)](https://forum.logos.co/t/logos-circle-port-harcourt-meetup-5-0-report-orphanage-visitation/2017/1)
+
+
